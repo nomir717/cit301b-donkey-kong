@@ -32,6 +32,8 @@ header {
   /* logo box style */
   background-color: #4DCBDE;
   width: 120px; }
+  .cd-logo > img {
+    max-height: 80%; }
   @media only screen and (min-width: 1024px) {
     .cd-logo {
       width: 180px; } }

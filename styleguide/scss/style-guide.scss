@@ -63,6 +63,10 @@ header {
 	background-color: $color-1;
 	width: 120px;
 
+	& > img {
+		max-height: 80%;
+	}
+
 	@include MQ(M) {
 		width: 180px;
 	}
