@@ -96,77 +96,6 @@ main > h1 {
 
 /* --------------------------------
 
-xTypography
-
--------------------------------- */
-.cd-typography > .cd-box h1 {
-  color: #000000;
-  background-color: #4DCBDE;
-  padding-left: 5px; }
-  .cd-typography > .cd-box h1::before {
-    content: 'Aa - ';
-    color: #000000; }
-.cd-typography > .cd-box h2 {
-  color: #EC5270;
-  background-color: #4DCBDE;
-  padding-left: 5px;
-  text-shadow: -1.5px 1.5px #000000;
-  height: 22px; }
-  .cd-typography > .cd-box h2::before {
-    content: 'Aa - ';
-    color: #EC5270; }
-.cd-typography > .cd-box h3 {
-  text-transform: uppercase; }
-  .cd-typography > .cd-box h3::before {
-    content: 'Aa - ';
-    color: #FFFFFF; }
-
-h1, h2, h3 {
-  font-family: Impact, Charcoal, sans-serif;
-  color: #FFFFFF; }
-
-h1 {
-  font-size: 2.4rem;
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 0 0 .4em;
-  text-transform: uppercase; }
-  @media only screen and (min-width: 768px) {
-    h1 {
-      font-size: 3.2rem; } }
-  @media only screen and (min-width: 1024px) {
-    h1 {
-      font-size: 4rem; } }
-
-h2 {
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 1em 0; }
-  @media only screen and (min-width: 768px) {
-    h2 {
-      font-size: 2.0rem;
-      margin: 1em 0 1.4em; } }
-
-section > h2::before {
-  /* number before each section title */
-  color: #d9d9d9; }
-
-p {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  color: #FFFFFF; }
-  p a {
-    color: #4DCBDE; }
-    p a:hover {
-      color: #EC5270;
-      text-decoration: underline; }
-  @media only screen and (min-width: 768px) {
-    p {
-      font-size: 1.6rem;
-      line-height: 1.6; } }
-
-/* --------------------------------
-
 xBasic style
 
 -------------------------------- */
@@ -655,5 +584,81 @@ section {
     display: none; } }
 .no-csstransitions .cd-select::after {
   display: none; }
+
+/* --------------------------------
+
+xTypography Section
+
+-------------------------------- */
+.cd-typography > .cd-box h1 {
+  color: #000000;
+  background-color: #4DCBDE;
+  padding-left: 5px; }
+  .cd-typography > .cd-box h1::before {
+    content: 'Aa - ';
+    color: #000000; }
+.cd-typography > .cd-box h2 {
+  color: #EC5270;
+  background-color: #4DCBDE;
+  padding-left: 5px;
+  text-shadow: -1.5px 1.5px #000000;
+  height: 22px; }
+  .cd-typography > .cd-box h2::before {
+    content: 'Aa - ';
+    color: #EC5270; }
+.cd-typography > .cd-box h3 {
+  text-transform: uppercase; }
+  .cd-typography > .cd-box h3::before {
+    content: 'Aa - ';
+    color: #FFFFFF; }
+
+/* --------------------------------
+
+xGeneral Typography
+
+-------------------------------- */
+h1, h2, h3 {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #FFFFFF; }
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.2rem; } }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      font-size: 4rem; } }
+
+h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 1em 0; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 2.0rem;
+      margin: 1em 0 1.4em; } }
+
+section > h2::before {
+  /* number before each section title */
+  color: #d9d9d9; }
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #FFFFFF; }
+  p a {
+    color: #4DCBDE; }
+    p a:hover {
+      color: #EC5270;
+      text-decoration: underline; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6; } }
 
 /*# sourceMappingURL=style-guide.css.map */
