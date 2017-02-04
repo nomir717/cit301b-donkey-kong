@@ -4,11 +4,13 @@
 
 // color palette - these colors will be the color swatches of the Colors section
 
-$color-1: #5f8ee4; // Cornflower Blue - Action color
-$color-2: #19191a; // Dark Blue
-$color-3: #e4655f; // Red
-$color-4: #e6e6e6; // light grey
-$color-5: #ffffff; // white
+$color-1: #4DCBDE; // Light Blue - Action color
+$color-2: #2428dc; // Bright Blue
+$color-3: #EC5270; // Pink
+$color-4: #FFFFFF; // White
+$color-5: #000000; // Black
+$color-6: #F96E00; // Orange
+$color-7: #FFD6AA; // LightOrange
 
 // additional colors
 
@@ -17,8 +19,8 @@ $alert: $color-3;  // red
 
 // fonts
 
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: Verdana, Geneva, sans-serif;
+$secondary-font: Impact, Charcoal, sans-serif;
 
 /* --------------------------------
 
@@ -53,7 +55,7 @@ xNavigation
 -------------------------------- */
 
 header {
-	background-color: $color-2;
+	background-color: $color-1;
 }
 
 .cd-logo {
@@ -68,7 +70,7 @@ header {
 
 .cd-main-nav {
 	/* main navigation background color - full screen on small devices */
-	background: $color-2;
+	background: $color-1;
 
 	li a {
 		color: $color-5;
@@ -114,7 +116,7 @@ header {
 
 .cd-download {
 	/* download button top-right visible on big devices */
-	background-color: lighten($color-2, 10%);
+	background-color: lighten($color-3, 10%);
 
 	.no-touch &:hover {
 		background-color: lighten($color-2, 15%);
@@ -155,7 +157,7 @@ xTypography
 
 h1, h2 {
 	font-family: $secondary-font;
-	color: $color-2;
+	color: $color-4;
 }
 
 h1 {
@@ -163,6 +165,7 @@ h1 {
 	font-weight: 300;
 	line-height: 1.2;
 	margin: 0 0 .4em;
+	text-transform: uppercase;
 
 	@include MQ(S) {
 		font-size: 3.2rem;
@@ -174,7 +177,7 @@ h1 {
 }
 
 h2 {
-	font-weight: bold;
+	font-weight: normal;
 	text-transform: uppercase;
 	margin: 1em 0;
 
@@ -192,11 +195,14 @@ section > h2::before {
 p {
 	font-size: 1.4rem;
 	line-height: 1.4;
-	color: lighten($color-2, 25%);
+	color: $color-4;
 
 	a {
 		color: $color-1;
 		text-decoration: underline;
+    &:hover {
+    		color: $color-3;
+    }
 	}
 
 	@include MQ(S) {

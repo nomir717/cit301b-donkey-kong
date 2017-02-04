@@ -20,10 +20,16 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: $primary-font;
+	color: $color-4;
 }
 
 a {
 	text-decoration: none;
+	color: $color-1;
+  &:hover {
+    text-decoration: underline;
+    color: $color-3;
+  }
 }
 
 img {
@@ -270,7 +276,7 @@ main {
 		text-align: center;
 		margin: 3em 0;
 	}
-
+  
 	@include MQ(M) {
 		padding-top: 80px;
 	}
@@ -551,7 +557,7 @@ section {
 
 	h1::before {
 		content: 'Aa - ';
-		color: $color-1;
+		color: $color-4;
 	}
 }
 
