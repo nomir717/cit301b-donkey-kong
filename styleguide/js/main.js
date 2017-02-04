@@ -31,19 +31,27 @@ jQuery(document).ready(function($){
 	/*******************
 		typography
 	********************/
-	var heading = $('#typography h1'),
-		headingDescriptionText = heading.children('span').eq(0),
-		body = heading.next('p'),
+	var h1 = $('#typography h1'),
+		h2 = $('#typography h2'),
+		h3 = $('#typography h3'),
+		h1DescriptionText = h1.children('span').eq(0),
+		h2DescriptionText = h2.children('span').eq(0),
+		h3DescriptionText = h3.children('span').eq(0),
+		body = h3.next('p'),
 		bodyDescriptionText = body.children('span').eq(0);
 
-	setTypography(heading, headingDescriptionText);
+	setTypography(h1, h1DescriptionText);
+	setTypography(h2, h2DescriptionText);
+	setTypography(h3, h3DescriptionText);
 	setTypography(body, bodyDescriptionText);
 	$(window).on('resize', function(){
-		setTypography(heading, headingDescriptionText);
+		setTypography(h1, h1DescriptionText);
 		setTypography(body, bodyDescriptionText);
 	});
 
 	function setTypography(element, textElement) {
+		console.log(element);
+		console.log(element.css('font-size'));
 		var fontSize = Math.round(element.css('font-size').replace('px',''))+'px',
 			fontFamily = (element.css('font-family').split(','))[0].replace(/\'/g, '').replace(/\"/g, ''),
 			fontWeight = element.css('font-weight');

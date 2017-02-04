@@ -105,55 +105,6 @@ main > h1 {
 
 /* --------------------------------
 
-xTypography
-
--------------------------------- */
-h1, h2 {
-  font-family: Impact, Charcoal, sans-serif;
-  color: #FFFFFF; }
-
-h1 {
-  font-size: 2.4rem;
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 0 0 .4em;
-  text-transform: uppercase; }
-  @media only screen and (min-width: 768px) {
-    h1 {
-      font-size: 3.2rem; } }
-  @media only screen and (min-width: 1024px) {
-    h1 {
-      font-size: 4rem; } }
-
-h2 {
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 1em 0; }
-  @media only screen and (min-width: 768px) {
-    h2 {
-      font-size: 1.8rem;
-      margin: 1em 0 1.4em; } }
-
-section > h2::before {
-  /* number before each section title */
-  color: #d9d9d9; }
-
-p {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  color: #FFFFFF; }
-  p a {
-    color: #4DCBDE;
-    text-decoration: underline; }
-    p a:hover {
-      color: #EC5270; }
-  @media only screen and (min-width: 768px) {
-    p {
-      font-size: 1.6rem;
-      line-height: 1.6; } }
-
-/* --------------------------------
-
 xNavigation
 
 -------------------------------- */
@@ -473,25 +424,25 @@ section {
     clear: both;
     content: "";
     display: block; }
-  section:nth-of-type(1) h2::before {
+  section:nth-of-type(1) > h2::before {
     content: '1. '; }
-  section:nth-of-type(2) h2::before {
+  section:nth-of-type(2) > h2::before {
     content: '2. '; }
-  section:nth-of-type(3) h2::before {
+  section:nth-of-type(3) > h2::before {
     content: '3. '; }
-  section:nth-of-type(4) h2::before {
+  section:nth-of-type(4) > h2::before {
     content: '4. '; }
-  section:nth-of-type(5) h2::before {
+  section:nth-of-type(5) > h2::before {
     content: '5. '; }
-  section:nth-of-type(6) h2::before {
+  section:nth-of-type(6) > h2::before {
     content: '6. '; }
-  section:nth-of-type(7) h2::before {
+  section:nth-of-type(7) > h2::before {
     content: '7. '; }
-  section:nth-of-type(8) h2::before {
+  section:nth-of-type(8) > h2::before {
     content: '8. '; }
-  section:nth-of-type(9) h2::before {
+  section:nth-of-type(9) > h2::before {
     content: '9. '; }
-  section:nth-of-type(10) h2::before {
+  section:nth-of-type(10) > h2::before {
     content: '10. '; }
   @media only screen and (min-width: 768px) {
     section {
@@ -621,11 +572,6 @@ section {
     .cd-form .cd-box .cd-box {
       padding: 2em; } }
 
-/* xTypography section - basic style */
-.cd-typography h1::before {
-  content: 'Aa - ';
-  color: #FFFFFF; }
-
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0; }
@@ -678,5 +624,81 @@ section {
     display: none; } }
 .no-csstransitions .cd-select::after {
   display: none; }
+
+/* --------------------------------
+
+xTypography Section
+
+-------------------------------- */
+.cd-typography > .cd-box h1 {
+  color: #000000;
+  background-color: #4DCBDE;
+  padding-left: 5px; }
+  .cd-typography > .cd-box h1::before {
+    content: 'Aa - ';
+    color: #000000; }
+.cd-typography > .cd-box h2 {
+  color: #EC5270;
+  background-color: #4DCBDE;
+  padding-left: 5px;
+  text-shadow: -1.5px 1.5px #000000;
+  height: 22px; }
+  .cd-typography > .cd-box h2::before {
+    content: 'Aa - ';
+    color: #EC5270; }
+.cd-typography > .cd-box h3 {
+  text-transform: uppercase; }
+  .cd-typography > .cd-box h3::before {
+    content: 'Aa - ';
+    color: #FFFFFF; }
+
+/* --------------------------------
+
+xGeneral Typography
+
+-------------------------------- */
+h1, h2, h3 {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #FFFFFF; }
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.2rem; } }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      font-size: 4rem; } }
+
+h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 1em 0; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 2.0rem;
+      margin: 1em 0 1.4em; } }
+
+section > h2::before {
+  /* number before each section title */
+  color: #d9d9d9; }
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #FFFFFF; }
+  p a {
+    color: #4DCBDE; }
+    p a:hover {
+      color: #EC5270;
+      text-decoration: underline; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6; } }
 
 /*# sourceMappingURL=style-guide.css.map */
