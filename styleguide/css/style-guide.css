@@ -1,5 +1,8 @@
 .cd-branding li.cd-box {
   height: 190px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   justify-content: center; }
 .cd-branding li.cd-box:nth-of-type(1)::after {
@@ -718,5 +721,14 @@ xNavigation Section
   top: -10px;
   border: solid 2px #EC5270;
   border-radius: 15px; }
+
+.cd-wireframes > .cd-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center; }
+  .cd-wireframes > .cd-box figcaption {
+    text-align: center; }
 
 /*# sourceMappingURL=style-guide.css.map */
