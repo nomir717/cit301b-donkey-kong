@@ -99,7 +99,21 @@ main > h1 {
 xTypography
 
 -------------------------------- */
-h1, h2 {
+.cd-box h1 {
+  color: #000000; }
+  .cd-box h1::before {
+    content: 'Aa - ';
+    color: #000000; }
+.cd-box h2 {
+  color: #EC5270; }
+  .cd-box h2::before {
+    content: 'Aa - ';
+    color: #EC5270; }
+.cd-box h3::before {
+  content: 'Aa - ';
+  color: #FFFFFF; }
+
+h1, h2, h3 {
   font-family: Impact, Charcoal, sans-serif;
   color: #FFFFFF; }
 

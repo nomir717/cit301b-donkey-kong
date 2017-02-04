@@ -162,8 +162,32 @@ main > h1 {
 xTypography
 
 -------------------------------- */
+.cd-box {
+	h1 {
+		color: $color-5;
 
-h1, h2 {
+		&::before {
+  		content: 'Aa - ';
+			color: $color-5;
+		}
+	}
+	h2 {
+		color: $color-3;
+		&::before {
+  		content: 'Aa - ';
+			color: $color-3;
+		}
+	}
+	h3 {
+		&::before {
+  		content: 'Aa - ';
+			color: $color-4;
+		}
+	}
+}
+
+
+h1, h2, h3 {
 	font-family: $secondary-font;
 	color: $color-4;
 }
@@ -193,6 +217,10 @@ h2 {
 		font-size: 1.8rem;
 		margin: 1em 0 1.4em;
 	}
+}
+
+h3 {
+
 }
 
 section > h2::before {
