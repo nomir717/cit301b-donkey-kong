@@ -127,7 +127,7 @@ header {
 	background-color: lighten($color-3, 10%);
 
 	.no-touch &:hover {
-		background-color: lighten($color-2, 15%);
+		background-color: $color-3;
 	}
 
 	span {
