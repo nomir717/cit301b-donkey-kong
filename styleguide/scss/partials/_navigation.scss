@@ -1,0 +1,37 @@
+/* --------------------------------
+
+xNavigation Section
+
+-------------------------------- */
+
+#navigation {
+  .cd-box > div {
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+    border: solid 2px $color-1;
+    border-radius: 15px;
+  }
+  h3 {
+    width: 80px;
+    margin: auto;
+    position: relative;
+    top:-10px;
+    text-align: center;
+    color: $color-3;
+    background-color: #000000;
+    width: 80px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: $primary-font;
+  }
+  nav{
+    width: 100%;
+    height: calc(100% - 5px);
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    border: solid 2px $color-3;
+    border-radius: 15px;
+  }
+}
