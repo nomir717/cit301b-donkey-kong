@@ -30,7 +30,7 @@ $scale: 4;
   //The ::after pass in the vairables to create the character using box-shadow
   li.cd-box {
     height: $box-height + px;
-    display: flex;
+    @include display-flex();
     justify-content: center;
   }
   li.cd-box:nth-of-type(1)::after {

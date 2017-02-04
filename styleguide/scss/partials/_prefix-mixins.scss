@@ -40,3 +40,10 @@
        -o-appearance: $option;
           appearance: $option;
 }
+
+@mixin display-flex() {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+}

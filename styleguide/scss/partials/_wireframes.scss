@@ -1,0 +1,10 @@
+.cd-wireframes {
+  & > .cd-box {
+    @include display-flex();
+    justify-content: center;
+
+    figcaption {
+      text-align: center;
+    }
+  }
+}
