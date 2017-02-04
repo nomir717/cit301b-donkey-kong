@@ -46,6 +46,10 @@ xPatterns
 	background: $color-5;
 	box-shadow: 0 1px 1px rgba(#000, .05);
 	padding: 6px;
+
+	& > img {
+		max-height: 200px;
+	}
 }
 
 /* --------------------------------
