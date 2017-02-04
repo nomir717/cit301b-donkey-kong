@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 xBasic style
 
@@ -276,7 +276,7 @@ main {
 		text-align: center;
 		margin: 3em 0;
 	}
-  
+
 	@include MQ(M) {
 		padding-top: 80px;
 	}
@@ -303,40 +303,40 @@ section {
 	margin: 3em 0;
 	@include clearfix;
 
-	&:nth-of-type(1) h2::before {
+	&:nth-of-type(1) > h2::before {
 		content: '1. ';
 	}
 
-	&:nth-of-type(2) h2::before {
+	&:nth-of-type(2) > h2::before {
 		content: '2. ';
 	}
 
-	&:nth-of-type(3) h2::before {
+	&:nth-of-type(3) > h2::before {
 		content: '3. ';
 	}
 
-	&:nth-of-type(4) h2::before {
+	&:nth-of-type(4) > h2::before {
 		content: '4. ';
 	}
 
-	&:nth-of-type(5) h2::before {
+	&:nth-of-type(5) > h2::before {
 		content: '5. ';
 	}
 
-	&:nth-of-type(6) h2::before {
+	&:nth-of-type(6) > h2::before {
 		content: '6. ';
 	}
-    
-    &:nth-of-type(7) h2::before {
+
+    &:nth-of-type(7) > h2::before {
 		content: '7. ';
 	}
-      &:nth-of-type(8) h2::before {
+      &:nth-of-type(8) > h2::before {
 		content: '8. ';
 	}
-      &:nth-of-type(9) h2::before {
+      &:nth-of-type(9) > h2::before {
 		content: '9. ';
 	}
-    &:nth-of-type(10) h2::before {
+    &:nth-of-type(10) > h2::before {
 		content: '10. ';
 	}
 
@@ -548,16 +548,6 @@ section {
 		.cd-box {
 			padding: 2em;
 		}
-	} 
-}
-
-/* xTypography section - basic style */
-
-.cd-typography {
-
-	h1::before {
-		content: 'Aa - ';
-		color: $color-4;
 	}
 }
 
@@ -595,35 +585,35 @@ section {
 	}
 
 	.cd-icon-1 {
-		background-image: url('../assets/icons/icon-1.svg'); 
+		background-image: url('../assets/icons/icon-1.svg');
 	}
 
 	.cd-icon-2 {
-		background-image: url('../assets/icons/icon-2.svg'); 
+		background-image: url('../assets/icons/icon-2.svg');
 	}
 
 	.cd-icon-3 {
-		background-image: url('../assets/icons/icon-3.svg'); 
+		background-image: url('../assets/icons/icon-3.svg');
 	}
 
 	.cd-icon-4 {
-		background-image: url('../assets/icons/icon-4.svg'); 
+		background-image: url('../assets/icons/icon-4.svg');
 	}
 
 	.cd-icon-5 {
-		background-image: url('../assets/icons/icon-5.svg'); 
+		background-image: url('../assets/icons/icon-5.svg');
 	}
 
 	.cd-icon-6 {
-		background-image: url('../assets/icons/icon-6.svg'); 
+		background-image: url('../assets/icons/icon-6.svg');
 	}
 
 	.cd-icon-7 {
-		background-image: url('../assets/icons/icon-7.svg'); 
+		background-image: url('../assets/icons/icon-7.svg');
 	}
 
 	.cd-icon-8 {
-		background-image: url('../assets/icons/icon-8.svg'); 
+		background-image: url('../assets/icons/icon-8.svg');
 	}
 }
 
