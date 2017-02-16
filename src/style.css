@@ -98,16 +98,15 @@ a {
   .summary p + p {
     margin-top: 10px; }
 
-.preamble, .supporting {
-  padding: 0 10px; }
-
 .preamble {
-  padding-left: 30%; }
+  padding-left: calc(30% + 10px); }
 
-.supporting > div:nth-of-type(2n + 0) {
-  padding-left: 30%; }
-.supporting > div:nth-of-type(2n + 1) {
-  padding-right: 30%; }
+.supporting {
+  padding: 0 10px; }
+  .supporting > div:nth-of-type(2n + 0) {
+    padding-left: 30%; }
+  .supporting > div:nth-of-type(2n + 1) {
+    padding-right: 30%; }
 
 @media screen and (min-width: 1024px) {
   .summary {
@@ -129,16 +128,15 @@ a {
     top: 220px;
     right: 100px; }
 
-  .preamble, .supporting {
-    padding: 0 50px; }
-
   .preamble {
-    padding-left: 10%; }
+    padding-left: calc(10% + 50px); }
 
-  .supporting > div:nth-of-type(2n + 0) {
-    padding-left: 10%; }
-  .supporting > div:nth-of-type(2n + 1) {
-    padding-right: 10%; } }
+  .supporting {
+    padding: 0 50px; }
+    .supporting > div:nth-of-type(2n + 0) {
+      padding-left: 10%; }
+    .supporting > div:nth-of-type(2n + 1) {
+      padding-right: 10%; } }
 /* --------------------------------
 xNavigation Section
 -------------------------------- */

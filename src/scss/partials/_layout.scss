@@ -45,14 +45,12 @@ $l-staggered-padding: 10%;
     }
   }
 
-  .preamble, .supporting {
-    padding: 0 $s-overall-padding;
-  }
-
   .preamble {
-    padding-left: $s-staggered-padding;
+    padding-left: calc(#{$s-staggered-padding} + #{$s-overall-padding});
   }
   .supporting {
+    padding: 0 $s-overall-padding;
+
     & > div:nth-of-type(2n + 0) {
       padding-left: $s-staggered-padding;
     }
@@ -87,14 +85,12 @@ $l-staggered-padding: 10%;
     right: 50px + $l-overall-padding;
   }
 
-  .preamble, .supporting {
-    padding: 0 $l-overall-padding;
-  }
-
   .preamble {
-    padding-left: $l-staggered-padding;
+    padding-left: calc(#{$l-staggered-padding} + #{$l-overall-padding});
   }
   .supporting {
+    padding: 0 $l-overall-padding;
+
     & > div:nth-of-type(2n + 0) {
       padding-left: $l-staggered-padding;
     }
