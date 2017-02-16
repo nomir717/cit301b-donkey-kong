@@ -9,6 +9,10 @@ $l-overall-padding: 50px;
 $s-staggered-padding: 30%;
 $l-staggered-padding: 10%;
 
+$platform-space: 50px;
+
+
+
  .intro {
     overflow: hidden;
 
@@ -44,10 +48,14 @@ $l-staggered-padding: 10%;
 
   .preamble {
     padding: 0 calc(#{$s-staggered-padding} + #{$s-overall-padding}) 0 $s-overall-padding;
+    margin-top: $platform-space;
   }
   .supporting {
     padding: 0 $s-overall-padding;
 
+    div{
+      margin-top: $platform-space;
+    }
     & > div:nth-of-type(2n + 1) {
       padding-left: $s-staggered-padding;
     }

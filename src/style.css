@@ -97,10 +97,13 @@ a {
     width: 50%; }
 
 .preamble {
-  padding: 0 calc(30% + 10px) 0 10px; }
+  padding: 0 calc(30% + 10px) 0 10px;
+  margin-top: 50px; }
 
 .supporting {
   padding: 0 10px; }
+  .supporting div {
+    margin-top: 50px; }
   .supporting > div:nth-of-type(2n + 1) {
     padding-left: 30%; }
   .supporting > div:nth-of-type(2n + 0) {
