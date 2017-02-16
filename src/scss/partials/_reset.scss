@@ -1,0 +1,12 @@
+/*Basic reset used*/*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Set font-size*/*,
+html {
+  font-size: 1em;
+}
