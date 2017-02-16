@@ -62,7 +62,8 @@ p {
   color: #FFFFFF; }
 
 a {
-  color: #4dcbde; }
+  color: #4dcbde;
+  text-decoration: none; }
   a:hover {
     color: #EC5270;
     text-decoration: underline; }
