@@ -42,7 +42,9 @@ $s-padding: 10px;
     }
   }
 
-
+  .preamble, .supporting {
+    padding: 0 $s-padding;
+  }
 
 // media queries
 
@@ -69,5 +71,9 @@ $s-padding: 10px;
     position: absolute;
     top: 220px;
     right: 50px + $l-padding;
+  }
+
+  .preamble, .supporting {
+    padding: 0 $l-padding;
   }
 }

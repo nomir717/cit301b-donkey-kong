@@ -98,6 +98,9 @@ a {
   .summary p + p {
     margin-top: 10px; }
 
+.preamble, .supporting {
+  padding: 0 10px; }
+
 @media screen and (min-width: 1024px) {
   .summary {
     width: 100%;
@@ -116,7 +119,10 @@ a {
     display: block;
     position: absolute;
     top: 220px;
-    right: 100px; } }
+    right: 100px; }
+
+  .preamble, .supporting {
+    padding: 0 50px; } }
 /* --------------------------------
 xNavigation Section
 -------------------------------- */
