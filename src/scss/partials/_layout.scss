@@ -3,8 +3,11 @@ $S:  768px;
 $M: 1024px;
 $L: 1600px;
 
-$l-padding: 50px;
-$s-padding: 10px;
+$s-overall-padding: 10px;
+$l-overall-padding: 50px;
+
+$s-p-padding: 30%;
+$l-p-padding: 10%;
 
  .intro {
     overflow: hidden;
@@ -26,7 +29,7 @@ $s-padding: 10px;
   .summary {
     width: 100%;
     height: auto;
-    padding: 0 $s-padding;
+    padding: 0 $s-overall-padding;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -43,9 +46,20 @@ $s-padding: 10px;
   }
 
   .preamble, .supporting {
-    padding: 0 $s-padding;
+    padding: 0 $s-overall-padding;
   }
 
+  .preamble {
+    padding-left: $s-p-padding;
+  }
+  .supporting {
+    & > div:nth-of-type(2n + 0) {
+      padding-left: $s-p-padding;
+    }
+    & > div:nth-of-type(2n + 1) {
+      padding-right: $s-p-padding;
+    }
+  }
 // media queries
 
 @media screen and (min-width: $M) {
@@ -55,7 +69,7 @@ $s-padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: $l-padding;
+    padding-right: $l-overall-padding;
     margin-top: -100px;
 
     p {
@@ -70,10 +84,23 @@ $s-padding: 10px;
     display: block;
     position: absolute;
     top: 220px;
-    right: 50px + $l-padding;
+    right: 50px + $l-overall-padding;
   }
 
   .preamble, .supporting {
-    padding: 0 $l-padding;
+    padding: 0 $l-overall-padding;
   }
+
+  .preamble {
+    padding-left: $l-p-padding;
+  }
+  .supporting {
+    & > div:nth-of-type(2n + 0) {
+      padding-left: $l-p-padding;
+    }
+    & > div:nth-of-type(2n + 1) {
+      padding-right: $l-p-padding;
+    }
+  }
+
 }
