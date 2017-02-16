@@ -99,13 +99,13 @@ a {
     margin-top: 10px; }
 
 .preamble {
-  padding-left: calc(30% + 10px); }
+  padding: 0 calc(30% + 10px) 0 10px; }
 
 .supporting {
   padding: 0 10px; }
-  .supporting > div:nth-of-type(2n + 0) {
-    padding-left: 30%; }
   .supporting > div:nth-of-type(2n + 1) {
+    padding-left: 30%; }
+  .supporting > div:nth-of-type(2n + 0) {
     padding-right: 30%; }
 
 h3 {
@@ -135,13 +135,13 @@ footer {
     right: 100px; }
 
   .preamble {
-    padding-left: calc(10% + 50px); }
+    padding: 0 calc(10% + 50px) 0 50px; }
 
   .supporting {
     padding: 0 50px; }
-    .supporting > div:nth-of-type(2n + 0) {
-      padding-left: 10%; }
     .supporting > div:nth-of-type(2n + 1) {
+      padding-left: 10%; }
+    .supporting > div:nth-of-type(2n + 0) {
       padding-right: 10%; } }
 /* --------------------------------
 xNavigation Section

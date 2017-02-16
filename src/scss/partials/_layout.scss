@@ -46,15 +46,15 @@ $l-staggered-padding: 10%;
   }
 
   .preamble {
-    padding-left: calc(#{$s-staggered-padding} + #{$s-overall-padding});
+    padding: 0 calc(#{$s-staggered-padding} + #{$s-overall-padding}) 0 $s-overall-padding;
   }
   .supporting {
     padding: 0 $s-overall-padding;
 
-    & > div:nth-of-type(2n + 0) {
+    & > div:nth-of-type(2n + 1) {
       padding-left: $s-staggered-padding;
     }
-    & > div:nth-of-type(2n + 1) {
+    & > div:nth-of-type(2n + 0) {
       padding-right: $s-staggered-padding;
     }
   }
@@ -94,15 +94,15 @@ $l-staggered-padding: 10%;
   }
 
   .preamble {
-    padding-left: calc(#{$l-staggered-padding} + #{$l-overall-padding});
+    padding: 0 calc(#{$l-staggered-padding} + #{$l-overall-padding}) 0 $l-overall-padding;
   }
   .supporting {
     padding: 0 $l-overall-padding;
 
-    & > div:nth-of-type(2n + 0) {
+    & > div:nth-of-type(2n + 1) {
       padding-left: $l-staggered-padding;
     }
-    & > div:nth-of-type(2n + 1) {
+    & > div:nth-of-type(2n + 0) {
       padding-right: $l-staggered-padding;
     }
   }
