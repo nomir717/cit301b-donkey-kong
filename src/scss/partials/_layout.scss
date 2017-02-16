@@ -6,8 +6,8 @@ $L: 1600px;
 $s-overall-padding: 10px;
 $l-overall-padding: 50px;
 
-$s-p-padding: 30%;
-$l-p-padding: 10%;
+$s-staggered-padding: 30%;
+$l-staggered-padding: 10%;
 
  .intro {
     overflow: hidden;
@@ -50,14 +50,14 @@ $l-p-padding: 10%;
   }
 
   .preamble {
-    padding-left: $s-p-padding;
+    padding-left: $s-staggered-padding;
   }
   .supporting {
     & > div:nth-of-type(2n + 0) {
-      padding-left: $s-p-padding;
+      padding-left: $s-staggered-padding;
     }
     & > div:nth-of-type(2n + 1) {
-      padding-right: $s-p-padding;
+      padding-right: $s-staggered-padding;
     }
   }
 // media queries
@@ -92,14 +92,14 @@ $l-p-padding: 10%;
   }
 
   .preamble {
-    padding-left: $l-p-padding;
+    padding-left: $l-staggered-padding;
   }
   .supporting {
     & > div:nth-of-type(2n + 0) {
-      padding-left: $l-p-padding;
+      padding-left: $l-staggered-padding;
     }
     & > div:nth-of-type(2n + 1) {
-      padding-right: $l-p-padding;
+      padding-right: $l-staggered-padding;
     }
   }
 
