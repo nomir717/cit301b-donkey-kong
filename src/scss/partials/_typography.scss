@@ -9,6 +9,10 @@ $secondary-font: Impact, Charcoal, sans-serif;
 xGeneral Typography
 -------------------------------- */
 
+body {
+  font-family: $primary-font;
+}
+
 h1, h2, h3 {
   font-family: $secondary-font;
 }
