@@ -10,6 +10,7 @@ $s-staggered-padding: 30%;
 $l-staggered-padding: 10%;
 
 $platform-space: 50px;
+$barrel-space: 40px;
 
 
 
@@ -47,8 +48,14 @@ $platform-space: 50px;
   }
 
   .preamble {
-    padding: 0 calc(#{$s-staggered-padding} + #{$s-overall-padding}) 0 $s-overall-padding;
+    padding: 0 $s-overall-padding;
     margin-top: $platform-space;
+    h3 {
+      margin-left: $barrel-space;
+    }
+    p {
+      margin-right: $s-staggered-padding;
+    }
   }
   .supporting {
     padding: 0 $s-overall-padding;
@@ -57,15 +64,21 @@ $platform-space: 50px;
       margin-top: $platform-space;
     }
     & > div:nth-of-type(2n + 1) {
-      padding-left: $s-staggered-padding;
+      h3 {
+        margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
+      }
+      p{
+      margin-left: $s-staggered-padding;
+    }
     }
     & > div:nth-of-type(2n + 0) {
-      padding-right: $s-staggered-padding;
+      h3 {
+        margin-left: 40px;
+      }
+      p {
+      margin-right: $s-staggered-padding;
     }
-  }
-
-  h3 {
-    margin-left: 40px;
+    }
   }
 
   p+p {
@@ -109,10 +122,20 @@ $platform-space: 50px;
     padding: 0 $l-overall-padding;
 
     & > div:nth-of-type(2n + 1) {
-      padding-left: $l-staggered-padding;
+      h3 {
+        margin-left: calc(#{$l-staggered-padding} + #{$barrel-space});
+      }
+      p{
+        margin-left: $l-staggered-padding;
+      }
     }
     & > div:nth-of-type(2n + 0) {
-      padding-right: $l-staggered-padding;
+      h3 {
+        margin-left: $barrel-space;
+      }
+      p {
+        margin-right: $l-staggered-padding;
+      }
     }
   }
 

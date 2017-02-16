@@ -97,20 +97,25 @@ a {
     width: 50%; }
 
 .preamble {
-  padding: 0 calc(30% + 10px) 0 10px;
+  padding: 0 10px;
   margin-top: 50px; }
+  .preamble h3 {
+    margin-left: 40px; }
+  .preamble p {
+    margin-right: 30%; }
 
 .supporting {
   padding: 0 10px; }
   .supporting div {
     margin-top: 50px; }
-  .supporting > div:nth-of-type(2n + 1) {
-    padding-left: 30%; }
-  .supporting > div:nth-of-type(2n + 0) {
-    padding-right: 30%; }
-
-h3 {
-  margin-left: 40px; }
+  .supporting > div:nth-of-type(2n + 1) h3 {
+    margin-left: calc(30% + 40px); }
+  .supporting > div:nth-of-type(2n + 1) p {
+    margin-left: 30%; }
+  .supporting > div:nth-of-type(2n + 0) h3 {
+    margin-left: 40px; }
+  .supporting > div:nth-of-type(2n + 0) p {
+    margin-right: 30%; }
 
 p + p {
   margin-top: 10px; }
@@ -143,10 +148,14 @@ footer {
 
   .supporting {
     padding: 0 50px; }
-    .supporting > div:nth-of-type(2n + 1) {
-      padding-left: 10%; }
-    .supporting > div:nth-of-type(2n + 0) {
-      padding-right: 10%; } }
+    .supporting > div:nth-of-type(2n + 1) h3 {
+      margin-left: calc(10% + 40px); }
+    .supporting > div:nth-of-type(2n + 1) p {
+      margin-left: 10%; }
+    .supporting > div:nth-of-type(2n + 0) h3 {
+      margin-left: 40px; }
+    .supporting > div:nth-of-type(2n + 0) p {
+      margin-right: 10%; } }
 /* --------------------------------
 xNavigation Section
 -------------------------------- */
