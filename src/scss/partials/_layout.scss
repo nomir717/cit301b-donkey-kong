@@ -68,17 +68,23 @@ $barrel-space: 40px;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
       }
       p{
-      margin-left: $s-staggered-padding;
-    }
+        margin-left: $s-staggered-padding;
+      }
     }
     & > div:nth-of-type(2n + 0) {
       h3 {
-        margin-left: 40px;
+        margin-left: $barrel-space;
       }
       p {
-      margin-right: $s-staggered-padding;
+        margin-right: $s-staggered-padding;
+      }
+      [role="contentinfo"] {
+        margin: $platform-space 0px 0px;
+        text-align: center;
+      }
     }
-    }
+
+
   }
 
   p+p {
@@ -136,7 +142,11 @@ $barrel-space: 40px;
       p {
         margin-right: $l-staggered-padding;
       }
+      // [role="contentinfo"] {
+      //   margin:0;
+      // }
     }
+
   }
 
 }

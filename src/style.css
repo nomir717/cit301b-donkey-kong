@@ -116,6 +116,9 @@ a {
     margin-left: 40px; }
   .supporting > div:nth-of-type(2n + 0) p {
     margin-right: 30%; }
+  .supporting > div:nth-of-type(2n + 0) [role="contentinfo"] {
+    margin: 50px 0px 0px;
+    text-align: center; }
 
 p + p {
   margin-top: 10px; }
