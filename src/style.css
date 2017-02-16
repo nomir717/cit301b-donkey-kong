@@ -95,8 +95,6 @@ a {
   margin-top: 0px; }
   .summary p {
     width: 50%; }
-  .summary p + p {
-    margin-top: 10px; }
 
 .preamble {
   padding: 0 calc(30% + 10px) 0 10px; }
@@ -110,6 +108,9 @@ a {
 
 h3 {
   margin-left: 40px; }
+
+p + p {
+  margin-top: 10px; }
 
 footer {
   text-align: center; }

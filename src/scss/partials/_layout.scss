@@ -40,9 +40,6 @@ $l-staggered-padding: 10%;
     p {
       width: 50%;
     }
-    p+p {
-      margin-top: 10px;
-    }
   }
 
   .preamble {
@@ -61,6 +58,10 @@ $l-staggered-padding: 10%;
 
   h3 {
     margin-left: 40px;
+  }
+
+  p+p {
+    margin-top: 10px;
   }
 
   footer {
