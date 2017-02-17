@@ -148,7 +148,9 @@ footer {
     right: 100px; }
 
   .preamble {
-    padding: 0 calc(10% + 50px) 0 50px; }
+    padding: 0 0 0 50px; }
+    .preamble p {
+      margin-right: 10%; }
 
   .supporting {
     padding: 0 50px; }

@@ -122,7 +122,11 @@ $barrel-space: 40px;
   }
 
   .preamble {
-    padding: 0 calc(#{$l-staggered-padding} + #{$l-overall-padding}) 0 $l-overall-padding;
+    padding: 0 0 0 $l-overall-padding;
+
+    p {
+      margin-right: $l-staggered-padding;
+    }
   }
   .supporting {
     padding: 0 $l-overall-padding;
