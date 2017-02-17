@@ -1,40 +1,90 @@
 /* --------------------------------
 xNavigation Section
 -------------------------------- */
-
 .sidebar {
-  width: 25rem;
-  height: 28rem;
-  padding: 5px;
-  border: solid 2px $primary-color;
-  border-radius: 15px;
-  background-color: $background-neutral-color;
-
-  h3 {
-    width: 11rem;
-    position: relative;
-    text-align: center;
-    color: $secondary-color;
-    background-color: $background-neutral-color;
-    margin: -1rem auto .8rem auto;
-    font-family: $primary-font;
-    font-size: 1rem;
+  position: absolute;
+  top: 6.1rem;
+  left: 26rem;
+  height: .5rem;
+  width: 2.3rem;
+  background: $background-neutral-color;
+  @include transform(rotate(-7deg));
+  &::before, &::after {
+    position: absolute;
+    content: " ";
+    height: .8rem;
+    width: inherit;
+    background: inherit;
+    top: .5rem;
+    border-top: solid $primary-color .3rem;
+    z-index: -2;
   }
-  
+  &::before {
+    top: 1.3rem;
+  }
   .wrapper {
-    width: calc(100% - .4rem);
-    height: calc(100% - .4rem);
-    padding: 0 .5rem;
-    position: relative;
-    border: solid 2px $secondary-color;
-    border-radius: 15px;
-    margin: .2rem;
+    position: absolute;
+    display: none;
+    width: 24rem;
+    height: 27rem;
+    background: $background-neutral-color;
+    border: solid .15rem $secondary-color;
+    border-radius: 1rem;
+    top: 1.5rem;
+    left: -20rem;
+    padding: .8rem;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: -.75rem;
+      right: -.75rem;
+      height: calc(100% + 1.5rem);
+      width: calc(100% + 1.5rem);
+      border: solid .15rem $primary-color;
+      border-radius: 1rem;
+      background: inherit;
+      z-index: -1;
+    }
     div {
       margin: 0 0 2.5rem 0;
     }
   }
+  &:hover .wrapper {
+    display: block;
+  }
+  
+  h3 {
+    width: 11rem;
+    text-align: center;
+    color: $secondary-color;
+    background-color: $background-neutral-color;
+    margin: -1.5rem auto .8rem auto;
+    font-family: $primary-font;
+    font-size: 1rem;
+  }
   
   ul {
     list-style: none;
+  }
+}
+
+@media screen and (min-width: $M) {
+  .sidebar {
+    position: absolute;
+    right: 50px + $l-overall-padding;
+    @include transform(rotate(0deg));
+    left: auto;
+    top: 16rem;
+        
+    &::before, &::after {
+      display: none;
+    }
+    
+    .wrapper {
+      display: block;
+      top: 0rem;
+      right: 0rem;
+    }
   }
 }

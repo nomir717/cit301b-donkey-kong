@@ -1,6 +1,6 @@
 // breakpoints
 $S:  768px;
-$M: 1024px;
+$M: 64rem;
 $L: 1600px;
 
 $s-overall-padding: 10px;
@@ -11,8 +11,6 @@ $l-staggered-padding: 10%;
 
 $platform-space: 50px;
 $barrel-space: 40px;
-
-
 
  .intro {
     overflow: hidden;
@@ -25,10 +23,6 @@ $barrel-space: 40px;
       right: 2rem;
       margin: 2rem 0 0;
     }
-  }
-
-  .sidebar {
-    display: none;
   }
 
   .summary {
@@ -104,21 +98,14 @@ $barrel-space: 40px;
     flex-direction: column;
     align-items: flex-end;
     padding-right: $l-overall-padding;
-    margin-top: -100px;
+    margin-top: -70px;
 
     p {
-      width: 450px;
+      width: 415px;
     }
     p+p {
       margin-top: 10px;
     }
-  }
-
-  .sidebar {
-    display: block;
-    position: absolute;
-    top: 220px;
-    right: 50px + $l-overall-padding;
   }
 
   .preamble {
