@@ -230,7 +230,7 @@ xNavigation Section
   .sidebar ul {
     list-style: none; }
 
-@media screen and (max-width: 35rem) {
+@media screen and (max-width: 64rem) {
   .sidebar .wrapper {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);

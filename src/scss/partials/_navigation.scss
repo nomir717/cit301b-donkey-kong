@@ -73,7 +73,7 @@ xNavigation Section
   }
 }
 
-@media screen and (max-width: $S) {
+@media screen and (max-width: $M) {
   .sidebar {
     .wrapper {
       @include transform(rotate(0deg));
