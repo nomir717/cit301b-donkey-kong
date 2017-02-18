@@ -1,19 +1,6 @@
-// breakpoints
-$S: 35rem;
-$M: 64rem;
-$L: 1600px;
-
-$s-overall-padding: 10px;
-$l-overall-padding: 50px;
-
-$s-staggered-padding: 30%;
-$l-staggered-padding: 10%;
-
-$platform-space: 50px;
-$barrel-space: 40px;
-
  .intro {
     overflow: hidden;
+    min-width: 28.5rem;
 
     header {
       position: relative;
@@ -22,6 +9,12 @@ $barrel-space: 40px;
       width: 150%;
       right: 2rem;
       margin: 2rem 0 0;
+    }
+    &::before {
+      @extend %donkey-kong;
+    }
+    &::after {
+      @extend %pauline;
     }
   }
 
@@ -45,7 +38,11 @@ $barrel-space: 40px;
     padding: 0 $s-overall-padding;
     margin-top: $platform-space;
     h3 {
-      margin-left: $barrel-space;
+     position: relative;
+     margin-left: $barrel-space;
+      &::after {
+        @extend %barrel;
+      }
     }
     p {
       margin-right: $s-staggered-padding;
@@ -59,7 +56,11 @@ $barrel-space: 40px;
     }
     & > div:nth-of-type(2n + 1) {
       h3 {
+        position: relative;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
+        &::after {
+          @extend %barrel;
+        }
       }
       p{
         margin-left: $s-staggered-padding;
@@ -67,7 +68,11 @@ $barrel-space: 40px;
     }
     & > div:nth-of-type(2n + 0) {
       h3 {
+        position: relative;
         margin-left: $barrel-space;
+        &::after {
+          @extend %barrel;
+        }
       }
       p {
         margin-right: $s-staggered-padding;
@@ -78,7 +83,6 @@ $barrel-space: 40px;
       }
     }
 
-
   }
 
   p+p {
@@ -86,7 +90,11 @@ $barrel-space: 40px;
   }
 
   footer {
+    position: relative;
     text-align: center;
+    &::after {
+      @extend %mario;
+    }
   }
 // media queries
 
