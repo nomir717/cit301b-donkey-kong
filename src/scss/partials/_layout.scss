@@ -1,21 +1,6 @@
-// breakpoints
-$S:  768px;
-$M: 1024px;
-$L: 1600px;
-
-$s-overall-padding: 10px;
-$l-overall-padding: 50px;
-
-$s-staggered-padding: 30%;
-$l-staggered-padding: 10%;
-
-$platform-space: 50px;
-$barrel-space: 40px;
-
-
-
  .intro {
     overflow: hidden;
+    min-width: 28.5rem;
 
     header {
       position: relative;
@@ -27,11 +12,8 @@ $barrel-space: 40px;
     }
   }
 
-  .sidebar {
-    display: none;
-  }
-
   .summary {
+    position: relative;
     width: 100%;
     height: auto;
     padding: 0 $s-overall-padding;
@@ -39,9 +21,14 @@ $barrel-space: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
     margin-top: 0px;
-
+    &::before {
+      @extend %donkey-kong;
+    }
+    &::after {
+      @extend %pauline;
+    }
+    
     p {
       width: 50%;
     }
@@ -51,7 +38,11 @@ $barrel-space: 40px;
     padding: 0 $s-overall-padding;
     margin-top: $platform-space;
     h3 {
-      margin-left: $barrel-space;
+     position: relative;
+     margin-left: $barrel-space;
+      &::after {
+        @extend %barrel;
+      }
     }
     p {
       margin-right: $s-staggered-padding;
@@ -65,7 +56,11 @@ $barrel-space: 40px;
     }
     & > div:nth-of-type(2n + 1) {
       h3 {
+        position: relative;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
+        &::after {
+          @extend %barrel;
+        }
       }
       p{
         margin-left: $s-staggered-padding;
@@ -73,7 +68,11 @@ $barrel-space: 40px;
     }
     & > div:nth-of-type(2n + 0) {
       h3 {
+        position: relative;
         margin-left: $barrel-space;
+        &::after {
+          @extend %barrel;
+        }
       }
       p {
         margin-right: $s-staggered-padding;
@@ -84,7 +83,6 @@ $barrel-space: 40px;
       }
     }
 
-
   }
 
   p+p {
@@ -92,7 +90,15 @@ $barrel-space: 40px;
   }
 
   footer {
+    position: relative;
     text-align: center;
+    margin-top: 30px;
+    &::after {
+      @extend %mario;
+    }
+    @media screen and (min-width: $M) {
+      margin-top: 60px;
+    }
   }
 // media queries
 
@@ -104,21 +110,14 @@ $barrel-space: 40px;
     flex-direction: column;
     align-items: flex-end;
     padding-right: $l-overall-padding;
-    margin-top: -100px;
+    margin-top: -70px;
 
     p {
-      width: 450px;
+      width: 415px;
     }
     p+p {
       margin-top: 10px;
     }
-  }
-
-  .sidebar {
-    display: block;
-    position: absolute;
-    top: 220px;
-    right: 50px + $l-overall-padding;
   }
 
   .preamble {
