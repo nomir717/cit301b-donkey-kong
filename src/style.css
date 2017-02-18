@@ -225,9 +225,15 @@ xNavigation Section
   background: #000000;
   border: solid 0.15rem #EC5270;
   border-radius: 1rem;
-  top: 1.5rem;
-  left: -20rem;
+  top: -1.2rem;
+  left: -23.5rem;
   padding: .8rem;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  transform-style: preserve-3d;
 }
 .sidebar .wrapper::before {
   position: absolute;
@@ -239,7 +245,11 @@ xNavigation Section
   border: solid 0.15rem #4dcbde;
   border-radius: 1rem;
   background: inherit;
-  z-index: -1;
+  -webkit-transform: translateZ(-1em);
+  -moz-transform: translateZ(-1em);
+  -ms-transform: translateZ(-1em);
+  -o-transform: translateZ(-1em);
+  transform: translateZ(-1em);
 }
 .sidebar .wrapper div {
   margin: 0 0 2.5rem 0;
@@ -252,7 +262,7 @@ xNavigation Section
   text-align: center;
   color: #EC5270;
   background-color: #000000;
-  margin: -1.5rem auto .8rem auto;
+  margin: -1.4rem auto .8rem auto;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1rem;
 }
@@ -260,6 +270,17 @@ xNavigation Section
   list-style: none;
 }
 
+@media screen and (min-width: 35rem) {
+  .sidebar .wrapper {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: .6rem;
+    left: -20rem;
+  }
+}
 @media screen and (min-width: 64rem) {
   .sidebar {
     position: absolute;
@@ -279,6 +300,9 @@ xNavigation Section
     display: block;
     top: 0rem;
     right: 0rem;
+  }
+  .sidebar h3 {
+    margin: -1.6rem auto .8rem auto;
   }
 }
 

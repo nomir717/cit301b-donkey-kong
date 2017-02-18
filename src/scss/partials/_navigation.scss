@@ -30,9 +30,11 @@ xNavigation Section
     background: $background-neutral-color;
     border: solid .15rem $secondary-color;
     border-radius: 1rem;
-    top: 1.5rem;
-    left: -20rem;
+    top: -1.2rem;
+    left: -23.5rem;
     padding: .8rem;
+    @include transform(rotate(7deg));
+    transform-style: preserve-3d;
 
     &::before {
       position: absolute;
@@ -44,12 +46,14 @@ xNavigation Section
       border: solid .15rem $primary-color;
       border-radius: 1rem;
       background: inherit;
-      z-index: -1;
+      @include transform(translateZ(-1em));
     }
+    
     div {
       margin: 0 0 2.5rem 0;
     }
   }
+  
   &:hover .wrapper {
     display: block;
   }
@@ -59,13 +63,23 @@ xNavigation Section
     text-align: center;
     color: $secondary-color;
     background-color: $background-neutral-color;
-    margin: -1.5rem auto .8rem auto;
+    margin: -1.4rem auto .8rem auto;
     font-family: $primary-font;
     font-size: 1rem;
   }
   
   ul {
     list-style: none;
+  }
+}
+
+@media screen and (min-width: $S) {
+  .sidebar {
+    .wrapper {
+      @include transform(rotate(0deg));
+      top: .6rem;
+      left: -20rem;
+    }
   }
 }
 
@@ -85,6 +99,10 @@ xNavigation Section
       display: block;
       top: 0rem;
       right: 0rem;
+    }
+    
+    h3 {
+      margin: -1.6rem auto .8rem auto;
     }
   }
 }
