@@ -203,8 +203,8 @@ xNavigation Section
 -------------------------------- */
 .sidebar {
   position: absolute;
-  top: 5rem;
-  left: 14rem;
+  top: 4.5rem;
+  left: 18rem;
   height: .5rem;
   width: 2rem;
   background: #000000;
@@ -235,8 +235,8 @@ xNavigation Section
   background: #000000;
   border: solid 0.15rem #EC5270;
   border-radius: 1rem;
-  top: 0;
-  left: -14.5rem;
+  top: -.5rem;
+  left: -19rem;
   padding: .8rem;
   -webkit-transform: rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -287,7 +287,7 @@ xNavigation Section
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    top: 1rem;
+    top: .5rem;
     left: -13rem;
   }
 }
