@@ -28,7 +28,7 @@
     &::after {
       @extend %pauline;
     }
-    
+
     p {
       width: 50%;
     }
@@ -100,21 +100,6 @@
       margin-top: 60px;
     }
   }
-// media queries
-// @media screen and (min-width: $S) {
-//   .intro {
-//     overflow: hidden;
-
-//     header {
-//       position: relative;
-//       @include transform(rotate(-7deg));
-//       transform-origin: 0 0;
-//       width: 150%;
-//       right: 2rem;
-//       margin: 2rem 0 0;
-//     }
-//   }
-// }
 
 @media screen and (min-width: $M) {
   .summary {
@@ -159,9 +144,6 @@
       p {
         margin-right: $l-staggered-padding;
       }
-      // [role="contentinfo"] {
-      //   margin:0;
-      // }
     }
 
   }
