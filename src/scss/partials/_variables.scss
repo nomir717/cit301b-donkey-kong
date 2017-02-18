@@ -1,10 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
 // breakpoints
 $S: 35rem;
 $M: 64rem;
 $L: 1600px;
 
+// padding
 $s-overall-padding: 10px;
 $l-overall-padding: 50px;
 
 $s-staggered-padding: 30%;
 $l-staggered-padding: 10%;
+
+$platform-space: 50px;
+$barrel-space: 40px;
+
+// fonts
+$primary-font: Verdana, Geneva, sans-serif;
+$secondary-font: Anton, Impact, Haettenschweiler, sans-serif;
+
+// color palette - these colors will be the color swatches of the Colors section
+
+$primary-color: #4dcbde; // Light Blue (action color)
+$secondary-color: #EC5270; // Pink
+$tertiary-color: #FF810C; // Orange
+$forground-neutral-color: #FFFFFF; // White
+$background-neutral-color: #000000; // Black
+
+$primary-dark-color: #2428dc; // Bright Blue
+$tertiary-light-color: lighten($tertiary-color, 15); // LightOrange
+
+// additional colors
+
+$success: #6fce72; // Green
+$alert: $secondary-color;  // Pink
+

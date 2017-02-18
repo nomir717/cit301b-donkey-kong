@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
 /*Basic reset used*/
 *,
 *:before,
@@ -30,7 +31,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Anton, Impact, Haettenschweiler, sans-serif;
 }
 
 h1 {
@@ -77,6 +78,17 @@ a {
 a:hover {
   color: #EC5270;
   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 64rem) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
 }
 
 .preamble h3::after, .supporting > div:nth-of-type(2n + 1) h3::after, .supporting > div:nth-of-type(2n + 0) h3::after {
@@ -272,10 +284,10 @@ xNavigation Section
 -------------------------------- */
 .sidebar {
   position: absolute;
-  top: 6.1rem;
-  left: 26rem;
+  top: 4.5rem;
+  left: 18rem;
   height: .5rem;
-  width: 2.3rem;
+  width: 2rem;
   background: #000000;
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
@@ -286,15 +298,15 @@ xNavigation Section
 .sidebar::before, .sidebar::after {
   position: absolute;
   content: " ";
-  height: .8rem;
+  height: .6rem;
   width: inherit;
   background: inherit;
-  top: .5rem;
-  border-top: solid #4dcbde 0.3rem;
+  top: .4rem;
+  border-top: solid #4dcbde 0.2rem;
   z-index: -2;
 }
 .sidebar::before {
-  top: 1.3rem;
+  top: 1rem;
 }
 .sidebar .wrapper {
   position: absolute;
@@ -304,8 +316,8 @@ xNavigation Section
   background: #000000;
   border: solid 0.15rem #EC5270;
   border-radius: 1rem;
-  top: -1.2rem;
-  left: -23.5rem;
+  top: -.5rem;
+  left: -19rem;
   padding: .8rem;
   -webkit-transform: rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -356,8 +368,8 @@ xNavigation Section
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    top: .6rem;
-    left: -20rem;
+    top: .5rem;
+    left: -13rem;
   }
 }
 @media screen and (min-width: 64rem) {
@@ -370,7 +382,7 @@ xNavigation Section
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     left: auto;
-    top: 16rem;
+    top: 17rem;
   }
   .sidebar::before, .sidebar::after {
     display: none;
@@ -378,7 +390,8 @@ xNavigation Section
   .sidebar .wrapper {
     display: block;
     top: 0rem;
-    right: 0rem;
+    right: -1.5rem;
+    left: auto;
   }
   .sidebar h3 {
     margin: -1.6rem auto .8rem auto;

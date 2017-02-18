@@ -3,24 +3,24 @@ xNavigation Section
 -------------------------------- */
 .sidebar {
   position: absolute;
-  top: 6.1rem;
-  left: 26rem;
+  top: 4.5rem;
+  left: 18rem;
   height: .5rem;
-  width: 2.3rem;
+  width: 2rem;
   background: $background-neutral-color;
   @include transform(rotate(-7deg));
   &::before, &::after {
     position: absolute;
     content: " ";
-    height: .8rem;
+    height: .6rem;
     width: inherit;
     background: inherit;
-    top: .5rem;
-    border-top: solid $primary-color .3rem;
+    top: .4rem;
+    border-top: solid $primary-color .2rem;
     z-index: -2;
   }
   &::before {
-    top: 1.3rem;
+    top: 1rem;
   }
   .wrapper {
     position: absolute;
@@ -30,8 +30,8 @@ xNavigation Section
     background: $background-neutral-color;
     border: solid .15rem $secondary-color;
     border-radius: 1rem;
-    top: -1.2rem;
-    left: -23.5rem;
+    top: -.5rem;
+    left: -19rem;
     padding: .8rem;
     @include transform(rotate(7deg));
     transform-style: preserve-3d;
@@ -48,16 +48,16 @@ xNavigation Section
       background: inherit;
       @include transform(translateZ(-1em));
     }
-    
+
     div {
       margin: 0 0 2.5rem 0;
     }
   }
-  
+
   &:hover .wrapper {
     display: block;
   }
-  
+
   h3 {
     width: 11rem;
     text-align: center;
@@ -67,7 +67,7 @@ xNavigation Section
     font-family: $primary-font;
     font-size: 1rem;
   }
-  
+
   ul {
     list-style: none;
   }
@@ -77,8 +77,8 @@ xNavigation Section
   .sidebar {
     .wrapper {
       @include transform(rotate(0deg));
-      top: .6rem;
-      left: -20rem;
+      top: .5rem;
+      left: -13rem;
     }
   }
 }
@@ -89,18 +89,19 @@ xNavigation Section
     right: 50px + $l-overall-padding;
     @include transform(rotate(0deg));
     left: auto;
-    top: 16rem;
-        
+    top: 17rem;
+
     &::before, &::after {
       display: none;
     }
-    
+
     .wrapper {
       display: block;
       top: 0rem;
-      right: 0rem;
+      right: -1.5rem;
+      left: auto;
     }
-    
+
     h3 {
       margin: -1.6rem auto .8rem auto;
     }
