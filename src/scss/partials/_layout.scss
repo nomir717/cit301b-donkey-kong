@@ -1,5 +1,6 @@
  .intro {
     overflow: hidden;
+    min-width: 28.5rem;
 
     header {
       position: relative;
@@ -12,6 +13,7 @@
   }
 
   .summary {
+    position: relative;
     width: 100%;
     height: auto;
     padding: 0 $s-overall-padding;
@@ -19,9 +21,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
     margin-top: 0px;
-
+    &::before {
+      @extend %donkey-kong;
+    }
+    &::after {
+      @extend %pauline;
+    }
+    
     p {
       width: 50%;
     }
@@ -31,7 +38,11 @@
     padding: 0 $s-overall-padding;
     margin-top: $platform-space;
     h3 {
-      margin-left: $barrel-space;
+     position: relative;
+     margin-left: $barrel-space;
+      &::after {
+        @extend %barrel;
+      }
     }
     p {
       margin-right: $s-staggered-padding;
@@ -45,7 +56,11 @@
     }
     & > div:nth-of-type(2n + 1) {
       h3 {
+        position: relative;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
+        &::after {
+          @extend %barrel;
+        }
       }
       p{
         margin-left: $s-staggered-padding;
@@ -53,7 +68,11 @@
     }
     & > div:nth-of-type(2n + 0) {
       h3 {
+        position: relative;
         margin-left: $barrel-space;
+        &::after {
+          @extend %barrel;
+        }
       }
       p {
         margin-right: $s-staggered-padding;
@@ -64,7 +83,6 @@
       }
     }
 
-
   }
 
   p+p {
@@ -72,7 +90,15 @@
   }
 
   footer {
+    position: relative;
     text-align: center;
+    margin-top: 30px;
+    &::after {
+      @extend %mario;
+    }
+    @media screen and (min-width: $M) {
+      margin-top: 60px;
+    }
   }
 // media queries
 // @media screen and (min-width: $S) {
@@ -109,7 +135,11 @@
   }
 
   .preamble {
-    padding: 0 calc(#{$l-staggered-padding} + #{$l-overall-padding}) 0 $l-overall-padding;
+    padding: 0 0 0 $l-overall-padding;
+
+    p {
+      margin-right: $l-staggered-padding;
+    }
   }
   .supporting {
     padding: 0 $l-overall-padding;
