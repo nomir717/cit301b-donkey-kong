@@ -1,9 +1,7 @@
 /* --------------------------------
 xTypography Section
 -------------------------------- */
-// fonts
-$primary-font: Verdana, Geneva, sans-serif;
-$secondary-font: Impact, Charcoal, sans-serif;
+
 
 /* --------------------------------
 xGeneral Typography
@@ -60,5 +58,14 @@ a {
   &:hover {
     color: $secondary-color;
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: $M) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
   }
 }
