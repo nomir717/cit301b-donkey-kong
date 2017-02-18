@@ -10,15 +10,10 @@
       right: 2rem;
       margin: 2rem 0 0;
     }
-    &::before {
-      @extend %donkey-kong;
-    }
-    &::after {
-      @extend %pauline;
-    }
   }
 
   .summary {
+    position: relative;
     width: 100%;
     height: auto;
     padding: 0 $s-overall-padding;
@@ -26,9 +21,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
     margin-top: 0px;
-
+    &::before {
+      @extend %donkey-kong;
+    }
+    &::after {
+      @extend %pauline;
+    }
+    
     p {
       width: 50%;
     }
@@ -95,6 +95,9 @@
     margin-top: 30px;
     &::after {
       @extend %mario;
+    }
+    @media screen and (min-width: $M) {
+      margin-top: 60px;
     }
   }
 // media queries

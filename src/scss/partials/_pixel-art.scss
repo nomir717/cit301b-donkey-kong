@@ -1,5 +1,5 @@
 //Set the colors
-$donkey-colors: ($tertiary-light-color, desaturate($tertiary-color, 20%), darken(desaturate($tertiary-color, 25%), 18%), $forground-neutral-color);
+$donkey-colors: ($tertiary-light-color, desaturate($tertiary-color, 20%), darken(desaturate($tertiary-color, 26%), 19%), $forground-neutral-color);
 $pauline-colors: (lighten(desaturate($tertiary-color, 10%), 15%), $forground-neutral-color, lighten($secondary-color, 10%));
 $barrel-colors: ($tertiary-color, $tertiary-light-color, $primary-dark-color);
 $mario-colors: ($tertiary-light-color, darken(saturate($secondary-color, 25%), 8%), $primary-dark-color); //face red blue
@@ -61,33 +61,43 @@ $scale-small: 2;
   height: $scale-small + px;
   background: transparent;
   box-shadow: characterDraw($mario, $mario-colors, $scale-small);
-}
+  @media screen and (min-width: $M) {
+    box-shadow: characterDraw($mario, $mario-colors, $scale);
+    width: $scale + px;
+    height: $scale + px;
+  }}
 
 %donkey-kong {
   content: "";
   position: absolute;
-  top: 20rem;
+  bottom: -1rem;
   left: 1rem;
   width: $scale-small + px;
   height: $scale-small + px;
   background: transparent;
   box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale-small);
   @media screen and (min-width: $M) {
-    top: 46rem;
+    box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale);
+    width: $scale + px;
+    height: $scale + px;
   }
 }
 
 %pauline {
   content: "";
   position: absolute;
-  top: 17rem;
+  bottom: 3rem;
   left: 11rem;
   width: $scale-small + px;
   height: $scale-small + px;
   background: transparent;
   box-shadow: characterDraw($pauline, $pauline-colors, $scale-small);
   @media screen and (min-width: $M) {
-    top: 43rem;
+    bottom: 12rem;
+    left: 27rem;
+    box-shadow: characterDraw($pauline, $pauline-colors, $scale);
+    width: $scale + px;
+    height: $scale + px;
   }
 }
 
