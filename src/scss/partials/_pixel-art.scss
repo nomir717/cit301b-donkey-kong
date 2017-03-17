@@ -73,13 +73,14 @@ $scale-small: .12;
   content: "";
   position: absolute;
   bottom: -1rem;
-  left: 1rem;
+  left: $s-overall-padding;
   width: $scale-small + $pixelFill + rem;
   height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale-small);
   @media screen and (min-width: $M) {
     box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale);
+    left: $l-overall-padding;
     width: $scale + $pixelFill + rem;
     height: $scale + $pixelFill + rem;
   }

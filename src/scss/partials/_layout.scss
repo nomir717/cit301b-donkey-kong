@@ -35,8 +35,12 @@
   }
 
   .preamble {
-    padding: 0 $s-overall-padding;
-    margin-top: $platform-space;
+    position: relative;
+    right: .25rem;
+    width: 100%;  /* desired width */
+    margin: $platform-space auto 0 auto;
+    padding-right: 2rem;
+    
     h3 {
      position: relative;
      margin-left: $barrel-space;
@@ -47,6 +51,38 @@
     p {
       margin-right: $s-staggered-padding;
     }
+    &::before {
+        content: "";
+        position: relative;
+        right: .5rem;
+        display: block;
+
+        background: linear-gradient(
+        135deg, transparent,
+        transparent .6rem,
+        $secondary-color .6rem,
+        $secondary-color .9rem,
+        transparent .9rem),
+        linear-gradient(-135deg, transparent,
+        transparent .6rem,
+        $secondary-color .6rem,
+        $secondary-color .9rem,
+        transparent .9rem),
+        linear-gradient(
+        0deg, $secondary-color,
+        $secondary-color .3rem,
+        transparent .3rem,
+        transparent .8rem,
+        $secondary-color .8rem);
+        background-size: 2rem 1.1rem;
+        background-repeat: repeat-x;
+
+        height: 1.5rem;
+        width: calc(100% + 3rem);
+        margin-bottom: 4%; 	/* initial ratio of 1:1*/
+        transform: rotate(2deg);
+        transform-origin: 0 0;
+    }
   }
   .supporting {
     padding: 0 $s-overall-padding;
@@ -55,6 +91,13 @@
       margin-top: $platform-space;
     }
     & > div:nth-of-type(2n + 1) {
+    
+      position: relative;
+      right: .25rem;
+      width: 100%;  /* desired width */
+      margin: 0 auto;
+      padding-left: 2rem;
+      
       h3 {
         position: relative;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
@@ -66,7 +109,47 @@
         margin-left: $s-staggered-padding;
       }
     }
+    & > div:nth-of-type(2n + 1)::before {
+      content: "";
+      position: relative;
+      left: -2.5rem;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: calc(100% + 3rem);
+      margin-bottom: 4%; 	/* initial ratio of 1:1*/
+      transform: rotate(-2deg);
+      transform-origin: 100% 100%;
+    }
+    
     & > div:nth-of-type(2n + 0) {
+      
+      position: relative;
+      right: .25rem;
+      width: 100%;  /* desired width */
+      margin: 0 auto;
+      padding-right: 2rem;
+
       h3 {
         position: relative;
         margin-left: $barrel-space;
@@ -82,7 +165,9 @@
         text-align: center;
       }
     }
-
+    & > div:nth-of-type(2n + 0)::before {
+      @extend .preamble::before
+    }
   }
 
   p+p {
