@@ -23,19 +23,20 @@ $barrel-height: 9;
 $mario-width: 12;
 $mario-height: 16;
 
-$platform-space: 50px;
-$barrel-space: 40px;
+$pixelFill: .07;
+
+$barrel-space: 2.5rem;
 
 //Scales the size of the character (SCSS)
-$scale: 4;
-$scale-small: 2;
+$scale: .25;
+$scale-small: .12;
 
 //This function takes three colors and placement lists and returns the box-shadow values (SCSS)
 @function characterDraw($placement, $colorArray, $pixelScale: $scale) {
   $draw: null;
 
   @each $x, $y, $color in $placement {
-    $draw: append($draw, unquote($pixelScale*$x + 'px ' + $pixelScale*-$y + 'px ' +  nth($colorArray, $color)), 'comma');
+    $draw: append($draw, unquote($pixelScale*$x + 'rem ' + $pixelScale*-$y + 'rem ' +  nth($colorArray, $color)), 'comma');
   }
 
   @return $draw;
@@ -44,10 +45,10 @@ $scale-small: 2;
 %barrel {
   content: "";
   position: absolute;
-  bottom: $scale-small + px;
+  bottom: $scale-small + rem;
   left: -$barrel-space;
-  width: $scale-small + px;
-  height: $scale-small + px;
+  width: $scale-small + $pixelFill + rem;
+  height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($barrel, $barrel-colors, $scale-small);
 }
@@ -57,29 +58,30 @@ $scale-small: 2;
   position: absolute;
   bottom: 0;
   left: .5rem;
-  width: $scale-small + px;
-  height: $scale-small + px;
+  width: $scale-small + $pixelFill + rem;
+  height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($mario, $mario-colors, $scale-small);
   @media screen and (min-width: $M) {
     box-shadow: characterDraw($mario, $mario-colors, $scale);
-    width: $scale + px;
-    height: $scale + px;
-  }}
+    width: $scale + $pixelFill + rem;
+    height: $scale + $pixelFill + rem;
+  }
+}
 
 %donkey-kong {
   content: "";
   position: absolute;
   bottom: -1rem;
   left: 1rem;
-  width: $scale-small + px;
-  height: $scale-small + px;
+  width: $scale-small + $pixelFill + rem;
+  height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale-small);
   @media screen and (min-width: $M) {
     box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale);
-    width: $scale + px;
-    height: $scale + px;
+    width: $scale + $pixelFill + rem;
+    height: $scale + $pixelFill + rem;
   }
 }
 
@@ -88,16 +90,16 @@ $scale-small: 2;
   position: absolute;
   bottom: 3rem;
   left: 11rem;
-  width: $scale-small + px;
-  height: $scale-small + px;
+  width: $scale-small + $pixelFill + rem;
+  height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($pauline, $pauline-colors, $scale-small);
   @media screen and (min-width: $M) {
     bottom: 12rem;
     left: 27rem;
     box-shadow: characterDraw($pauline, $pauline-colors, $scale);
-    width: $scale + px;
-    height: $scale + px;
+    width: $scale + $pixelFill + rem;
+    height: $scale + $pixelFill + rem;
   }
 }
 
