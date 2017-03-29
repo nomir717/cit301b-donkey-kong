@@ -91,14 +91,14 @@ $scale-small: .12;
   content: "";
   position: absolute;
   bottom: 2.3rem;
-  left: 11rem;
+  left: 9rem;
   width: $scale-small + $pixelFill + rem;
   height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($pauline, $pauline-colors, $scale-small);
   @media screen and (min-width: $M) {
-    bottom: 10rem;
-    left: 27rem;
+    bottom: 8rem;
+    left: 20rem;
     box-shadow: characterDraw($pauline, $pauline-colors, $scale);
     width: $scale + $pixelFill + rem;
     height: $scale + $pixelFill + rem;

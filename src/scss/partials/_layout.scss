@@ -32,6 +32,62 @@
     p {
       width: 50%;
     }
+
+    & > p:last-of-type::before {
+      content: "";
+      position: absolute;
+      bottom: 1rem;
+      left: 9rem;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: 5rem;
+    }
+    
+    & > p:last-of-type::after {
+      content: "";
+      position: absolute;
+      bottom: -1.5rem;
+      left: 12.1rem;
+      display: block;
+    
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+    
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+
+      height: 5rem;
+      width: 1.3rem;
+    }
   }
 
   .preamble {
@@ -287,6 +343,18 @@
     }
     p+p {
       margin-top: .63rem;
+    }
+    
+    & > p:last-of-type::before {
+      bottom: 6.8rem;
+      left: 19rem;
+      width: 12rem;
+    }
+    
+    & > p:last-of-type::after {
+      bottom: -2rem;
+      left: 28rem;
+      height: 11.5rem;
     }
   }
 
