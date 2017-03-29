@@ -289,7 +289,7 @@ footer::before {
   position: absolute;
   right: 4.5rem;
   bottom: 0;
-  height: calc(100% - 2.5rem);
+  height: calc(100% - 0.4rem);
   display: block;
   background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
   background-size: 1.3rem .8rem;
@@ -338,7 +338,7 @@ footer::before {
   position: absolute;
   left: 1rem;
   bottom: 0;
-  height: calc(100% - 2.5rem);
+  height: calc(100% - 0.4rem);
   display: block;
   background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
   background-size: 1.3rem .8rem;
@@ -368,8 +368,8 @@ footer::before {
   right: 1rem;
 }
 .supporting > div:last-of-type::after {
-  height: calc(100% + 2.25rem);
-  bottom: -4.75rem;
+  height: calc(100% + 2.4rem);
+  bottom: -2.8em;
 }
 
 p + p {
@@ -432,6 +432,10 @@ footer::after {
     margin-right: 10%;
   }
 
+  .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
+    height: calc(100% - 1.7rem);
+  }
+
   .supporting {
     padding: 0 3.13rem;
   }
@@ -447,8 +451,34 @@ footer::after {
   .supporting > div:nth-of-type(2n + 0) p {
     margin-right: 10%;
   }
+  .supporting > div:nth-of-type(2n + 1)::after {
+    height: calc(100% - 1.7rem);
+  }
+  .supporting > div:nth-of-type(2n + 0)::after {
+    height: calc(100% - 1.7rem);
+  }
+  .supporting > div:last-of-type::after {
+    height: calc(100% + 3.2rem);
+    bottom: -4.75rem;
+  }
   .supporting [role="contentinfo"] {
     margin: 1rem 0 0 0;
+  }
+}
+@media screen and (min-width: 100rem) {
+  .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
+    height: calc(100% - 2.6rem);
+  }
+
+  .supporting > div:nth-of-type(2n + 1)::after {
+    height: calc(100% - 2.6rem);
+  }
+  .supporting > div:nth-of-type(2n + 0)::after {
+    height: calc(100% - 2.6rem);
+  }
+  .supporting > div:last-of-type::after {
+    height: calc(100% + 2.1rem);
+    bottom: -4.75rem;
   }
 }
 /* --------------------------------

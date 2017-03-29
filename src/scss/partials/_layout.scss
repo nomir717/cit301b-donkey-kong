@@ -144,7 +144,7 @@
       position: absolute;
       right: 4.5rem;
       bottom: 0;
-      height: calc(100% - 2.5rem);
+      height: calc(100% - #{$s-ladder});
       display: block;
     
       background: linear-gradient(
@@ -225,7 +225,7 @@
       position: absolute;
       left: 1rem;
       bottom: 0;
-      height: calc(100% - 2.5rem);
+      height: calc(100% - #{$s-ladder});
       display: block;
       
       background: linear-gradient(
@@ -276,8 +276,8 @@
     }
     & > div:last-of-type::after {
       @extend .preamble::after;
-      height: calc(100% + 2.25rem);
-      bottom: -4.75rem;
+      height: calc(100% + 2.4rem);
+      bottom: -2.8em;
     }
   }
 
@@ -365,6 +365,13 @@
       margin-right: $l-staggered-padding;
     }
   }
+  
+  .preamble {
+    &::after{
+      height: calc(100% - #{$m-ladder});
+    }
+  }
+  
   .supporting {
     padding: 0 $l-overall-padding;
 
@@ -384,10 +391,46 @@
         margin-right: $l-staggered-padding;
       }
     }
+
+    & > div:nth-of-type(2n + 1)::after  {
+      height: calc(100% - #{$m-ladder});
+    }
+      
+    & > div:nth-of-type(2n + 0)::after  {
+      height: calc(100% - #{$m-ladder});
+    }
+      
+    & > div:last-of-type::after {
+      height: calc(100% + 3.2rem);
+      bottom: -4.75rem;
+    }
     
     [role="contentinfo"] {
       margin: $platform-space 0 0 0;
     }
   }
 
+}
+
+@media screen and (min-width: $L) {
+  .preamble {
+    &::after{
+      height: calc(100% - #{$l-ladder});
+    }
+  }
+  
+  .supporting {
+    & > div:nth-of-type(2n + 1)::after  {
+      height: calc(100% - #{$l-ladder});
+    }
+      
+    & > div:nth-of-type(2n + 0)::after  {
+      height: calc(100% - #{$l-ladder});
+    }
+      
+    & > div:last-of-type::after {
+      height: calc(100% + 2.1rem);
+      bottom: -4.75rem;
+    }
+  }
 }
