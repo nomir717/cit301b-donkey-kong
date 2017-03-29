@@ -140,10 +140,10 @@ a:hover {
   box-shadow: 0.12rem -0.24rem #FF810C, 0.12rem -0.36rem #ffa959, 0.12rem -0.48rem #FF810C, 0.12rem -0.6rem #FF810C, 0.12rem -0.72rem #FF810C, 0.12rem -0.84rem #ffa959, 0.12rem -0.96rem #FF810C, 0.24rem -0.24rem #2428dc, 0.24rem -0.36rem #2428dc, 0.24rem -0.48rem #2428dc, 0.24rem -0.6rem #2428dc, 0.24rem -0.72rem #2428dc, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.36rem -0.12rem #FF810C, 0.36rem -0.24rem #FF810C, 0.36rem -0.36rem #ffa959, 0.36rem -0.48rem #FF810C, 0.36rem -0.6rem #FF810C, 0.36rem -0.72rem #FF810C, 0.36rem -0.84rem #ffa959, 0.36rem -0.96rem #FF810C, 0.36rem -1.08rem #FF810C, 0.48rem -0.12rem #FF810C, 0.48rem -0.24rem #ffa959, 0.48rem -0.36rem #ffa959, 0.48rem -0.48rem #FF810C, 0.48rem -0.6rem #FF810C, 0.48rem -0.72rem #FF810C, 0.48rem -0.84rem #ffa959, 0.48rem -0.96rem #ffa959, 0.48rem -1.08rem #FF810C, 0.6rem -0.12rem #FF810C, 0.6rem -0.24rem #ffa959, 0.6rem -0.36rem #ffa959, 0.6rem -0.48rem #FF810C, 0.6rem -0.6rem #FF810C, 0.6rem -0.72rem #FF810C, 0.6rem -0.84rem #ffa959, 0.6rem -0.96rem #ffa959, 0.6rem -1.08rem #FF810C, 0.72rem -0.12rem #FF810C, 0.72rem -0.24rem #ffa959, 0.72rem -0.36rem #ffa959, 0.72rem -0.48rem #FF810C, 0.72rem -0.6rem #FF810C, 0.72rem -0.72rem #FF810C, 0.72rem -0.84rem #ffa959, 0.72rem -0.96rem #ffa959, 0.72rem -1.08rem #FF810C, 0.84rem -0.12rem #FF810C, 0.84rem -0.24rem #ffa959, 0.84rem -0.36rem #ffa959, 0.84rem -0.48rem #FF810C, 0.84rem -0.6rem #FF810C, 0.84rem -0.72rem #FF810C, 0.84rem -0.84rem #ffa959, 0.84rem -0.96rem #ffa959, 0.84rem -1.08rem #FF810C, 0.96rem -0.12rem #FF810C, 0.96rem -0.24rem #ffa959, 0.96rem -0.36rem #ffa959, 0.96rem -0.48rem #FF810C, 0.96rem -0.6rem #FF810C, 0.96rem -0.72rem #FF810C, 0.96rem -0.84rem #ffa959, 0.96rem -0.96rem #ffa959, 0.96rem -1.08rem #FF810C, 1.08rem -0.12rem #FF810C, 1.08rem -0.24rem #ffa959, 1.08rem -0.36rem #ffa959, 1.08rem -0.48rem #FF810C, 1.08rem -0.6rem #FF810C, 1.08rem -0.72rem #FF810C, 1.08rem -0.84rem #ffa959, 1.08rem -0.96rem #ffa959, 1.08rem -1.08rem #FF810C, 1.2rem -0.12rem #FF810C, 1.2rem -0.24rem #ffa959, 1.2rem -0.36rem #ffa959, 1.2rem -0.48rem #FF810C, 1.2rem -0.6rem #FF810C, 1.2rem -0.72rem #FF810C, 1.2rem -0.84rem #ffa959, 1.2rem -0.96rem #ffa959, 1.2rem -1.08rem #FF810C, 1.32rem -0.12rem #FF810C, 1.32rem -0.24rem #ffa959, 1.32rem -0.36rem #ffa959, 1.32rem -0.48rem #FF810C, 1.32rem -0.6rem #FF810C, 1.32rem -0.72rem #FF810C, 1.32rem -0.84rem #ffa959, 1.32rem -0.96rem #ffa959, 1.32rem -1.08rem #FF810C, 1.44rem -0.12rem #FF810C, 1.44rem -0.24rem #ffa959, 1.44rem -0.36rem #ffa959, 1.44rem -0.48rem #FF810C, 1.44rem -0.6rem #FF810C, 1.44rem -0.72rem #FF810C, 1.44rem -0.84rem #ffa959, 1.44rem -0.96rem #ffa959, 1.44rem -1.08rem #FF810C, 1.56rem -0.12rem #FF810C, 1.56rem -0.24rem #FF810C, 1.56rem -0.36rem #ffa959, 1.56rem -0.48rem #FF810C, 1.56rem -0.6rem #FF810C, 1.56rem -0.72rem #FF810C, 1.56rem -0.84rem #ffa959, 1.56rem -0.96rem #FF810C, 1.56rem -1.08rem #FF810C, 1.68rem -0.24rem #2428dc, 1.68rem -0.36rem #2428dc, 1.68rem -0.48rem #2428dc, 1.68rem -0.6rem #2428dc, 1.68rem -0.72rem #2428dc, 1.68rem -0.84rem #2428dc, 1.68rem -0.96rem #2428dc, 1.8rem -0.24rem #FF810C, 1.8rem -0.36rem #ffa959, 1.8rem -0.48rem #FF810C, 1.8rem -0.6rem #FF810C, 1.8rem -0.72rem #FF810C, 1.8rem -0.84rem #ffa959, 1.8rem -0.96rem #FF810C;
 }
 
-footer::after {
+footer::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 1.25rem;
   left: .5rem;
   width: 0.19rem;
   height: 0.19rem;
@@ -151,7 +151,7 @@ footer::after {
   box-shadow: 0.12rem -0.12rem #2428dc, 0.12rem -0.48rem #ffa959, 0.12rem -0.6rem #ffa959, 0.12rem -0.72rem #ffa959, 0.12rem -0.84rem #2428dc, 0.24rem -0.12rem #2428dc, 0.24rem -0.24rem #2428dc, 0.24rem -0.48rem #ffa959, 0.24rem -0.6rem #ffa959, 0.24rem -0.72rem #ffa959, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.24rem -1.32rem #2428dc, 0.24rem -1.44rem #2428dc, 0.24rem -1.56rem #2428dc, 0.36rem -0.12rem #2428dc, 0.36rem -0.24rem #2428dc, 0.36rem -0.36rem #ff1644, 0.36rem -0.48rem #ff1644, 0.36rem -0.6rem #ffa959, 0.36rem -0.72rem #2428dc, 0.36rem -0.84rem #2428dc, 0.36rem -0.96rem #2428dc, 0.36rem -1.08rem #2428dc, 0.36rem -1.32rem #2428dc, 0.36rem -1.44rem #ffa959, 0.36rem -1.56rem #ffa959, 0.36rem -1.68rem #2428dc, 0.36rem -1.8rem #ff1644, 0.48rem -0.12rem #2428dc, 0.48rem -0.24rem #2428dc, 0.48rem -0.36rem #ff1644, 0.48rem -0.48rem #ff1644, 0.48rem -0.6rem #ff1644, 0.48rem -0.72rem #ff1644, 0.48rem -0.84rem #2428dc, 0.48rem -0.96rem #2428dc, 0.48rem -1.08rem #2428dc, 0.48rem -1.2rem #ffa959, 0.48rem -1.32rem #ffa959, 0.48rem -1.44rem #2428dc, 0.48rem -1.56rem #2428dc, 0.48rem -1.68rem #2428dc, 0.48rem -1.8rem #ff1644, 0.48rem -1.92rem #ff1644, 0.6rem -0.36rem #ff1644, 0.6rem -0.48rem #ff1644, 0.6rem -0.6rem #ff1644, 0.6rem -0.72rem #ffa959, 0.6rem -0.84rem #ff1644, 0.6rem -0.96rem #ff1644, 0.6rem -1.08rem #ff1644, 0.6rem -1.2rem #ffa959, 0.6rem -1.32rem #ffa959, 0.6rem -1.44rem #2428dc, 0.6rem -1.56rem #ffa959, 0.6rem -1.68rem #2428dc, 0.6rem -1.8rem #ff1644, 0.6rem -1.92rem #ff1644, 0.72rem -0.48rem #ff1644, 0.72rem -0.6rem #ff1644, 0.72rem -0.72rem #ff1644, 0.72rem -0.84rem #ff1644, 0.72rem -0.96rem #2428dc, 0.72rem -1.08rem #2428dc, 0.72rem -1.2rem #ffa959, 0.72rem -1.32rem #ffa959, 0.72rem -1.44rem #ffa959, 0.72rem -1.56rem #ffa959, 0.72rem -1.68rem #ffa959, 0.72rem -1.8rem #ff1644, 0.72rem -1.92rem #ff1644, 0.84rem -0.48rem #ff1644, 0.84rem -0.6rem #ff1644, 0.84rem -0.72rem #ff1644, 0.84rem -0.84rem #ff1644, 0.84rem -0.96rem #2428dc, 0.84rem -1.08rem #2428dc, 0.84rem -1.2rem #ffa959, 0.84rem -1.32rem #ffa959, 0.84rem -1.44rem #ffa959, 0.84rem -1.56rem #ffa959, 0.84rem -1.68rem #ffa959, 0.84rem -1.8rem #ff1644, 0.84rem -1.92rem #ff1644, 0.96rem -0.36rem #ff1644, 0.96rem -0.48rem #ff1644, 0.96rem -0.6rem #ff1644, 0.96rem -0.72rem #ffa959, 0.96rem -0.84rem #ff1644, 0.96rem -0.96rem #ff1644, 0.96rem -1.08rem #2428dc, 0.96rem -1.2rem #ffa959, 0.96rem -1.32rem #2428dc, 0.96rem -1.44rem #ffa959, 0.96rem -1.56rem #2428dc, 0.96rem -1.68rem #2428dc, 0.96rem -1.8rem #ff1644, 0.96rem -1.92rem #ff1644, 1.08rem -0.12rem #2428dc, 1.08rem -0.24rem #2428dc, 1.08rem -0.36rem #ff1644, 1.08rem -0.48rem #ff1644, 1.08rem -0.6rem #ff1644, 1.08rem -0.72rem #ff1644, 1.08rem -0.84rem #2428dc, 1.08rem -0.96rem #2428dc, 1.08rem -1.2rem #ffa959, 1.08rem -1.32rem #2428dc, 1.08rem -1.44rem #2428dc, 1.08rem -1.56rem #ffa959, 1.08rem -1.68rem #ffa959, 1.08rem -1.8rem #ff1644, 1.2rem -0.12rem #2428dc, 1.2rem -0.24rem #2428dc, 1.2rem -0.36rem #ff1644, 1.2rem -0.48rem #ff1644, 1.2rem -0.6rem #ffa959, 1.2rem -0.72rem #2428dc, 1.2rem -0.84rem #2428dc, 1.2rem -0.96rem #2428dc, 1.2rem -1.2rem #ffa959, 1.2rem -1.32rem #2428dc, 1.2rem -1.44rem #ffa959, 1.2rem -1.56rem #ffa959, 1.2rem -1.8rem #ff1644, 1.32rem -0.12rem #2428dc, 1.32rem -0.24rem #2428dc, 1.32rem -0.48rem #ffa959, 1.32rem -0.6rem #ffa959, 1.32rem -0.72rem #ffa959, 1.32rem -0.84rem #2428dc, 1.32rem -0.96rem #2428dc, 1.32rem -1.32rem #2428dc, 1.32rem -1.44rem #ffa959, 1.32rem -1.56rem #ffa959, 1.32rem -1.8rem #ff1644, 1.44rem -0.12rem #2428dc, 1.44rem -0.48rem #ffa959, 1.44rem -0.6rem #ffa959, 1.44rem -0.72rem #ffa959, 1.44rem -0.84rem #2428dc, 1.44rem -1.44rem #ffa959;
 }
 @media screen and (min-width: 64rem) {
-  footer::after {
+  footer::before {
     box-shadow: 0.25rem -0.25rem #2428dc, 0.25rem -1rem #ffa959, 0.25rem -1.25rem #ffa959, 0.25rem -1.5rem #ffa959, 0.25rem -1.75rem #2428dc, 0.5rem -0.25rem #2428dc, 0.5rem -0.5rem #2428dc, 0.5rem -1rem #ffa959, 0.5rem -1.25rem #ffa959, 0.5rem -1.5rem #ffa959, 0.5rem -1.75rem #2428dc, 0.5rem -2rem #2428dc, 0.5rem -2.75rem #2428dc, 0.5rem -3rem #2428dc, 0.5rem -3.25rem #2428dc, 0.75rem -0.25rem #2428dc, 0.75rem -0.5rem #2428dc, 0.75rem -0.75rem #ff1644, 0.75rem -1rem #ff1644, 0.75rem -1.25rem #ffa959, 0.75rem -1.5rem #2428dc, 0.75rem -1.75rem #2428dc, 0.75rem -2rem #2428dc, 0.75rem -2.25rem #2428dc, 0.75rem -2.75rem #2428dc, 0.75rem -3rem #ffa959, 0.75rem -3.25rem #ffa959, 0.75rem -3.5rem #2428dc, 0.75rem -3.75rem #ff1644, 1rem -0.25rem #2428dc, 1rem -0.5rem #2428dc, 1rem -0.75rem #ff1644, 1rem -1rem #ff1644, 1rem -1.25rem #ff1644, 1rem -1.5rem #ff1644, 1rem -1.75rem #2428dc, 1rem -2rem #2428dc, 1rem -2.25rem #2428dc, 1rem -2.5rem #ffa959, 1rem -2.75rem #ffa959, 1rem -3rem #2428dc, 1rem -3.25rem #2428dc, 1rem -3.5rem #2428dc, 1rem -3.75rem #ff1644, 1rem -4rem #ff1644, 1.25rem -0.75rem #ff1644, 1.25rem -1rem #ff1644, 1.25rem -1.25rem #ff1644, 1.25rem -1.5rem #ffa959, 1.25rem -1.75rem #ff1644, 1.25rem -2rem #ff1644, 1.25rem -2.25rem #ff1644, 1.25rem -2.5rem #ffa959, 1.25rem -2.75rem #ffa959, 1.25rem -3rem #2428dc, 1.25rem -3.25rem #ffa959, 1.25rem -3.5rem #2428dc, 1.25rem -3.75rem #ff1644, 1.25rem -4rem #ff1644, 1.5rem -1rem #ff1644, 1.5rem -1.25rem #ff1644, 1.5rem -1.5rem #ff1644, 1.5rem -1.75rem #ff1644, 1.5rem -2rem #2428dc, 1.5rem -2.25rem #2428dc, 1.5rem -2.5rem #ffa959, 1.5rem -2.75rem #ffa959, 1.5rem -3rem #ffa959, 1.5rem -3.25rem #ffa959, 1.5rem -3.5rem #ffa959, 1.5rem -3.75rem #ff1644, 1.5rem -4rem #ff1644, 1.75rem -1rem #ff1644, 1.75rem -1.25rem #ff1644, 1.75rem -1.5rem #ff1644, 1.75rem -1.75rem #ff1644, 1.75rem -2rem #2428dc, 1.75rem -2.25rem #2428dc, 1.75rem -2.5rem #ffa959, 1.75rem -2.75rem #ffa959, 1.75rem -3rem #ffa959, 1.75rem -3.25rem #ffa959, 1.75rem -3.5rem #ffa959, 1.75rem -3.75rem #ff1644, 1.75rem -4rem #ff1644, 2rem -0.75rem #ff1644, 2rem -1rem #ff1644, 2rem -1.25rem #ff1644, 2rem -1.5rem #ffa959, 2rem -1.75rem #ff1644, 2rem -2rem #ff1644, 2rem -2.25rem #2428dc, 2rem -2.5rem #ffa959, 2rem -2.75rem #2428dc, 2rem -3rem #ffa959, 2rem -3.25rem #2428dc, 2rem -3.5rem #2428dc, 2rem -3.75rem #ff1644, 2rem -4rem #ff1644, 2.25rem -0.25rem #2428dc, 2.25rem -0.5rem #2428dc, 2.25rem -0.75rem #ff1644, 2.25rem -1rem #ff1644, 2.25rem -1.25rem #ff1644, 2.25rem -1.5rem #ff1644, 2.25rem -1.75rem #2428dc, 2.25rem -2rem #2428dc, 2.25rem -2.5rem #ffa959, 2.25rem -2.75rem #2428dc, 2.25rem -3rem #2428dc, 2.25rem -3.25rem #ffa959, 2.25rem -3.5rem #ffa959, 2.25rem -3.75rem #ff1644, 2.5rem -0.25rem #2428dc, 2.5rem -0.5rem #2428dc, 2.5rem -0.75rem #ff1644, 2.5rem -1rem #ff1644, 2.5rem -1.25rem #ffa959, 2.5rem -1.5rem #2428dc, 2.5rem -1.75rem #2428dc, 2.5rem -2rem #2428dc, 2.5rem -2.5rem #ffa959, 2.5rem -2.75rem #2428dc, 2.5rem -3rem #ffa959, 2.5rem -3.25rem #ffa959, 2.5rem -3.75rem #ff1644, 2.75rem -0.25rem #2428dc, 2.75rem -0.5rem #2428dc, 2.75rem -1rem #ffa959, 2.75rem -1.25rem #ffa959, 2.75rem -1.5rem #ffa959, 2.75rem -1.75rem #2428dc, 2.75rem -2rem #2428dc, 2.75rem -2.75rem #2428dc, 2.75rem -3rem #ffa959, 2.75rem -3.25rem #ffa959, 2.75rem -3.75rem #ff1644, 3rem -0.25rem #2428dc, 3rem -1rem #ffa959, 3rem -1.25rem #ffa959, 3rem -1.5rem #ffa959, 3rem -1.75rem #2428dc, 3rem -3rem #ffa959;
     width: 0.32rem;
     height: 0.32rem;
@@ -259,6 +259,18 @@ footer::after {
   transform: rotate(2deg);
   transform-origin: 0 0;
 }
+.preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
+  content: "";
+  position: absolute;
+  right: 4.5rem;
+  bottom: 0;
+  height: calc(100% - 2.5rem);
+  display: block;
+  background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
+  background-size: 1.3rem .8rem;
+  background-repeat: repeat-y;
+  width: 1.3rem;
+}
 
 .supporting {
   padding: 0 0.63rem;
@@ -296,6 +308,18 @@ footer::after {
   transform: rotate(-2deg);
   transform-origin: 100% 100%;
 }
+.supporting > div:nth-of-type(2n + 1)::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+  height: calc(100% - 2.5rem);
+  display: block;
+  background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
+  background-size: 1.3rem .8rem;
+  background-repeat: repeat-y;
+  width: 1.3rem;
+}
 .supporting > div:nth-of-type(2n + 0) {
   position: relative;
   right: .25rem;
@@ -315,6 +339,13 @@ footer::after {
   margin: 0.2rem 0 0;
   text-align: center;
 }
+.supporting > div:nth-of-type(2n + 0)::after {
+  right: 1rem;
+}
+.supporting > div:last-of-type::after {
+  height: calc(100% + 2.25rem);
+  bottom: -4.75rem;
+}
 
 p + p {
   margin-top: .63rem;
@@ -329,6 +360,17 @@ footer {
   footer {
     margin-top: 3.75rem;
   }
+}
+footer::after {
+  content: "";
+  position: relative;
+  left: 0;
+  display: block;
+  background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
+  background-size: 2rem 1.1rem;
+  background-repeat: repeat-x;
+  height: 1.5rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 64rem) {
@@ -349,7 +391,7 @@ footer {
   }
 
   .preamble {
-    padding: 0 0 0 3.13rem;
+    padding: 0 4.5rem 0 3.13rem;
   }
   .preamble p {
     margin-right: 10%;

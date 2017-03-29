@@ -1,4 +1,4 @@
- .intro {
+  .intro {
     overflow: hidden;
     min-width: 28.5rem;
 
@@ -83,6 +83,29 @@
         transform: rotate(2deg);
         transform-origin: 0 0;
     }
+    &::after {
+      content: "";
+      position: absolute;
+      right: 4.5rem;
+      bottom: 0;
+      height: calc(100% - 2.5rem);
+      display: block;
+    
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+    
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+      width: 1.3rem;
+    }
   }
   .supporting {
     padding: 0 $s-overall-padding;
@@ -141,6 +164,29 @@
       transform: rotate(-2deg);
       transform-origin: 100% 100%;
     }
+    & > div:nth-of-type(2n + 1)::after {
+      content: "";
+      position: absolute;
+      left: 1rem;
+      bottom: 0;
+      height: calc(100% - 2.5rem);
+      display: block;
+      
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+      
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+      width: 1.3rem;
+    }
     
     & > div:nth-of-type(2n + 0) {
       
@@ -166,7 +212,16 @@
       }
     }
     & > div:nth-of-type(2n + 0)::before {
-      @extend .preamble::before
+      @extend .preamble::before;
+    }
+    & > div:nth-of-type(2n + 0)::after {
+      @extend .preamble::after;
+      right: 1rem;
+    }
+    & > div:last-of-type::after {
+      @extend .preamble::after;
+      height: calc(100% + 2.25rem);
+      bottom: -4.75rem;
     }
   }
 
@@ -178,12 +233,43 @@
     position: relative;
     text-align: center;
     margin-top: 1.88rem;
-    &::after {
+    &::before {
       @extend %mario;
     }
     @media screen and (min-width: $M) {
       margin-top: 3.75rem;
     }
+    
+    &::after {
+      content: "";
+      position: relative;
+      left: 0;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: 100%;
+    }
+
   }
 
 @media screen and (min-width: $M) {
@@ -205,7 +291,7 @@
   }
 
   .preamble {
-    padding: 0 0 0 $l-overall-padding;
+    padding: 0 4.5rem 0 $l-overall-padding;
 
     p {
       margin-right: $l-staggered-padding;

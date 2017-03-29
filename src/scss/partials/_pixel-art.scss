@@ -56,7 +56,7 @@ $scale-small: .12;
 %mario {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 1.25rem;
   left: .5rem;
   width: $scale-small + $pixelFill + rem;
   height: $scale-small + $pixelFill + rem;
