@@ -39,7 +39,7 @@
     right: .25rem;
     width: 100%;  /* desired width */
     margin: $platform-space auto 0 auto;
-    padding-right: 2rem;
+    padding: 0 4.5rem 0 $s-overall-padding;
     
     h3 {
      position: relative;
@@ -207,7 +207,7 @@
         margin-right: $s-staggered-padding;
       }
       [role="contentinfo"] {
-        margin: $platform-space 0 0;
+        margin: $platform-space $s-staggered-padding 0 0;
         text-align: center;
       }
     }
@@ -316,7 +316,10 @@
         margin-right: $l-staggered-padding;
       }
     }
-
+    
+    [role="contentinfo"] {
+      margin: $platform-space 0 0 0;
+    }
   }
 
 }

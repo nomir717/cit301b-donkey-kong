@@ -72,7 +72,7 @@ $scale-small: .12;
 %donkey-kong {
   content: "";
   position: absolute;
-  bottom: -1rem;
+  bottom: -1.4rem;
   left: $s-overall-padding;
   width: $scale-small + $pixelFill + rem;
   height: $scale-small + $pixelFill + rem;
@@ -80,6 +80,7 @@ $scale-small: .12;
   box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale-small);
   @media screen and (min-width: $M) {
     box-shadow: characterDraw($donkey-kong, $donkey-colors, $scale);
+    bottom: -1.83rem;
     left: $l-overall-padding;
     width: $scale + $pixelFill + rem;
     height: $scale + $pixelFill + rem;
@@ -89,14 +90,14 @@ $scale-small: .12;
 %pauline {
   content: "";
   position: absolute;
-  bottom: 3rem;
+  bottom: 2.3rem;
   left: 11rem;
   width: $scale-small + $pixelFill + rem;
   height: $scale-small + $pixelFill + rem;
   background: transparent;
   box-shadow: characterDraw($pauline, $pauline-colors, $scale-small);
   @media screen and (min-width: $M) {
-    bottom: 12rem;
+    bottom: 10rem;
     left: 27rem;
     box-shadow: characterDraw($pauline, $pauline-colors, $scale);
     width: $scale + $pixelFill + rem;
