@@ -195,6 +195,52 @@ footer {
   @media screen and (min-width: 64rem) {
     footer {
       margin-top: 60px; } }
+  footer a {
+    display: inline-block;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    padding: 40px 0 0 0;
+    margin: 0 0.5em;
+    position: relative; }
+  footer a:hover, footer a:focus {
+    text-decoration: none; }
+  footer a::before {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    overflow: visible;
+    font-size: 36px;
+    text-indent: 0;
+    /* icomoon.io defaults */
+    font-family: 'verdemoderna';
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased; }
+  footer a.zen-validate-html::before {
+    content: "5"; }
+  footer a.zen-validate-html:hover::before, footer a.zen-validate-html:focus::before {
+    content: "%"; }
+  footer a.zen-validate-css::before {
+    content: "3"; }
+  footer a.zen-validate-css:hover::before, footer a.zen-validate-css:focus::before {
+    content: "#"; }
+  footer a.zen-license::before {
+    content: "c"; }
+  footer a.zen-license:hover::before, footer a.zen-license:focus::before {
+    content: "C"; }
+  footer a.zen-accessibility::before {
+    content: "a"; }
+  footer a.zen-accessibility:hover::before, footer a.zen-accessibility:focus::before {
+    content: "A"; }
+  footer a.zen-github::before {
+    content: "g"; }
+  footer a.zen-github:hover::before, footer a.zen-github:focus::before {
+    content: "G"; }
 
 @media screen and (min-width: 64rem) {
   .summary {
@@ -225,6 +271,13 @@ footer {
       margin-left: 40px; }
     .supporting > div:nth-of-type(2n + 0) p {
       margin-right: 10%; } }
+/* icon fonts */
+@font-face {
+  font-family: 'verdemoderna';
+  src: url("verdemoderna.eot");
+  src: url("verdemoderna.eot?#iefix") format("embedded-opentype"), url("verdemoderna.woff") format("woff"), url("verdemoderna.ttf") format("truetype"), url("verdemoderna.svg#verdemoderna") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* --------------------------------
 xNavigation Section
 -------------------------------- */
