@@ -342,9 +342,9 @@ footer {
   footer a {
     display: inline-block;
     overflow: hidden;
-    width: 36px;
-    height: 36px;
-    padding: 36px 0 0 0;
+    width: 26px;
+    height: 26px;
+    padding: 26px 0 0 0;
     margin: 0 0.5em;
     position: relative;
     color: #ffc38c; }
@@ -383,7 +383,7 @@ footer {
     top: 0;
     left: 0;
     overflow: visible;
-    font-size: 36px;
+    font-size: 26px;
     text-indent: 0;
     /* icomoon.io defaults */
     font-family: 'verdemoderna';
@@ -452,7 +452,14 @@ footer {
       height: calc(100% + 4.3rem);
       bottom: -6rem; }
     .supporting [role="contentinfo"] {
-      margin: 1rem 0 0 0; } }
+      margin: 1rem 0 0 0; }
+
+  footer a {
+    width: 36px;
+    height: 36px;
+    padding: 36px 0 0 0; }
+    footer a::after {
+      font-size: 36px; } }
 @media screen and (min-width: 100rem) {
   .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
     height: calc(100% - 2.6rem); }
