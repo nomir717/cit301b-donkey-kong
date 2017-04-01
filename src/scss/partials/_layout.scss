@@ -326,6 +326,80 @@
       width: 100%;
     }
 
+    & a {
+      display: inline-block;
+      overflow: hidden;
+      width: 36px;
+      height: 36px;
+      padding: 36px 0 0 0;
+      margin: 0 0.5em;
+      position: relative;
+      color: $tertiary-light-color;
+    //   -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+    //   -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+    //   transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+    }
+    & a:hover, & a:focus {
+      color: $tertiary-light-color;
+      text-decoration: none;
+      animation: barrelSpin linear 2s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+      -webkit-animation: barrelSpin linear 2s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-transform-origin: 50% 50%;
+      -moz-animation: barrelSpin linear 2s;
+      -moz-animation-iteration-count: infinite;
+      -moz-transform-origin: 50% 50%;
+      -o-animation: barrelSpin linear 2s;
+      -o-animation-iteration-count: infinite;
+      -o-transform-origin: 50% 50%;
+      -ms-animation: barrelSpin linear 2s;
+      -ms-animation-iteration-count: infinite;
+      -ms-transform-origin: 50% 50%;
+    }
+
+    & a::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $tertiary-color;
+    }
+
+    & a::after {
+      text-align: center;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: visible;
+      font-size: 36px;
+      text-indent: 0;
+
+      /* icomoon.io defaults */
+      font-family: 'verdemoderna';
+      speak: none;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+    }
+      & a.zen-validate-html::after {content: "5";}
+      // & a.zen-validate-html:hover::after, & a.zen-validate-html:focus::after {content: "%";}
+      & a.zen-validate-css::after {content: "3";}
+      // & a.zen-validate-css:hover::after, & a.zen-validate-css:focus::after {content: "#";}
+      & a.zen-license::after {content: "c";}
+      // & a.zen-license:hover::after, & a.zen-license:focus::after {content: "C";}
+      & a.zen-accessibility::after {content: "a";}
+      // & a.zen-accessibility:hover::after, & a.zen-accessibility:focus::after {content: "A";}
+      & a.zen-github::after {content: "g";}
+      // & a.zen-github:hover::after, & a.zen-github:focus::after {content: "G";}
   }
 
 @media screen and (min-width: $M) {
@@ -432,5 +506,62 @@
       height: calc(100% + 2.1rem);
       bottom: -4.75rem;
     }
+  }
+}
+ 
+/* icon fonts */
+@font-face {
+  font-family: 'verdemoderna';
+  src:url('verdemoderna.eot');
+  src:url('verdemoderna.eot?#iefix') format('embedded-opentype'),
+    url('verdemoderna.woff') format('woff'),
+    url('verdemoderna.ttf') format('truetype'),
+    url('verdemoderna.svg#verdemoderna') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes barrelSpin{
+  0% {
+    transform: rotate(0deg) ;
+  }
+  100% {
+    transform: rotate(-360deg) ;
+  }
+}
+
+@-moz-keyframes barrelSpin{
+  0% {
+    -moz-transform: rotate(0deg) ;
+  }
+  100% {
+    -moz-transform: rotate(-360deg) ;
+  }
+}
+
+@-webkit-keyframes barrelSpin {
+  0% {
+    -webkit-transform: rotate(0deg) ;
+  }
+  100% {
+    -webkit-transform: rotate(-360deg) ;
+  }
+}
+
+@-o-keyframes barrelSpin {
+  0% {
+    -o-transform: rotate(0deg) ;
+  }
+  100% {
+    -o-transform: rotate(-360deg) ;
+  }
+}
+
+@-ms-keyframes barrelSpin {
+  0% {
+    -ms-transform: rotate(360deg) ;
+  }
+  100% {
+    -ms-transform: rotate(180deg) ;
   }
 }
