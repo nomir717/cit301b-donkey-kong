@@ -22,27 +22,22 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /*Basic reset used*/
 *,
@@ -50,29 +45,24 @@ table {
 *:after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 html {
-  font-size: 100%;
-}
+  font-size: 100%; }
 
 body {
   /* this is the page background */
   background-color: #000000;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 /* --------------------------------
 xGeneral Typography
 -------------------------------- */
 body {
-  font-family: Verdana, Geneva, sans-serif;
-}
+  font-family: Verdana, Geneva, sans-serif; }
 
 h1, h2, h3 {
-  font-family: Anton, Impact, Haettenschweiler, sans-serif;
-}
+  font-family: Anton, Impact, Haettenschweiler, sans-serif; }
 
 h1 {
   font-size: 4rem;
@@ -83,8 +73,7 @@ h1 {
   color: #000000;
   background-color: #4dcbde;
   padding: 1.6rem .8rem .4rem 2.4rem;
-  letter-spacing: .1rem;
-}
+  letter-spacing: .1rem; }
 
 h2 {
   font-size: 2rem;
@@ -94,41 +83,33 @@ h2 {
   text-shadow: -0.1rem 0.1rem #000000;
   background-color: #4dcbde;
   padding: .4rem .8rem .4rem 2.4rem;
-  letter-spacing: .1rem;
-}
+  letter-spacing: .1rem; }
 
 h3 {
   font-size: 1.3rem;
   color: #FFFFFF;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: .05rem;
-}
+  letter-spacing: .05rem; }
 
 p {
   font-size: 1.1rem;
   line-height: 1.4;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 a {
   color: #4dcbde;
-  text-decoration: none;
-}
-a:hover {
-  color: #EC5270;
-  text-decoration: underline;
-}
+  text-decoration: none; }
+  a:hover {
+    color: #EC5270;
+    text-decoration: underline; }
 
 @media screen and (max-width: 64rem) {
   h1 {
-    font-size: 3rem;
-  }
+    font-size: 3rem; }
 
   h2 {
-    font-size: 1.5rem;
-  }
-}
+    font-size: 1.5rem; } }
 .preamble h3::after, .supporting > div:nth-of-type(2n + 1) h3::after, .supporting > div:nth-of-type(2n + 0) h3::after {
   content: "";
   position: absolute;
@@ -137,8 +118,7 @@ a:hover {
   width: 0.19rem;
   height: 0.19rem;
   background: transparent;
-  box-shadow: 0.12rem -0.24rem #FF810C, 0.12rem -0.36rem #ffa959, 0.12rem -0.48rem #FF810C, 0.12rem -0.6rem #FF810C, 0.12rem -0.72rem #FF810C, 0.12rem -0.84rem #ffa959, 0.12rem -0.96rem #FF810C, 0.24rem -0.24rem #2428dc, 0.24rem -0.36rem #2428dc, 0.24rem -0.48rem #2428dc, 0.24rem -0.6rem #2428dc, 0.24rem -0.72rem #2428dc, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.36rem -0.12rem #FF810C, 0.36rem -0.24rem #FF810C, 0.36rem -0.36rem #ffa959, 0.36rem -0.48rem #FF810C, 0.36rem -0.6rem #FF810C, 0.36rem -0.72rem #FF810C, 0.36rem -0.84rem #ffa959, 0.36rem -0.96rem #FF810C, 0.36rem -1.08rem #FF810C, 0.48rem -0.12rem #FF810C, 0.48rem -0.24rem #ffa959, 0.48rem -0.36rem #ffa959, 0.48rem -0.48rem #FF810C, 0.48rem -0.6rem #FF810C, 0.48rem -0.72rem #FF810C, 0.48rem -0.84rem #ffa959, 0.48rem -0.96rem #ffa959, 0.48rem -1.08rem #FF810C, 0.6rem -0.12rem #FF810C, 0.6rem -0.24rem #ffa959, 0.6rem -0.36rem #ffa959, 0.6rem -0.48rem #FF810C, 0.6rem -0.6rem #FF810C, 0.6rem -0.72rem #FF810C, 0.6rem -0.84rem #ffa959, 0.6rem -0.96rem #ffa959, 0.6rem -1.08rem #FF810C, 0.72rem -0.12rem #FF810C, 0.72rem -0.24rem #ffa959, 0.72rem -0.36rem #ffa959, 0.72rem -0.48rem #FF810C, 0.72rem -0.6rem #FF810C, 0.72rem -0.72rem #FF810C, 0.72rem -0.84rem #ffa959, 0.72rem -0.96rem #ffa959, 0.72rem -1.08rem #FF810C, 0.84rem -0.12rem #FF810C, 0.84rem -0.24rem #ffa959, 0.84rem -0.36rem #ffa959, 0.84rem -0.48rem #FF810C, 0.84rem -0.6rem #FF810C, 0.84rem -0.72rem #FF810C, 0.84rem -0.84rem #ffa959, 0.84rem -0.96rem #ffa959, 0.84rem -1.08rem #FF810C, 0.96rem -0.12rem #FF810C, 0.96rem -0.24rem #ffa959, 0.96rem -0.36rem #ffa959, 0.96rem -0.48rem #FF810C, 0.96rem -0.6rem #FF810C, 0.96rem -0.72rem #FF810C, 0.96rem -0.84rem #ffa959, 0.96rem -0.96rem #ffa959, 0.96rem -1.08rem #FF810C, 1.08rem -0.12rem #FF810C, 1.08rem -0.24rem #ffa959, 1.08rem -0.36rem #ffa959, 1.08rem -0.48rem #FF810C, 1.08rem -0.6rem #FF810C, 1.08rem -0.72rem #FF810C, 1.08rem -0.84rem #ffa959, 1.08rem -0.96rem #ffa959, 1.08rem -1.08rem #FF810C, 1.2rem -0.12rem #FF810C, 1.2rem -0.24rem #ffa959, 1.2rem -0.36rem #ffa959, 1.2rem -0.48rem #FF810C, 1.2rem -0.6rem #FF810C, 1.2rem -0.72rem #FF810C, 1.2rem -0.84rem #ffa959, 1.2rem -0.96rem #ffa959, 1.2rem -1.08rem #FF810C, 1.32rem -0.12rem #FF810C, 1.32rem -0.24rem #ffa959, 1.32rem -0.36rem #ffa959, 1.32rem -0.48rem #FF810C, 1.32rem -0.6rem #FF810C, 1.32rem -0.72rem #FF810C, 1.32rem -0.84rem #ffa959, 1.32rem -0.96rem #ffa959, 1.32rem -1.08rem #FF810C, 1.44rem -0.12rem #FF810C, 1.44rem -0.24rem #ffa959, 1.44rem -0.36rem #ffa959, 1.44rem -0.48rem #FF810C, 1.44rem -0.6rem #FF810C, 1.44rem -0.72rem #FF810C, 1.44rem -0.84rem #ffa959, 1.44rem -0.96rem #ffa959, 1.44rem -1.08rem #FF810C, 1.56rem -0.12rem #FF810C, 1.56rem -0.24rem #FF810C, 1.56rem -0.36rem #ffa959, 1.56rem -0.48rem #FF810C, 1.56rem -0.6rem #FF810C, 1.56rem -0.72rem #FF810C, 1.56rem -0.84rem #ffa959, 1.56rem -0.96rem #FF810C, 1.56rem -1.08rem #FF810C, 1.68rem -0.24rem #2428dc, 1.68rem -0.36rem #2428dc, 1.68rem -0.48rem #2428dc, 1.68rem -0.6rem #2428dc, 1.68rem -0.72rem #2428dc, 1.68rem -0.84rem #2428dc, 1.68rem -0.96rem #2428dc, 1.8rem -0.24rem #FF810C, 1.8rem -0.36rem #ffa959, 1.8rem -0.48rem #FF810C, 1.8rem -0.6rem #FF810C, 1.8rem -0.72rem #FF810C, 1.8rem -0.84rem #ffa959, 1.8rem -0.96rem #FF810C;
-}
+  box-shadow: 0.12rem -0.24rem #FF810C, 0.12rem -0.36rem #ffa959, 0.12rem -0.48rem #FF810C, 0.12rem -0.6rem #FF810C, 0.12rem -0.72rem #FF810C, 0.12rem -0.84rem #ffa959, 0.12rem -0.96rem #FF810C, 0.24rem -0.24rem #2428dc, 0.24rem -0.36rem #2428dc, 0.24rem -0.48rem #2428dc, 0.24rem -0.6rem #2428dc, 0.24rem -0.72rem #2428dc, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.36rem -0.12rem #FF810C, 0.36rem -0.24rem #FF810C, 0.36rem -0.36rem #ffa959, 0.36rem -0.48rem #FF810C, 0.36rem -0.6rem #FF810C, 0.36rem -0.72rem #FF810C, 0.36rem -0.84rem #ffa959, 0.36rem -0.96rem #FF810C, 0.36rem -1.08rem #FF810C, 0.48rem -0.12rem #FF810C, 0.48rem -0.24rem #ffa959, 0.48rem -0.36rem #ffa959, 0.48rem -0.48rem #FF810C, 0.48rem -0.6rem #FF810C, 0.48rem -0.72rem #FF810C, 0.48rem -0.84rem #ffa959, 0.48rem -0.96rem #ffa959, 0.48rem -1.08rem #FF810C, 0.6rem -0.12rem #FF810C, 0.6rem -0.24rem #ffa959, 0.6rem -0.36rem #ffa959, 0.6rem -0.48rem #FF810C, 0.6rem -0.6rem #FF810C, 0.6rem -0.72rem #FF810C, 0.6rem -0.84rem #ffa959, 0.6rem -0.96rem #ffa959, 0.6rem -1.08rem #FF810C, 0.72rem -0.12rem #FF810C, 0.72rem -0.24rem #ffa959, 0.72rem -0.36rem #ffa959, 0.72rem -0.48rem #FF810C, 0.72rem -0.6rem #FF810C, 0.72rem -0.72rem #FF810C, 0.72rem -0.84rem #ffa959, 0.72rem -0.96rem #ffa959, 0.72rem -1.08rem #FF810C, 0.84rem -0.12rem #FF810C, 0.84rem -0.24rem #ffa959, 0.84rem -0.36rem #ffa959, 0.84rem -0.48rem #FF810C, 0.84rem -0.6rem #FF810C, 0.84rem -0.72rem #FF810C, 0.84rem -0.84rem #ffa959, 0.84rem -0.96rem #ffa959, 0.84rem -1.08rem #FF810C, 0.96rem -0.12rem #FF810C, 0.96rem -0.24rem #ffa959, 0.96rem -0.36rem #ffa959, 0.96rem -0.48rem #FF810C, 0.96rem -0.6rem #FF810C, 0.96rem -0.72rem #FF810C, 0.96rem -0.84rem #ffa959, 0.96rem -0.96rem #ffa959, 0.96rem -1.08rem #FF810C, 1.08rem -0.12rem #FF810C, 1.08rem -0.24rem #ffa959, 1.08rem -0.36rem #ffa959, 1.08rem -0.48rem #FF810C, 1.08rem -0.6rem #FF810C, 1.08rem -0.72rem #FF810C, 1.08rem -0.84rem #ffa959, 1.08rem -0.96rem #ffa959, 1.08rem -1.08rem #FF810C, 1.2rem -0.12rem #FF810C, 1.2rem -0.24rem #ffa959, 1.2rem -0.36rem #ffa959, 1.2rem -0.48rem #FF810C, 1.2rem -0.6rem #FF810C, 1.2rem -0.72rem #FF810C, 1.2rem -0.84rem #ffa959, 1.2rem -0.96rem #ffa959, 1.2rem -1.08rem #FF810C, 1.32rem -0.12rem #FF810C, 1.32rem -0.24rem #ffa959, 1.32rem -0.36rem #ffa959, 1.32rem -0.48rem #FF810C, 1.32rem -0.6rem #FF810C, 1.32rem -0.72rem #FF810C, 1.32rem -0.84rem #ffa959, 1.32rem -0.96rem #ffa959, 1.32rem -1.08rem #FF810C, 1.44rem -0.12rem #FF810C, 1.44rem -0.24rem #ffa959, 1.44rem -0.36rem #ffa959, 1.44rem -0.48rem #FF810C, 1.44rem -0.6rem #FF810C, 1.44rem -0.72rem #FF810C, 1.44rem -0.84rem #ffa959, 1.44rem -0.96rem #ffa959, 1.44rem -1.08rem #FF810C, 1.56rem -0.12rem #FF810C, 1.56rem -0.24rem #FF810C, 1.56rem -0.36rem #ffa959, 1.56rem -0.48rem #FF810C, 1.56rem -0.6rem #FF810C, 1.56rem -0.72rem #FF810C, 1.56rem -0.84rem #ffa959, 1.56rem -0.96rem #FF810C, 1.56rem -1.08rem #FF810C, 1.68rem -0.24rem #2428dc, 1.68rem -0.36rem #2428dc, 1.68rem -0.48rem #2428dc, 1.68rem -0.6rem #2428dc, 1.68rem -0.72rem #2428dc, 1.68rem -0.84rem #2428dc, 1.68rem -0.96rem #2428dc, 1.8rem -0.24rem #FF810C, 1.8rem -0.36rem #ffa959, 1.8rem -0.48rem #FF810C, 1.8rem -0.6rem #FF810C, 1.8rem -0.72rem #FF810C, 1.8rem -0.84rem #ffa959, 1.8rem -0.96rem #FF810C; }
 
 footer::before {
   content: "";
@@ -148,15 +128,12 @@ footer::before {
   width: 0.19rem;
   height: 0.19rem;
   background: transparent;
-  box-shadow: 0.12rem -0.12rem #2428dc, 0.12rem -0.48rem #ffa959, 0.12rem -0.6rem #ffa959, 0.12rem -0.72rem #ffa959, 0.12rem -0.84rem #2428dc, 0.24rem -0.12rem #2428dc, 0.24rem -0.24rem #2428dc, 0.24rem -0.48rem #ffa959, 0.24rem -0.6rem #ffa959, 0.24rem -0.72rem #ffa959, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.24rem -1.32rem #2428dc, 0.24rem -1.44rem #2428dc, 0.24rem -1.56rem #2428dc, 0.36rem -0.12rem #2428dc, 0.36rem -0.24rem #2428dc, 0.36rem -0.36rem #ff1644, 0.36rem -0.48rem #ff1644, 0.36rem -0.6rem #ffa959, 0.36rem -0.72rem #2428dc, 0.36rem -0.84rem #2428dc, 0.36rem -0.96rem #2428dc, 0.36rem -1.08rem #2428dc, 0.36rem -1.32rem #2428dc, 0.36rem -1.44rem #ffa959, 0.36rem -1.56rem #ffa959, 0.36rem -1.68rem #2428dc, 0.36rem -1.8rem #ff1644, 0.48rem -0.12rem #2428dc, 0.48rem -0.24rem #2428dc, 0.48rem -0.36rem #ff1644, 0.48rem -0.48rem #ff1644, 0.48rem -0.6rem #ff1644, 0.48rem -0.72rem #ff1644, 0.48rem -0.84rem #2428dc, 0.48rem -0.96rem #2428dc, 0.48rem -1.08rem #2428dc, 0.48rem -1.2rem #ffa959, 0.48rem -1.32rem #ffa959, 0.48rem -1.44rem #2428dc, 0.48rem -1.56rem #2428dc, 0.48rem -1.68rem #2428dc, 0.48rem -1.8rem #ff1644, 0.48rem -1.92rem #ff1644, 0.6rem -0.36rem #ff1644, 0.6rem -0.48rem #ff1644, 0.6rem -0.6rem #ff1644, 0.6rem -0.72rem #ffa959, 0.6rem -0.84rem #ff1644, 0.6rem -0.96rem #ff1644, 0.6rem -1.08rem #ff1644, 0.6rem -1.2rem #ffa959, 0.6rem -1.32rem #ffa959, 0.6rem -1.44rem #2428dc, 0.6rem -1.56rem #ffa959, 0.6rem -1.68rem #2428dc, 0.6rem -1.8rem #ff1644, 0.6rem -1.92rem #ff1644, 0.72rem -0.48rem #ff1644, 0.72rem -0.6rem #ff1644, 0.72rem -0.72rem #ff1644, 0.72rem -0.84rem #ff1644, 0.72rem -0.96rem #2428dc, 0.72rem -1.08rem #2428dc, 0.72rem -1.2rem #ffa959, 0.72rem -1.32rem #ffa959, 0.72rem -1.44rem #ffa959, 0.72rem -1.56rem #ffa959, 0.72rem -1.68rem #ffa959, 0.72rem -1.8rem #ff1644, 0.72rem -1.92rem #ff1644, 0.84rem -0.48rem #ff1644, 0.84rem -0.6rem #ff1644, 0.84rem -0.72rem #ff1644, 0.84rem -0.84rem #ff1644, 0.84rem -0.96rem #2428dc, 0.84rem -1.08rem #2428dc, 0.84rem -1.2rem #ffa959, 0.84rem -1.32rem #ffa959, 0.84rem -1.44rem #ffa959, 0.84rem -1.56rem #ffa959, 0.84rem -1.68rem #ffa959, 0.84rem -1.8rem #ff1644, 0.84rem -1.92rem #ff1644, 0.96rem -0.36rem #ff1644, 0.96rem -0.48rem #ff1644, 0.96rem -0.6rem #ff1644, 0.96rem -0.72rem #ffa959, 0.96rem -0.84rem #ff1644, 0.96rem -0.96rem #ff1644, 0.96rem -1.08rem #2428dc, 0.96rem -1.2rem #ffa959, 0.96rem -1.32rem #2428dc, 0.96rem -1.44rem #ffa959, 0.96rem -1.56rem #2428dc, 0.96rem -1.68rem #2428dc, 0.96rem -1.8rem #ff1644, 0.96rem -1.92rem #ff1644, 1.08rem -0.12rem #2428dc, 1.08rem -0.24rem #2428dc, 1.08rem -0.36rem #ff1644, 1.08rem -0.48rem #ff1644, 1.08rem -0.6rem #ff1644, 1.08rem -0.72rem #ff1644, 1.08rem -0.84rem #2428dc, 1.08rem -0.96rem #2428dc, 1.08rem -1.2rem #ffa959, 1.08rem -1.32rem #2428dc, 1.08rem -1.44rem #2428dc, 1.08rem -1.56rem #ffa959, 1.08rem -1.68rem #ffa959, 1.08rem -1.8rem #ff1644, 1.2rem -0.12rem #2428dc, 1.2rem -0.24rem #2428dc, 1.2rem -0.36rem #ff1644, 1.2rem -0.48rem #ff1644, 1.2rem -0.6rem #ffa959, 1.2rem -0.72rem #2428dc, 1.2rem -0.84rem #2428dc, 1.2rem -0.96rem #2428dc, 1.2rem -1.2rem #ffa959, 1.2rem -1.32rem #2428dc, 1.2rem -1.44rem #ffa959, 1.2rem -1.56rem #ffa959, 1.2rem -1.8rem #ff1644, 1.32rem -0.12rem #2428dc, 1.32rem -0.24rem #2428dc, 1.32rem -0.48rem #ffa959, 1.32rem -0.6rem #ffa959, 1.32rem -0.72rem #ffa959, 1.32rem -0.84rem #2428dc, 1.32rem -0.96rem #2428dc, 1.32rem -1.32rem #2428dc, 1.32rem -1.44rem #ffa959, 1.32rem -1.56rem #ffa959, 1.32rem -1.8rem #ff1644, 1.44rem -0.12rem #2428dc, 1.44rem -0.48rem #ffa959, 1.44rem -0.6rem #ffa959, 1.44rem -0.72rem #ffa959, 1.44rem -0.84rem #2428dc, 1.44rem -1.44rem #ffa959;
-}
-@media screen and (min-width: 64rem) {
-  footer::before {
-    box-shadow: 0.25rem -0.25rem #2428dc, 0.25rem -1rem #ffa959, 0.25rem -1.25rem #ffa959, 0.25rem -1.5rem #ffa959, 0.25rem -1.75rem #2428dc, 0.5rem -0.25rem #2428dc, 0.5rem -0.5rem #2428dc, 0.5rem -1rem #ffa959, 0.5rem -1.25rem #ffa959, 0.5rem -1.5rem #ffa959, 0.5rem -1.75rem #2428dc, 0.5rem -2rem #2428dc, 0.5rem -2.75rem #2428dc, 0.5rem -3rem #2428dc, 0.5rem -3.25rem #2428dc, 0.75rem -0.25rem #2428dc, 0.75rem -0.5rem #2428dc, 0.75rem -0.75rem #ff1644, 0.75rem -1rem #ff1644, 0.75rem -1.25rem #ffa959, 0.75rem -1.5rem #2428dc, 0.75rem -1.75rem #2428dc, 0.75rem -2rem #2428dc, 0.75rem -2.25rem #2428dc, 0.75rem -2.75rem #2428dc, 0.75rem -3rem #ffa959, 0.75rem -3.25rem #ffa959, 0.75rem -3.5rem #2428dc, 0.75rem -3.75rem #ff1644, 1rem -0.25rem #2428dc, 1rem -0.5rem #2428dc, 1rem -0.75rem #ff1644, 1rem -1rem #ff1644, 1rem -1.25rem #ff1644, 1rem -1.5rem #ff1644, 1rem -1.75rem #2428dc, 1rem -2rem #2428dc, 1rem -2.25rem #2428dc, 1rem -2.5rem #ffa959, 1rem -2.75rem #ffa959, 1rem -3rem #2428dc, 1rem -3.25rem #2428dc, 1rem -3.5rem #2428dc, 1rem -3.75rem #ff1644, 1rem -4rem #ff1644, 1.25rem -0.75rem #ff1644, 1.25rem -1rem #ff1644, 1.25rem -1.25rem #ff1644, 1.25rem -1.5rem #ffa959, 1.25rem -1.75rem #ff1644, 1.25rem -2rem #ff1644, 1.25rem -2.25rem #ff1644, 1.25rem -2.5rem #ffa959, 1.25rem -2.75rem #ffa959, 1.25rem -3rem #2428dc, 1.25rem -3.25rem #ffa959, 1.25rem -3.5rem #2428dc, 1.25rem -3.75rem #ff1644, 1.25rem -4rem #ff1644, 1.5rem -1rem #ff1644, 1.5rem -1.25rem #ff1644, 1.5rem -1.5rem #ff1644, 1.5rem -1.75rem #ff1644, 1.5rem -2rem #2428dc, 1.5rem -2.25rem #2428dc, 1.5rem -2.5rem #ffa959, 1.5rem -2.75rem #ffa959, 1.5rem -3rem #ffa959, 1.5rem -3.25rem #ffa959, 1.5rem -3.5rem #ffa959, 1.5rem -3.75rem #ff1644, 1.5rem -4rem #ff1644, 1.75rem -1rem #ff1644, 1.75rem -1.25rem #ff1644, 1.75rem -1.5rem #ff1644, 1.75rem -1.75rem #ff1644, 1.75rem -2rem #2428dc, 1.75rem -2.25rem #2428dc, 1.75rem -2.5rem #ffa959, 1.75rem -2.75rem #ffa959, 1.75rem -3rem #ffa959, 1.75rem -3.25rem #ffa959, 1.75rem -3.5rem #ffa959, 1.75rem -3.75rem #ff1644, 1.75rem -4rem #ff1644, 2rem -0.75rem #ff1644, 2rem -1rem #ff1644, 2rem -1.25rem #ff1644, 2rem -1.5rem #ffa959, 2rem -1.75rem #ff1644, 2rem -2rem #ff1644, 2rem -2.25rem #2428dc, 2rem -2.5rem #ffa959, 2rem -2.75rem #2428dc, 2rem -3rem #ffa959, 2rem -3.25rem #2428dc, 2rem -3.5rem #2428dc, 2rem -3.75rem #ff1644, 2rem -4rem #ff1644, 2.25rem -0.25rem #2428dc, 2.25rem -0.5rem #2428dc, 2.25rem -0.75rem #ff1644, 2.25rem -1rem #ff1644, 2.25rem -1.25rem #ff1644, 2.25rem -1.5rem #ff1644, 2.25rem -1.75rem #2428dc, 2.25rem -2rem #2428dc, 2.25rem -2.5rem #ffa959, 2.25rem -2.75rem #2428dc, 2.25rem -3rem #2428dc, 2.25rem -3.25rem #ffa959, 2.25rem -3.5rem #ffa959, 2.25rem -3.75rem #ff1644, 2.5rem -0.25rem #2428dc, 2.5rem -0.5rem #2428dc, 2.5rem -0.75rem #ff1644, 2.5rem -1rem #ff1644, 2.5rem -1.25rem #ffa959, 2.5rem -1.5rem #2428dc, 2.5rem -1.75rem #2428dc, 2.5rem -2rem #2428dc, 2.5rem -2.5rem #ffa959, 2.5rem -2.75rem #2428dc, 2.5rem -3rem #ffa959, 2.5rem -3.25rem #ffa959, 2.5rem -3.75rem #ff1644, 2.75rem -0.25rem #2428dc, 2.75rem -0.5rem #2428dc, 2.75rem -1rem #ffa959, 2.75rem -1.25rem #ffa959, 2.75rem -1.5rem #ffa959, 2.75rem -1.75rem #2428dc, 2.75rem -2rem #2428dc, 2.75rem -2.75rem #2428dc, 2.75rem -3rem #ffa959, 2.75rem -3.25rem #ffa959, 2.75rem -3.75rem #ff1644, 3rem -0.25rem #2428dc, 3rem -1rem #ffa959, 3rem -1.25rem #ffa959, 3rem -1.5rem #ffa959, 3rem -1.75rem #2428dc, 3rem -3rem #ffa959;
-    width: 0.32rem;
-    height: 0.32rem;
-  }
-}
+  box-shadow: 0.12rem -0.12rem #2428dc, 0.12rem -0.48rem #ffa959, 0.12rem -0.6rem #ffa959, 0.12rem -0.72rem #ffa959, 0.12rem -0.84rem #2428dc, 0.24rem -0.12rem #2428dc, 0.24rem -0.24rem #2428dc, 0.24rem -0.48rem #ffa959, 0.24rem -0.6rem #ffa959, 0.24rem -0.72rem #ffa959, 0.24rem -0.84rem #2428dc, 0.24rem -0.96rem #2428dc, 0.24rem -1.32rem #2428dc, 0.24rem -1.44rem #2428dc, 0.24rem -1.56rem #2428dc, 0.36rem -0.12rem #2428dc, 0.36rem -0.24rem #2428dc, 0.36rem -0.36rem #ff1644, 0.36rem -0.48rem #ff1644, 0.36rem -0.6rem #ffa959, 0.36rem -0.72rem #2428dc, 0.36rem -0.84rem #2428dc, 0.36rem -0.96rem #2428dc, 0.36rem -1.08rem #2428dc, 0.36rem -1.32rem #2428dc, 0.36rem -1.44rem #ffa959, 0.36rem -1.56rem #ffa959, 0.36rem -1.68rem #2428dc, 0.36rem -1.8rem #ff1644, 0.48rem -0.12rem #2428dc, 0.48rem -0.24rem #2428dc, 0.48rem -0.36rem #ff1644, 0.48rem -0.48rem #ff1644, 0.48rem -0.6rem #ff1644, 0.48rem -0.72rem #ff1644, 0.48rem -0.84rem #2428dc, 0.48rem -0.96rem #2428dc, 0.48rem -1.08rem #2428dc, 0.48rem -1.2rem #ffa959, 0.48rem -1.32rem #ffa959, 0.48rem -1.44rem #2428dc, 0.48rem -1.56rem #2428dc, 0.48rem -1.68rem #2428dc, 0.48rem -1.8rem #ff1644, 0.48rem -1.92rem #ff1644, 0.6rem -0.36rem #ff1644, 0.6rem -0.48rem #ff1644, 0.6rem -0.6rem #ff1644, 0.6rem -0.72rem #ffa959, 0.6rem -0.84rem #ff1644, 0.6rem -0.96rem #ff1644, 0.6rem -1.08rem #ff1644, 0.6rem -1.2rem #ffa959, 0.6rem -1.32rem #ffa959, 0.6rem -1.44rem #2428dc, 0.6rem -1.56rem #ffa959, 0.6rem -1.68rem #2428dc, 0.6rem -1.8rem #ff1644, 0.6rem -1.92rem #ff1644, 0.72rem -0.48rem #ff1644, 0.72rem -0.6rem #ff1644, 0.72rem -0.72rem #ff1644, 0.72rem -0.84rem #ff1644, 0.72rem -0.96rem #2428dc, 0.72rem -1.08rem #2428dc, 0.72rem -1.2rem #ffa959, 0.72rem -1.32rem #ffa959, 0.72rem -1.44rem #ffa959, 0.72rem -1.56rem #ffa959, 0.72rem -1.68rem #ffa959, 0.72rem -1.8rem #ff1644, 0.72rem -1.92rem #ff1644, 0.84rem -0.48rem #ff1644, 0.84rem -0.6rem #ff1644, 0.84rem -0.72rem #ff1644, 0.84rem -0.84rem #ff1644, 0.84rem -0.96rem #2428dc, 0.84rem -1.08rem #2428dc, 0.84rem -1.2rem #ffa959, 0.84rem -1.32rem #ffa959, 0.84rem -1.44rem #ffa959, 0.84rem -1.56rem #ffa959, 0.84rem -1.68rem #ffa959, 0.84rem -1.8rem #ff1644, 0.84rem -1.92rem #ff1644, 0.96rem -0.36rem #ff1644, 0.96rem -0.48rem #ff1644, 0.96rem -0.6rem #ff1644, 0.96rem -0.72rem #ffa959, 0.96rem -0.84rem #ff1644, 0.96rem -0.96rem #ff1644, 0.96rem -1.08rem #2428dc, 0.96rem -1.2rem #ffa959, 0.96rem -1.32rem #2428dc, 0.96rem -1.44rem #ffa959, 0.96rem -1.56rem #2428dc, 0.96rem -1.68rem #2428dc, 0.96rem -1.8rem #ff1644, 0.96rem -1.92rem #ff1644, 1.08rem -0.12rem #2428dc, 1.08rem -0.24rem #2428dc, 1.08rem -0.36rem #ff1644, 1.08rem -0.48rem #ff1644, 1.08rem -0.6rem #ff1644, 1.08rem -0.72rem #ff1644, 1.08rem -0.84rem #2428dc, 1.08rem -0.96rem #2428dc, 1.08rem -1.2rem #ffa959, 1.08rem -1.32rem #2428dc, 1.08rem -1.44rem #2428dc, 1.08rem -1.56rem #ffa959, 1.08rem -1.68rem #ffa959, 1.08rem -1.8rem #ff1644, 1.2rem -0.12rem #2428dc, 1.2rem -0.24rem #2428dc, 1.2rem -0.36rem #ff1644, 1.2rem -0.48rem #ff1644, 1.2rem -0.6rem #ffa959, 1.2rem -0.72rem #2428dc, 1.2rem -0.84rem #2428dc, 1.2rem -0.96rem #2428dc, 1.2rem -1.2rem #ffa959, 1.2rem -1.32rem #2428dc, 1.2rem -1.44rem #ffa959, 1.2rem -1.56rem #ffa959, 1.2rem -1.8rem #ff1644, 1.32rem -0.12rem #2428dc, 1.32rem -0.24rem #2428dc, 1.32rem -0.48rem #ffa959, 1.32rem -0.6rem #ffa959, 1.32rem -0.72rem #ffa959, 1.32rem -0.84rem #2428dc, 1.32rem -0.96rem #2428dc, 1.32rem -1.32rem #2428dc, 1.32rem -1.44rem #ffa959, 1.32rem -1.56rem #ffa959, 1.32rem -1.8rem #ff1644, 1.44rem -0.12rem #2428dc, 1.44rem -0.48rem #ffa959, 1.44rem -0.6rem #ffa959, 1.44rem -0.72rem #ffa959, 1.44rem -0.84rem #2428dc, 1.44rem -1.44rem #ffa959; }
+  @media screen and (min-width: 64rem) {
+    footer::before {
+      box-shadow: 0.25rem -0.25rem #2428dc, 0.25rem -1rem #ffa959, 0.25rem -1.25rem #ffa959, 0.25rem -1.5rem #ffa959, 0.25rem -1.75rem #2428dc, 0.5rem -0.25rem #2428dc, 0.5rem -0.5rem #2428dc, 0.5rem -1rem #ffa959, 0.5rem -1.25rem #ffa959, 0.5rem -1.5rem #ffa959, 0.5rem -1.75rem #2428dc, 0.5rem -2rem #2428dc, 0.5rem -2.75rem #2428dc, 0.5rem -3rem #2428dc, 0.5rem -3.25rem #2428dc, 0.75rem -0.25rem #2428dc, 0.75rem -0.5rem #2428dc, 0.75rem -0.75rem #ff1644, 0.75rem -1rem #ff1644, 0.75rem -1.25rem #ffa959, 0.75rem -1.5rem #2428dc, 0.75rem -1.75rem #2428dc, 0.75rem -2rem #2428dc, 0.75rem -2.25rem #2428dc, 0.75rem -2.75rem #2428dc, 0.75rem -3rem #ffa959, 0.75rem -3.25rem #ffa959, 0.75rem -3.5rem #2428dc, 0.75rem -3.75rem #ff1644, 1rem -0.25rem #2428dc, 1rem -0.5rem #2428dc, 1rem -0.75rem #ff1644, 1rem -1rem #ff1644, 1rem -1.25rem #ff1644, 1rem -1.5rem #ff1644, 1rem -1.75rem #2428dc, 1rem -2rem #2428dc, 1rem -2.25rem #2428dc, 1rem -2.5rem #ffa959, 1rem -2.75rem #ffa959, 1rem -3rem #2428dc, 1rem -3.25rem #2428dc, 1rem -3.5rem #2428dc, 1rem -3.75rem #ff1644, 1rem -4rem #ff1644, 1.25rem -0.75rem #ff1644, 1.25rem -1rem #ff1644, 1.25rem -1.25rem #ff1644, 1.25rem -1.5rem #ffa959, 1.25rem -1.75rem #ff1644, 1.25rem -2rem #ff1644, 1.25rem -2.25rem #ff1644, 1.25rem -2.5rem #ffa959, 1.25rem -2.75rem #ffa959, 1.25rem -3rem #2428dc, 1.25rem -3.25rem #ffa959, 1.25rem -3.5rem #2428dc, 1.25rem -3.75rem #ff1644, 1.25rem -4rem #ff1644, 1.5rem -1rem #ff1644, 1.5rem -1.25rem #ff1644, 1.5rem -1.5rem #ff1644, 1.5rem -1.75rem #ff1644, 1.5rem -2rem #2428dc, 1.5rem -2.25rem #2428dc, 1.5rem -2.5rem #ffa959, 1.5rem -2.75rem #ffa959, 1.5rem -3rem #ffa959, 1.5rem -3.25rem #ffa959, 1.5rem -3.5rem #ffa959, 1.5rem -3.75rem #ff1644, 1.5rem -4rem #ff1644, 1.75rem -1rem #ff1644, 1.75rem -1.25rem #ff1644, 1.75rem -1.5rem #ff1644, 1.75rem -1.75rem #ff1644, 1.75rem -2rem #2428dc, 1.75rem -2.25rem #2428dc, 1.75rem -2.5rem #ffa959, 1.75rem -2.75rem #ffa959, 1.75rem -3rem #ffa959, 1.75rem -3.25rem #ffa959, 1.75rem -3.5rem #ffa959, 1.75rem -3.75rem #ff1644, 1.75rem -4rem #ff1644, 2rem -0.75rem #ff1644, 2rem -1rem #ff1644, 2rem -1.25rem #ff1644, 2rem -1.5rem #ffa959, 2rem -1.75rem #ff1644, 2rem -2rem #ff1644, 2rem -2.25rem #2428dc, 2rem -2.5rem #ffa959, 2rem -2.75rem #2428dc, 2rem -3rem #ffa959, 2rem -3.25rem #2428dc, 2rem -3.5rem #2428dc, 2rem -3.75rem #ff1644, 2rem -4rem #ff1644, 2.25rem -0.25rem #2428dc, 2.25rem -0.5rem #2428dc, 2.25rem -0.75rem #ff1644, 2.25rem -1rem #ff1644, 2.25rem -1.25rem #ff1644, 2.25rem -1.5rem #ff1644, 2.25rem -1.75rem #2428dc, 2.25rem -2rem #2428dc, 2.25rem -2.5rem #ffa959, 2.25rem -2.75rem #2428dc, 2.25rem -3rem #2428dc, 2.25rem -3.25rem #ffa959, 2.25rem -3.5rem #ffa959, 2.25rem -3.75rem #ff1644, 2.5rem -0.25rem #2428dc, 2.5rem -0.5rem #2428dc, 2.5rem -0.75rem #ff1644, 2.5rem -1rem #ff1644, 2.5rem -1.25rem #ffa959, 2.5rem -1.5rem #2428dc, 2.5rem -1.75rem #2428dc, 2.5rem -2rem #2428dc, 2.5rem -2.5rem #ffa959, 2.5rem -2.75rem #2428dc, 2.5rem -3rem #ffa959, 2.5rem -3.25rem #ffa959, 2.5rem -3.75rem #ff1644, 2.75rem -0.25rem #2428dc, 2.75rem -0.5rem #2428dc, 2.75rem -1rem #ffa959, 2.75rem -1.25rem #ffa959, 2.75rem -1.5rem #ffa959, 2.75rem -1.75rem #2428dc, 2.75rem -2rem #2428dc, 2.75rem -2.75rem #2428dc, 2.75rem -3rem #ffa959, 2.75rem -3.25rem #ffa959, 2.75rem -3.75rem #ff1644, 3rem -0.25rem #2428dc, 3rem -1rem #ffa959, 3rem -1.25rem #ffa959, 3rem -1.5rem #ffa959, 3rem -1.75rem #2428dc, 3rem -3rem #ffa959;
+      width: 0.32rem;
+      height: 0.32rem; } }
 
 .summary::before {
   content: "";
@@ -166,17 +143,14 @@ footer::before {
   width: 0.19rem;
   height: 0.19rem;
   background: transparent;
-  box-shadow: 0.12rem -0.36rem #ffa959, 0.12rem -0.48rem #ffa959, 0.24rem -0.36rem #ffa959, 0.24rem -0.48rem #ffa959, 0.24rem -0.6rem #ffa959, 0.36rem -0.36rem #ffa959, 0.36rem -0.48rem #ffa959, 0.36rem -0.6rem #ffa959, 0.48rem -0.36rem #ffa959, 0.48rem -0.48rem #945316, 0.48rem -0.6rem #ffa959, 0.48rem -0.72rem #945316, 0.48rem -2.04rem #945316, 0.48rem -2.16rem #945316, 0.48rem -2.28rem #945316, 0.48rem -2.4rem #945316, 0.6rem -0.36rem #ffa959, 0.6rem -0.48rem #ffa959, 0.6rem -0.6rem #945316, 0.6rem -0.72rem #945316, 0.6rem -0.84rem #945316, 0.6rem -0.96rem #945316, 0.6rem -1.08rem #e78224, 0.6rem -1.2rem #e78224, 0.6rem -1.92rem #945316, 0.6rem -2.04rem #945316, 0.6rem -2.16rem #945316, 0.6rem -2.28rem #945316, 0.6rem -2.4rem #945316, 0.6rem -2.52rem #e78224, 0.72rem -0.36rem #ffa959, 0.72rem -0.48rem #ffa959, 0.72rem -0.6rem #945316, 0.72rem -0.72rem #945316, 0.72rem -0.84rem #945316, 0.72rem -0.96rem #945316, 0.72rem -1.08rem #945316, 0.72rem -1.2rem #945316, 0.72rem -1.32rem #e78224, 0.72rem -1.8rem #945316, 0.72rem -1.92rem #945316, 0.72rem -2.04rem #945316, 0.72rem -2.16rem #945316, 0.72rem -2.28rem #945316, 0.72rem -2.4rem #945316, 0.72rem -2.52rem #945316, 0.72rem -2.64rem #e78224, 0.84rem -0.36rem #945316, 0.84rem -0.48rem #ffa959, 0.84rem -0.6rem #945316, 0.84rem -0.72rem #945316, 0.84rem -0.84rem #945316, 0.84rem -0.96rem #945316, 0.84rem -1.08rem #945316, 0.84rem -1.2rem #945316, 0.84rem -1.32rem #e78224, 0.84rem -1.68rem #945316, 0.84rem -1.8rem #945316, 0.84rem -1.92rem #945316, 0.84rem -2.04rem #945316, 0.84rem -2.16rem #945316, 0.84rem -2.28rem #945316, 0.84rem -2.4rem #945316, 0.84rem -2.52rem #945316, 0.84rem -2.64rem #e78224, 0.96rem -0.36rem #ffa959, 0.96rem -0.48rem #945316, 0.96rem -0.6rem #945316, 0.96rem -0.72rem #945316, 0.96rem -0.84rem #945316, 0.96rem -0.96rem #945316, 0.96rem -1.08rem #945316, 0.96rem -1.2rem #945316, 0.96rem -1.32rem #945316, 0.96rem -1.44rem #e78224, 0.96rem -1.68rem #945316, 0.96rem -1.8rem #945316, 0.96rem -1.92rem #945316, 0.96rem -2.04rem #945316, 0.96rem -2.16rem #945316, 0.96rem -2.28rem #945316, 0.96rem -2.4rem #945316, 0.96rem -2.52rem #945316, 0.96rem -2.64rem #945316, 0.96rem -2.76rem #e78224, 1.08rem -0.36rem #ffa959, 1.08rem -0.48rem #945316, 1.08rem -0.6rem #945316, 1.08rem -0.72rem #945316, 1.08rem -0.84rem #945316, 1.08rem -0.96rem #945316, 1.08rem -1.08rem #945316, 1.08rem -1.2rem #945316, 1.08rem -1.32rem #945316, 1.08rem -1.44rem #e78224, 1.08rem -1.68rem #945316, 1.08rem -1.8rem #945316, 1.08rem -1.92rem #945316, 1.08rem -2.04rem #945316, 1.08rem -2.16rem #945316, 1.08rem -2.28rem #945316, 1.08rem -2.4rem #e78224, 1.08rem -2.52rem #945316, 1.08rem -2.64rem #945316, 1.08rem -2.76rem #945316, 1.08rem -2.88rem #e78224, 1.2rem -0.36rem #ffa959, 1.2rem -0.48rem #945316, 1.2rem -0.6rem #945316, 1.2rem -0.72rem #945316, 1.2rem -0.84rem #945316, 1.2rem -0.96rem #945316, 1.2rem -1.08rem #945316, 1.2rem -1.2rem #945316, 1.2rem -1.32rem #945316, 1.2rem -1.44rem #e78224, 1.2rem -1.56rem #945316, 1.2rem -1.68rem #945316, 1.2rem -1.8rem #945316, 1.2rem -1.92rem #945316, 1.2rem -2.04rem #945316, 1.2rem -2.16rem #945316, 1.2rem -2.28rem #e78224, 1.2rem -2.4rem #945316, 1.2rem -2.52rem #945316, 1.2rem -2.64rem #945316, 1.2rem -2.76rem #945316, 1.2rem -2.88rem #e78224, 1.32rem -0.36rem #ffa959, 1.32rem -0.48rem #945316, 1.32rem -0.6rem #945316, 1.32rem -0.72rem #945316, 1.32rem -0.84rem #945316, 1.32rem -0.96rem #945316, 1.32rem -1.08rem #945316, 1.32rem -1.2rem #945316, 1.32rem -1.32rem #945316, 1.32rem -1.44rem #e78224, 1.32rem -1.56rem #945316, 1.32rem -1.68rem #945316, 1.32rem -1.8rem #945316, 1.32rem -1.92rem #945316, 1.32rem -2.04rem #945316, 1.32rem -2.16rem #e78224, 1.32rem -2.28rem #e78224, 1.32rem -2.4rem #945316, 1.32rem -2.52rem #945316, 1.32rem -2.64rem #945316, 1.32rem -2.76rem #945316, 1.32rem -2.88rem #945316, 1.32rem -3rem #e78224, 1.44rem -0.6rem #945316, 1.44rem -0.72rem #945316, 1.44rem -0.84rem #945316, 1.44rem -0.96rem #945316, 1.44rem -1.08rem #945316, 1.44rem -1.2rem #945316, 1.44rem -1.32rem #945316, 1.44rem -1.44rem #945316, 1.44rem -1.56rem #945316, 1.44rem -1.68rem #945316, 1.44rem -1.8rem #945316, 1.44rem -1.92rem #945316, 1.44rem -2.04rem #e78224, 1.44rem -2.16rem #e78224, 1.44rem -2.28rem #945316, 1.44rem -2.4rem #945316, 1.44rem -2.52rem #945316, 1.44rem -2.64rem #945316, 1.44rem -2.76rem #945316, 1.44rem -2.88rem #945316, 1.44rem -3rem #945316, 1.56rem -0.72rem #945316, 1.56rem -0.84rem #945316, 1.56rem -0.96rem #945316, 1.56rem -1.08rem #945316, 1.56rem -1.2rem #945316, 1.56rem -1.32rem #945316, 1.56rem -1.44rem #945316, 1.56rem -1.56rem #945316, 1.56rem -1.68rem #945316, 1.56rem -1.8rem #945316, 1.56rem -1.92rem #945316, 1.56rem -2.04rem #e78224, 1.56rem -2.16rem #e78224, 1.56rem -2.28rem #945316, 1.56rem -2.4rem #945316, 1.56rem -2.52rem #945316, 1.56rem -2.64rem #945316, 1.56rem -2.76rem #945316, 1.56rem -2.88rem #945316, 1.56rem -3rem #945316, 1.56rem -3.12rem #ffa959, 1.56rem -3.24rem #ffa959, 1.68rem -0.72rem #945316, 1.68rem -0.84rem #945316, 1.68rem -0.96rem #945316, 1.68rem -1.08rem #e78224, 1.68rem -1.2rem #945316, 1.68rem -1.32rem #945316, 1.68rem -1.44rem #e78224, 1.68rem -1.56rem #945316, 1.68rem -1.68rem #945316, 1.68rem -1.8rem #945316, 1.68rem -1.92rem #945316, 1.68rem -2.04rem #e78224, 1.68rem -2.16rem #945316, 1.68rem -2.28rem #945316, 1.68rem -2.4rem #945316, 1.68rem -2.52rem #945316, 1.68rem -2.64rem #ffa959, 1.68rem -2.76rem #ffa959, 1.68rem -2.88rem #ffa959, 1.68rem -3rem #945316, 1.68rem -3.12rem #ffa959, 1.68rem -3.24rem #ffa959, 1.68rem -3.36rem #ffa959, 1.8rem -0.72rem #945316, 1.8rem -0.84rem #945316, 1.8rem -0.96rem #945316, 1.8rem -1.08rem #945316, 1.8rem -1.2rem #945316, 1.8rem -1.32rem #945316, 1.8rem -1.44rem #e78224, 1.8rem -1.56rem #945316, 1.8rem -1.68rem #945316, 1.8rem -1.8rem #945316, 1.8rem -1.92rem #945316, 1.8rem -2.04rem #945316, 1.8rem -2.16rem #945316, 1.8rem -2.28rem #945316, 1.8rem -2.4rem #945316, 1.8rem -2.52rem #ffa959, 1.8rem -2.64rem #ffa959, 1.8rem -2.76rem #ffa959, 1.8rem -2.88rem #ffa959, 1.8rem -3rem #ffa959, 1.8rem -3.12rem #ffa959, 1.8rem -3.24rem #ffa959, 1.8rem -3.36rem #ffa959, 1.92rem -0.72rem #945316, 1.92rem -0.84rem #945316, 1.92rem -0.96rem #945316, 1.92rem -1.08rem #945316, 1.92rem -1.2rem #945316, 1.92rem -1.32rem #e78224, 1.92rem -1.44rem #ffa959, 1.92rem -1.56rem #945316, 1.92rem -1.68rem #945316, 1.92rem -1.8rem #945316, 1.92rem -1.92rem #ffa959, 1.92rem -2.04rem #ffa959, 1.92rem -2.16rem #945316, 1.92rem -2.28rem #945316, 1.92rem -2.4rem #ffa959, 1.92rem -2.52rem #ffa959, 1.92rem -2.64rem #945316, 1.92rem -2.76rem #FFFFFF, 1.92rem -2.88rem #ffa959, 1.92rem -3rem #ffa959, 1.92rem -3.12rem #945316, 1.92rem -3.24rem #945316, 1.92rem -3.36rem #945316, 2.04rem -0.84rem #e78224, 2.04rem -0.96rem #945316, 2.04rem -1.08rem #e78224, 2.04rem -1.2rem #e78224, 2.04rem -1.32rem #e78224, 2.04rem -1.44rem #ffa959, 2.04rem -1.56rem #ffa959, 2.04rem -1.68rem #945316, 2.04rem -1.8rem #ffa959, 2.04rem -1.92rem #ffa959, 2.04rem -2.04rem #ffa959, 2.04rem -2.16rem #945316, 2.04rem -2.28rem #945316, 2.04rem -2.4rem #ffa959, 2.04rem -2.52rem #FFFFFF, 2.04rem -2.64rem #FFFFFF, 2.04rem -2.76rem #FFFFFF, 2.04rem -2.88rem #FFFFFF, 2.04rem -3rem #ffa959, 2.04rem -3.12rem #945316, 2.04rem -3.24rem #945316, 2.04rem -3.36rem #945316, 2.04rem -3.48rem #945316, 2.16rem -0.84rem #945316, 2.16rem -0.96rem #e78224, 2.16rem -1.08rem #ffa959, 2.16rem -1.2rem #ffa959, 2.16rem -1.32rem #e78224, 2.16rem -1.44rem #ffa959, 2.16rem -1.56rem #945316, 2.16rem -1.68rem #ffa959, 2.16rem -1.8rem #945316, 2.16rem -1.92rem #ffa959, 2.16rem -2.04rem #ffa959, 2.16rem -2.16rem #945316, 2.16rem -2.28rem #945316, 2.16rem -2.4rem #ffa959, 2.16rem -2.52rem #FFFFFF, 2.16rem -2.64rem #945316, 2.16rem -2.76rem #FFFFFF, 2.16rem -2.88rem #FFFFFF, 2.16rem -3rem #ffa959, 2.16rem -3.12rem #945316, 2.16rem -3.24rem #945316, 2.16rem -3.36rem #ffa959, 2.16rem -3.48rem #945316, 2.16rem -3.6rem #945316, 2.28rem -0.84rem #945316, 2.28rem -0.96rem #ffa959, 2.28rem -1.08rem #e78224, 2.28rem -1.2rem #ffa959, 2.28rem -1.32rem #e78224, 2.28rem -1.44rem #ffa959, 2.28rem -1.56rem #ffa959, 2.28rem -1.68rem #ffa959, 2.28rem -1.8rem #ffa959, 2.28rem -1.92rem #ffa959, 2.28rem -2.04rem #945316, 2.28rem -2.16rem #945316, 2.28rem -2.28rem #ffa959, 2.28rem -2.4rem #ffa959, 2.28rem -2.52rem #945316, 2.28rem -2.64rem #945316, 2.28rem -2.76rem #945316, 2.28rem -2.88rem #ffa959, 2.28rem -3rem #ffa959, 2.28rem -3.12rem #ffa959, 2.28rem -3.24rem #ffa959, 2.28rem -3.36rem #ffa959, 2.28rem -3.48rem #ffa959, 2.28rem -3.6rem #945316, 2.28rem -3.72rem #945316, 2.4rem -0.84rem #e78224, 2.4rem -0.96rem #e78224, 2.4rem -1.08rem #ffa959, 2.4rem -1.2rem #ffa959, 2.4rem -1.32rem #e78224, 2.4rem -1.44rem #ffa959, 2.4rem -1.56rem #ffa959, 2.4rem -1.68rem #ffa959, 2.4rem -1.8rem #ffa959, 2.4rem -1.92rem #ffa959, 2.4rem -2.04rem #945316, 2.4rem -2.16rem #945316, 2.4rem -2.28rem #ffa959, 2.4rem -2.4rem #FFFFFF, 2.4rem -2.52rem #FFFFFF, 2.4rem -2.64rem #945316, 2.4rem -2.76rem #FFFFFF, 2.4rem -2.88rem #ffa959, 2.4rem -3rem #ffa959, 2.4rem -3.12rem #ffa959, 2.4rem -3.24rem #ffa959, 2.4rem -3.36rem #ffa959, 2.4rem -3.48rem #ffa959, 2.4rem -3.6rem #ffa959, 2.4rem -3.72rem #945316, 2.4rem -3.84rem #945316, 2.52rem -0.84rem #945316, 2.52rem -0.96rem #ffa959, 2.52rem -1.08rem #e78224, 2.52rem -1.2rem #ffa959, 2.52rem -1.32rem #ffa959, 2.52rem -1.44rem #e78224, 2.52rem -1.56rem #ffa959, 2.52rem -1.68rem #ffa959, 2.52rem -1.8rem #ffa959, 2.52rem -1.92rem #e78224, 2.52rem -2.04rem #945316, 2.52rem -2.16rem #945316, 2.52rem -2.28rem #ffa959, 2.52rem -2.4rem #FFFFFF, 2.52rem -2.52rem #FFFFFF, 2.52rem -2.64rem #FFFFFF, 2.52rem -2.76rem #FFFFFF, 2.52rem -2.88rem #ffa959, 2.52rem -3rem #ffa959, 2.52rem -3.12rem #ffa959, 2.52rem -3.24rem #FFFFFF, 2.52rem -3.36rem #FFFFFF, 2.52rem -3.48rem #ffa959, 2.52rem -3.6rem #ffa959, 2.52rem -3.72rem #945316, 2.52rem -3.84rem #945316, 2.64rem -0.84rem #e78224, 2.64rem -0.96rem #e78224, 2.64rem -1.08rem #ffa959, 2.64rem -1.2rem #ffa959, 2.64rem -1.32rem #ffa959, 2.64rem -1.44rem #ffa959, 2.64rem -1.56rem #e78224, 2.64rem -1.68rem #e78224, 2.64rem -1.8rem #e78224, 2.64rem -1.92rem #945316, 2.64rem -2.04rem #945316, 2.64rem -2.16rem #945316, 2.64rem -2.28rem #ffa959, 2.64rem -2.4rem #FFFFFF, 2.64rem -2.52rem #FFFFFF, 2.64rem -2.64rem #945316, 2.64rem -2.76rem #FFFFFF, 2.64rem -2.88rem #ffa959, 2.64rem -3rem #945316, 2.64rem -3.12rem #ffa959, 2.64rem -3.24rem #945316, 2.64rem -3.36rem #FFFFFF, 2.64rem -3.48rem #ffa959, 2.64rem -3.6rem #945316, 2.64rem -3.72rem #945316, 2.64rem -3.84rem #945316, 2.76rem -0.84rem #945316, 2.76rem -0.96rem #ffa959, 2.76rem -1.08rem #ffa959, 2.76rem -1.2rem #ffa959, 2.76rem -1.32rem #ffa959, 2.76rem -1.44rem #ffa959, 2.76rem -1.56rem #e78224, 2.76rem -1.68rem #e78224, 2.76rem -1.8rem #e78224, 2.76rem -1.92rem #945316, 2.76rem -2.04rem #945316, 2.76rem -2.16rem #945316, 2.76rem -2.28rem #ffa959, 2.76rem -2.4rem #ffa959, 2.76rem -2.52rem #945316, 2.76rem -2.64rem #945316, 2.76rem -2.76rem #945316, 2.76rem -2.88rem #ffa959, 2.76rem -3rem #945316, 2.76rem -3.12rem #ffa959, 2.76rem -3.24rem #ffa959, 2.76rem -3.36rem #ffa959, 2.76rem -3.48rem #945316, 2.76rem -3.6rem #945316, 2.76rem -3.72rem #945316, 2.76rem -3.84rem #945316, 2.88rem -0.84rem #945316, 2.88rem -0.96rem #945316, 2.88rem -1.08rem #e78224, 2.88rem -1.2rem #ffa959, 2.88rem -1.32rem #ffa959, 2.88rem -1.44rem #e78224, 2.88rem -1.56rem #ffa959, 2.88rem -1.68rem #ffa959, 2.88rem -1.8rem #ffa959, 2.88rem -1.92rem #e78224, 2.88rem -2.04rem #945316, 2.88rem -2.16rem #945316, 2.88rem -2.28rem #ffa959, 2.88rem -2.4rem #FFFFFF, 2.88rem -2.52rem #FFFFFF, 2.88rem -2.64rem #945316, 2.88rem -2.76rem #FFFFFF, 2.88rem -2.88rem #ffa959, 2.88rem -3rem #945316, 2.88rem -3.12rem #ffa959, 2.88rem -3.24rem #945316, 2.88rem -3.36rem #FFFFFF, 2.88rem -3.48rem #ffa959, 2.88rem -3.6rem #945316, 2.88rem -3.72rem #945316, 2.88rem -3.84rem #945316, 3rem -0.84rem #e78224, 3rem -0.96rem #e78224, 3rem -1.08rem #ffa959, 3rem -1.2rem #ffa959, 3rem -1.32rem #e78224, 3rem -1.44rem #ffa959, 3rem -1.56rem #ffa959, 3rem -1.68rem #ffa959, 3rem -1.8rem #ffa959, 3rem -1.92rem #ffa959, 3rem -2.04rem #945316, 3rem -2.16rem #945316, 3rem -2.28rem #ffa959, 3rem -2.4rem #FFFFFF, 3rem -2.52rem #FFFFFF, 3rem -2.64rem #FFFFFF, 3rem -2.76rem #FFFFFF, 3rem -2.88rem #ffa959, 3rem -3rem #ffa959, 3rem -3.12rem #ffa959, 3rem -3.24rem #FFFFFF, 3rem -3.36rem #FFFFFF, 3rem -3.48rem #ffa959, 3rem -3.6rem #ffa959, 3rem -3.72rem #945316, 3rem -3.84rem #945316, 3.12rem -0.84rem #945316, 3.12rem -0.96rem #ffa959, 3.12rem -1.08rem #e78224, 3.12rem -1.2rem #ffa959, 3.12rem -1.32rem #e78224, 3.12rem -1.44rem #ffa959, 3.12rem -1.56rem #ffa959, 3.12rem -1.68rem #ffa959, 3.12rem -1.8rem #ffa959, 3.12rem -1.92rem #e78224, 3.12rem -2.04rem #945316, 3.12rem -2.16rem #945316, 3.12rem -2.28rem #ffa959, 3.12rem -2.4rem #FFFFFF, 3.12rem -2.52rem #FFFFFF, 3.12rem -2.64rem #945316, 3.12rem -2.76rem #FFFFFF, 3.12rem -2.88rem #ffa959, 3.12rem -3rem #ffa959, 3.12rem -3.12rem #ffa959, 3.12rem -3.24rem #ffa959, 3.12rem -3.36rem #ffa959, 3.12rem -3.48rem #ffa959, 3.12rem -3.6rem #ffa959, 3.12rem -3.72rem #945316, 3.12rem -3.84rem #945316, 3.24rem -0.72rem #945316, 3.24rem -0.84rem #945316, 3.24rem -0.96rem #e78224, 3.24rem -1.08rem #ffa959, 3.24rem -1.2rem #ffa959, 3.24rem -1.32rem #e78224, 3.24rem -1.44rem #ffa959, 3.24rem -1.56rem #945316, 3.24rem -1.68rem #ffa959, 3.24rem -1.8rem #ffa959, 3.24rem -1.92rem #ffa959, 3.24rem -2.04rem #945316, 3.24rem -2.16rem #945316, 3.24rem -2.28rem #ffa959, 3.24rem -2.4rem #ffa959, 3.24rem -2.52rem #945316, 3.24rem -2.64rem #945316, 3.24rem -2.76rem #945316, 3.24rem -2.88rem #ffa959, 3.24rem -3rem #ffa959, 3.24rem -3.12rem #ffa959, 3.24rem -3.24rem #ffa959, 3.24rem -3.36rem #ffa959, 3.24rem -3.48rem #ffa959, 3.24rem -3.6rem #945316, 3.24rem -3.72rem #945316, 3.36rem -0.6rem #945316, 3.36rem -0.72rem #945316, 3.36rem -0.84rem #e78224, 3.36rem -0.96rem #945316, 3.36rem -1.08rem #e78224, 3.36rem -1.2rem #e78224, 3.36rem -1.32rem #e78224, 3.36rem -1.44rem #ffa959, 3.36rem -1.56rem #ffa959, 3.36rem -1.68rem #ffa959, 3.36rem -1.8rem #ffa959, 3.36rem -1.92rem #e78224, 3.36rem -2.04rem #945316, 3.36rem -2.16rem #945316, 3.36rem -2.28rem #945316, 3.36rem -2.4rem #ffa959, 3.36rem -2.52rem #FFFFFF, 3.36rem -2.64rem #945316, 3.36rem -2.76rem #FFFFFF, 3.36rem -2.88rem #FFFFFF, 3.36rem -3rem #ffa959, 3.36rem -3.12rem #945316, 3.36rem -3.24rem #945316, 3.36rem -3.36rem #ffa959, 3.36rem -3.48rem #945316, 3.36rem -3.6rem #945316, 3.48rem -0.48rem #ffa959, 3.48rem -0.6rem #945316, 3.48rem -0.72rem #945316, 3.48rem -0.84rem #945316, 3.48rem -0.96rem #945316, 3.48rem -1.08rem #945316, 3.48rem -1.2rem #945316, 3.48rem -1.32rem #e78224, 3.48rem -1.44rem #ffa959, 3.48rem -1.56rem #ffa959, 3.48rem -1.68rem #ffa959, 3.48rem -1.8rem #ffa959, 3.48rem -1.92rem #ffa959, 3.48rem -2.04rem #945316, 3.48rem -2.16rem #945316, 3.48rem -2.28rem #945316, 3.48rem -2.4rem #ffa959, 3.48rem -2.52rem #FFFFFF, 3.48rem -2.64rem #FFFFFF, 3.48rem -2.76rem #FFFFFF, 3.48rem -2.88rem #FFFFFF, 3.48rem -3rem #ffa959, 3.48rem -3.12rem #945316, 3.48rem -3.24rem #945316, 3.48rem -3.36rem #945316, 3.48rem -3.48rem #945316, 3.6rem -0.24rem #ffa959, 3.6rem -0.36rem #ffa959, 3.6rem -0.48rem #945316, 3.6rem -0.6rem #945316, 3.6rem -0.72rem #945316, 3.6rem -0.84rem #945316, 3.6rem -0.96rem #945316, 3.6rem -1.08rem #945316, 3.6rem -1.2rem #945316, 3.6rem -1.32rem #945316, 3.6rem -1.44rem #e78224, 3.6rem -1.56rem #e78224, 3.6rem -1.68rem #e78224, 3.6rem -1.8rem #945316, 3.6rem -1.92rem #945316, 3.6rem -2.04rem #945316, 3.6rem -2.16rem #945316, 3.6rem -2.28rem #945316, 3.6rem -2.4rem #945316, 3.6rem -2.52rem #ffa959, 3.6rem -2.64rem #ffa959, 3.6rem -2.76rem #FFFFFF, 3.6rem -2.88rem #ffa959, 3.6rem -3rem #ffa959, 3.6rem -3.12rem #ffa959, 3.6rem -3.24rem #ffa959, 3.6rem -3.36rem #ffa959, 3.72rem -0.12rem #ffa959, 3.72rem -0.24rem #ffa959, 3.72rem -0.36rem #945316, 3.72rem -0.48rem #945316, 3.72rem -0.6rem #945316, 3.72rem -0.72rem #945316, 3.72rem -0.84rem #945316, 3.72rem -0.96rem #945316, 3.72rem -1.08rem #945316, 3.72rem -1.2rem #945316, 3.72rem -1.32rem #e78224, 3.72rem -1.44rem #945316, 3.72rem -1.56rem #e78224, 3.72rem -1.68rem #e78224, 3.72rem -1.8rem #945316, 3.72rem -1.92rem #e78224, 3.72rem -2.04rem #945316, 3.72rem -2.16rem #945316, 3.72rem -2.28rem #945316, 3.72rem -2.4rem #945316, 3.72rem -2.52rem #945316, 3.72rem -2.64rem #ffa959, 3.72rem -2.76rem #ffa959, 3.72rem -2.88rem #ffa959, 3.72rem -3rem #945316, 3.72rem -3.12rem #ffa959, 3.72rem -3.24rem #ffa959, 3.72rem -3.36rem #ffa959, 3.84rem -0.12rem #ffa959, 3.84rem -0.24rem #945316, 3.84rem -0.36rem #ffa959, 3.84rem -0.48rem #945316, 3.84rem -0.6rem #945316, 3.84rem -0.72rem #945316, 3.84rem -0.84rem #945316, 3.84rem -0.96rem #945316, 3.84rem -1.08rem #945316, 3.84rem -1.2rem #945316, 3.84rem -1.32rem #945316, 3.84rem -1.44rem #e78224, 3.84rem -1.56rem #945316, 3.84rem -1.68rem #945316, 3.84rem -1.8rem #e78224, 3.84rem -1.92rem #945316, 3.84rem -2.04rem #945316, 3.84rem -2.16rem #945316, 3.84rem -2.28rem #945316, 3.84rem -2.4rem #945316, 3.84rem -2.52rem #945316, 3.84rem -2.64rem #945316, 3.84rem -2.76rem #945316, 3.84rem -2.88rem #945316, 3.84rem -3rem #945316, 3.84rem -3.12rem #ffa959, 3.84rem -3.24rem #ffa959, 3.96rem -0.12rem #ffa959, 3.96rem -0.24rem #ffa959, 3.96rem -0.36rem #ffa959, 3.96rem -0.48rem #945316, 3.96rem -0.6rem #945316, 3.96rem -0.72rem #945316, 3.96rem -0.84rem #945316, 3.96rem -0.96rem #945316, 3.96rem -1.08rem #945316, 3.96rem -1.2rem #945316, 3.96rem -1.32rem #945316, 3.96rem -1.44rem #945316, 3.96rem -1.56rem #945316, 3.96rem -1.68rem #945316, 3.96rem -1.8rem #945316, 3.96rem -1.92rem #945316, 3.96rem -2.04rem #945316, 3.96rem -2.16rem #945316, 3.96rem -2.28rem #945316, 3.96rem -2.4rem #945316, 3.96rem -2.52rem #945316, 3.96rem -2.64rem #945316, 3.96rem -2.76rem #945316, 3.96rem -2.88rem #945316, 3.96rem -3rem #945316, 3.96rem -3.12rem #945316, 4.08rem -0.12rem #ffa959, 4.08rem -0.24rem #ffa959, 4.08rem -0.36rem #945316, 4.08rem -0.48rem #945316, 4.08rem -0.6rem #945316, 4.08rem -0.72rem #945316, 4.08rem -0.84rem #945316, 4.08rem -0.96rem #945316, 4.08rem -1.08rem #945316, 4.08rem -1.2rem #945316, 4.08rem -1.32rem #945316, 4.08rem -1.44rem #945316, 4.08rem -1.56rem #945316, 4.08rem -1.68rem #945316, 4.08rem -1.8rem #945316, 4.08rem -1.92rem #945316, 4.08rem -2.04rem #945316, 4.08rem -2.16rem #945316, 4.08rem -2.28rem #945316, 4.08rem -2.4rem #945316, 4.08rem -2.52rem #945316, 4.08rem -2.64rem #945316, 4.08rem -2.76rem #945316, 4.08rem -2.88rem #945316, 4.08rem -3rem #945316, 4.2rem -0.12rem #ffa959, 4.2rem -0.24rem #ffa959, 4.2rem -0.36rem #945316, 4.2rem -0.48rem #945316, 4.2rem -0.6rem #945316, 4.2rem -0.72rem #945316, 4.2rem -0.84rem #945316, 4.2rem -0.96rem #945316, 4.2rem -1.08rem #945316, 4.2rem -1.2rem #945316, 4.2rem -1.32rem #945316, 4.2rem -1.44rem #e78224, 4.2rem -1.56rem #945316, 4.2rem -1.68rem #945316, 4.2rem -1.8rem #945316, 4.2rem -1.92rem #945316, 4.2rem -2.04rem #945316, 4.2rem -2.16rem #945316, 4.2rem -2.28rem #945316, 4.2rem -2.4rem #945316, 4.2rem -2.52rem #945316, 4.2rem -2.64rem #945316, 4.2rem -2.76rem #945316, 4.2rem -2.88rem #945316, 4.2rem -3rem #945316, 4.2rem -3.6rem #ffa959, 4.32rem -0.12rem #ffa959, 4.32rem -0.24rem #ffa959, 4.32rem -0.36rem #945316, 4.32rem -0.48rem #945316, 4.32rem -0.6rem #945316, 4.32rem -0.72rem #945316, 4.32rem -0.84rem #945316, 4.32rem -0.96rem #945316, 4.32rem -1.08rem #945316, 4.32rem -1.2rem #945316, 4.32rem -1.32rem #e78224, 4.32rem -1.92rem #945316, 4.32rem -2.04rem #945316, 4.32rem -2.16rem #945316, 4.32rem -2.28rem #945316, 4.32rem -2.4rem #945316, 4.32rem -2.52rem #945316, 4.32rem -2.64rem #945316, 4.32rem -2.76rem #945316, 4.32rem -2.88rem #945316, 4.32rem -3rem #945316, 4.32rem -3.36rem #ffa959, 4.32rem -3.48rem #e78224, 4.32rem -3.6rem #ffa959, 4.32rem -3.72rem #ffa959, 4.44rem -0.12rem #ffa959, 4.44rem -0.24rem #945316, 4.44rem -0.36rem #ffa959, 4.44rem -0.48rem #945316, 4.44rem -0.6rem #945316, 4.44rem -0.72rem #945316, 4.44rem -0.84rem #945316, 4.44rem -0.96rem #945316, 4.44rem -1.08rem #945316, 4.44rem -1.2rem #e78224, 4.44rem -2.04rem #945316, 4.44rem -2.16rem #945316, 4.44rem -2.28rem #945316, 4.44rem -2.4rem #945316, 4.44rem -2.52rem #945316, 4.44rem -2.64rem #945316, 4.44rem -2.76rem #945316, 4.44rem -2.88rem #945316, 4.44rem -3rem #945316, 4.44rem -3.24rem #ffa959, 4.44rem -3.36rem #ffa959, 4.44rem -3.48rem #e78224, 4.44rem -3.6rem #e78224, 4.44rem -3.72rem #ffa959, 4.44rem -3.84rem #ffa959, 4.56rem -0.12rem #ffa959, 4.56rem -0.24rem #ffa959, 4.56rem -0.36rem #ffa959, 4.56rem -0.48rem #945316, 4.56rem -0.6rem #945316, 4.56rem -0.72rem #945316, 4.56rem -0.84rem #945316, 4.56rem -0.96rem #945316, 4.56rem -1.08rem #e78224, 4.56rem -2.16rem #945316, 4.56rem -2.28rem #945316, 4.56rem -2.4rem #945316, 4.56rem -2.52rem #945316, 4.56rem -2.64rem #945316, 4.56rem -2.76rem #945316, 4.56rem -2.88rem #945316, 4.56rem -3rem #945316, 4.56rem -3.24rem #ffa959, 4.56rem -3.36rem #ffa959, 4.56rem -3.48rem #e78224, 4.56rem -3.6rem #ffa959, 4.56rem -3.72rem #e78224, 4.56rem -3.84rem #ffa959, 4.68rem -0.12rem #ffa959, 4.68rem -0.24rem #ffa959, 4.68rem -0.36rem #945316, 4.68rem -0.72rem #e78224, 4.68rem -0.84rem #e78224, 4.68rem -0.96rem #e78224, 4.68rem -2.16rem #945316, 4.68rem -2.28rem #945316, 4.68rem -2.4rem #945316, 4.68rem -2.52rem #945316, 4.68rem -2.64rem #945316, 4.68rem -2.76rem #945316, 4.68rem -2.88rem #945316, 4.68rem -3rem #945316, 4.68rem -3.24rem #ffa959, 4.68rem -3.36rem #e78224, 4.68rem -3.48rem #ffa959, 4.68rem -3.6rem #ffa959, 4.68rem -3.72rem #ffa959, 4.68rem -3.84rem #ffa959, 4.8rem -0.12rem #ffa959, 4.8rem -0.24rem #e78224, 4.8rem -0.36rem #ffa959, 4.8rem -2.28rem #945316, 4.8rem -2.4rem #945316, 4.8rem -2.52rem #945316, 4.8rem -2.64rem #945316, 4.8rem -2.76rem #945316, 4.8rem -2.88rem #945316, 4.8rem -3rem #945316, 4.8rem -3.24rem #ffa959, 4.8rem -3.36rem #ffa959, 4.8rem -3.48rem #e78224, 4.8rem -3.6rem #ffa959, 4.8rem -3.72rem #ffa959, 4.8rem -3.84rem #ffa959, 4.92rem -0.12rem #e78224, 4.92rem -0.24rem #ffa959, 4.92rem -0.36rem #ffa959, 4.92rem -2.28rem #945316, 4.92rem -2.4rem #945316, 4.92rem -2.52rem #945316, 4.92rem -2.64rem #945316, 4.92rem -2.76rem #945316, 4.92rem -2.88rem #945316, 4.92rem -3rem #945316, 4.92rem -3.12rem #e78224, 4.92rem -3.24rem #ffa959, 4.92rem -3.36rem #ffa959, 4.92rem -3.48rem #ffa959, 4.92rem -3.6rem #e78224, 4.92rem -3.72rem #ffa959, 5.04rem -0.12rem #ffa959, 5.04rem -2.4rem #945316, 5.04rem -2.52rem #945316, 5.04rem -2.64rem #945316, 5.04rem -2.76rem #945316, 5.04rem -2.88rem #945316, 5.04rem -3rem #945316, 5.04rem -3.12rem #e78224, 5.04rem -3.24rem #ffa959, 5.04rem -3.36rem #ffa959, 5.04rem -3.48rem #ffa959, 5.04rem -3.6rem #ffa959, 5.04rem -3.72rem #ffa959, 5.16rem -2.52rem #945316, 5.16rem -2.64rem #945316, 5.16rem -2.76rem #945316, 5.16rem -2.88rem #945316, 5.16rem -3rem #945316, 5.16rem -3.12rem #945316, 5.16rem -3.24rem #e78224, 5.16rem -3.36rem #ffa959, 5.16rem -3.48rem #ffa959, 5.16rem -3.6rem #ffa959, 5.28rem -2.52rem #945316, 5.28rem -2.64rem #945316, 5.28rem -2.76rem #945316, 5.28rem -2.88rem #945316, 5.28rem -3rem #945316, 5.28rem -3.12rem #e78224, 5.28rem -3.24rem #e78224, 5.28rem -3.36rem #e78224, 5.28rem -3.48rem #ffa959, 5.28rem -3.6rem #ffa959, 5.4rem -2.64rem #945316, 5.4rem -2.76rem #945316, 5.4rem -2.88rem #945316, 5.4rem -3rem #945316, 5.4rem -3.12rem #945316, 5.4rem -3.24rem #945316, 5.4rem -3.36rem #ffa959, 5.4rem -3.48rem #ffa959, 5.4rem -3.6rem #ffa959, 5.52rem -2.76rem #945316, 5.52rem -2.88rem #945316, 5.52rem -3rem #945316, 5.52rem -3.12rem #e78224, 5.52rem -3.24rem #945316, 5.52rem -3.36rem #945316;
-}
-@media screen and (min-width: 64rem) {
-  .summary::before {
-    box-shadow: 0.25rem -0.75rem #ffa959, 0.25rem -1rem #ffa959, 0.5rem -0.75rem #ffa959, 0.5rem -1rem #ffa959, 0.5rem -1.25rem #ffa959, 0.75rem -0.75rem #ffa959, 0.75rem -1rem #ffa959, 0.75rem -1.25rem #ffa959, 1rem -0.75rem #ffa959, 1rem -1rem #945316, 1rem -1.25rem #ffa959, 1rem -1.5rem #945316, 1rem -4.25rem #945316, 1rem -4.5rem #945316, 1rem -4.75rem #945316, 1rem -5rem #945316, 1.25rem -0.75rem #ffa959, 1.25rem -1rem #ffa959, 1.25rem -1.25rem #945316, 1.25rem -1.5rem #945316, 1.25rem -1.75rem #945316, 1.25rem -2rem #945316, 1.25rem -2.25rem #e78224, 1.25rem -2.5rem #e78224, 1.25rem -4rem #945316, 1.25rem -4.25rem #945316, 1.25rem -4.5rem #945316, 1.25rem -4.75rem #945316, 1.25rem -5rem #945316, 1.25rem -5.25rem #e78224, 1.5rem -0.75rem #ffa959, 1.5rem -1rem #ffa959, 1.5rem -1.25rem #945316, 1.5rem -1.5rem #945316, 1.5rem -1.75rem #945316, 1.5rem -2rem #945316, 1.5rem -2.25rem #945316, 1.5rem -2.5rem #945316, 1.5rem -2.75rem #e78224, 1.5rem -3.75rem #945316, 1.5rem -4rem #945316, 1.5rem -4.25rem #945316, 1.5rem -4.5rem #945316, 1.5rem -4.75rem #945316, 1.5rem -5rem #945316, 1.5rem -5.25rem #945316, 1.5rem -5.5rem #e78224, 1.75rem -0.75rem #945316, 1.75rem -1rem #ffa959, 1.75rem -1.25rem #945316, 1.75rem -1.5rem #945316, 1.75rem -1.75rem #945316, 1.75rem -2rem #945316, 1.75rem -2.25rem #945316, 1.75rem -2.5rem #945316, 1.75rem -2.75rem #e78224, 1.75rem -3.5rem #945316, 1.75rem -3.75rem #945316, 1.75rem -4rem #945316, 1.75rem -4.25rem #945316, 1.75rem -4.5rem #945316, 1.75rem -4.75rem #945316, 1.75rem -5rem #945316, 1.75rem -5.25rem #945316, 1.75rem -5.5rem #e78224, 2rem -0.75rem #ffa959, 2rem -1rem #945316, 2rem -1.25rem #945316, 2rem -1.5rem #945316, 2rem -1.75rem #945316, 2rem -2rem #945316, 2rem -2.25rem #945316, 2rem -2.5rem #945316, 2rem -2.75rem #945316, 2rem -3rem #e78224, 2rem -3.5rem #945316, 2rem -3.75rem #945316, 2rem -4rem #945316, 2rem -4.25rem #945316, 2rem -4.5rem #945316, 2rem -4.75rem #945316, 2rem -5rem #945316, 2rem -5.25rem #945316, 2rem -5.5rem #945316, 2rem -5.75rem #e78224, 2.25rem -0.75rem #ffa959, 2.25rem -1rem #945316, 2.25rem -1.25rem #945316, 2.25rem -1.5rem #945316, 2.25rem -1.75rem #945316, 2.25rem -2rem #945316, 2.25rem -2.25rem #945316, 2.25rem -2.5rem #945316, 2.25rem -2.75rem #945316, 2.25rem -3rem #e78224, 2.25rem -3.5rem #945316, 2.25rem -3.75rem #945316, 2.25rem -4rem #945316, 2.25rem -4.25rem #945316, 2.25rem -4.5rem #945316, 2.25rem -4.75rem #945316, 2.25rem -5rem #e78224, 2.25rem -5.25rem #945316, 2.25rem -5.5rem #945316, 2.25rem -5.75rem #945316, 2.25rem -6rem #e78224, 2.5rem -0.75rem #ffa959, 2.5rem -1rem #945316, 2.5rem -1.25rem #945316, 2.5rem -1.5rem #945316, 2.5rem -1.75rem #945316, 2.5rem -2rem #945316, 2.5rem -2.25rem #945316, 2.5rem -2.5rem #945316, 2.5rem -2.75rem #945316, 2.5rem -3rem #e78224, 2.5rem -3.25rem #945316, 2.5rem -3.5rem #945316, 2.5rem -3.75rem #945316, 2.5rem -4rem #945316, 2.5rem -4.25rem #945316, 2.5rem -4.5rem #945316, 2.5rem -4.75rem #e78224, 2.5rem -5rem #945316, 2.5rem -5.25rem #945316, 2.5rem -5.5rem #945316, 2.5rem -5.75rem #945316, 2.5rem -6rem #e78224, 2.75rem -0.75rem #ffa959, 2.75rem -1rem #945316, 2.75rem -1.25rem #945316, 2.75rem -1.5rem #945316, 2.75rem -1.75rem #945316, 2.75rem -2rem #945316, 2.75rem -2.25rem #945316, 2.75rem -2.5rem #945316, 2.75rem -2.75rem #945316, 2.75rem -3rem #e78224, 2.75rem -3.25rem #945316, 2.75rem -3.5rem #945316, 2.75rem -3.75rem #945316, 2.75rem -4rem #945316, 2.75rem -4.25rem #945316, 2.75rem -4.5rem #e78224, 2.75rem -4.75rem #e78224, 2.75rem -5rem #945316, 2.75rem -5.25rem #945316, 2.75rem -5.5rem #945316, 2.75rem -5.75rem #945316, 2.75rem -6rem #945316, 2.75rem -6.25rem #e78224, 3rem -1.25rem #945316, 3rem -1.5rem #945316, 3rem -1.75rem #945316, 3rem -2rem #945316, 3rem -2.25rem #945316, 3rem -2.5rem #945316, 3rem -2.75rem #945316, 3rem -3rem #945316, 3rem -3.25rem #945316, 3rem -3.5rem #945316, 3rem -3.75rem #945316, 3rem -4rem #945316, 3rem -4.25rem #e78224, 3rem -4.5rem #e78224, 3rem -4.75rem #945316, 3rem -5rem #945316, 3rem -5.25rem #945316, 3rem -5.5rem #945316, 3rem -5.75rem #945316, 3rem -6rem #945316, 3rem -6.25rem #945316, 3.25rem -1.5rem #945316, 3.25rem -1.75rem #945316, 3.25rem -2rem #945316, 3.25rem -2.25rem #945316, 3.25rem -2.5rem #945316, 3.25rem -2.75rem #945316, 3.25rem -3rem #945316, 3.25rem -3.25rem #945316, 3.25rem -3.5rem #945316, 3.25rem -3.75rem #945316, 3.25rem -4rem #945316, 3.25rem -4.25rem #e78224, 3.25rem -4.5rem #e78224, 3.25rem -4.75rem #945316, 3.25rem -5rem #945316, 3.25rem -5.25rem #945316, 3.25rem -5.5rem #945316, 3.25rem -5.75rem #945316, 3.25rem -6rem #945316, 3.25rem -6.25rem #945316, 3.25rem -6.5rem #ffa959, 3.25rem -6.75rem #ffa959, 3.5rem -1.5rem #945316, 3.5rem -1.75rem #945316, 3.5rem -2rem #945316, 3.5rem -2.25rem #e78224, 3.5rem -2.5rem #945316, 3.5rem -2.75rem #945316, 3.5rem -3rem #e78224, 3.5rem -3.25rem #945316, 3.5rem -3.5rem #945316, 3.5rem -3.75rem #945316, 3.5rem -4rem #945316, 3.5rem -4.25rem #e78224, 3.5rem -4.5rem #945316, 3.5rem -4.75rem #945316, 3.5rem -5rem #945316, 3.5rem -5.25rem #945316, 3.5rem -5.5rem #ffa959, 3.5rem -5.75rem #ffa959, 3.5rem -6rem #ffa959, 3.5rem -6.25rem #945316, 3.5rem -6.5rem #ffa959, 3.5rem -6.75rem #ffa959, 3.5rem -7rem #ffa959, 3.75rem -1.5rem #945316, 3.75rem -1.75rem #945316, 3.75rem -2rem #945316, 3.75rem -2.25rem #945316, 3.75rem -2.5rem #945316, 3.75rem -2.75rem #945316, 3.75rem -3rem #e78224, 3.75rem -3.25rem #945316, 3.75rem -3.5rem #945316, 3.75rem -3.75rem #945316, 3.75rem -4rem #945316, 3.75rem -4.25rem #945316, 3.75rem -4.5rem #945316, 3.75rem -4.75rem #945316, 3.75rem -5rem #945316, 3.75rem -5.25rem #ffa959, 3.75rem -5.5rem #ffa959, 3.75rem -5.75rem #ffa959, 3.75rem -6rem #ffa959, 3.75rem -6.25rem #ffa959, 3.75rem -6.5rem #ffa959, 3.75rem -6.75rem #ffa959, 3.75rem -7rem #ffa959, 4rem -1.5rem #945316, 4rem -1.75rem #945316, 4rem -2rem #945316, 4rem -2.25rem #945316, 4rem -2.5rem #945316, 4rem -2.75rem #e78224, 4rem -3rem #ffa959, 4rem -3.25rem #945316, 4rem -3.5rem #945316, 4rem -3.75rem #945316, 4rem -4rem #ffa959, 4rem -4.25rem #ffa959, 4rem -4.5rem #945316, 4rem -4.75rem #945316, 4rem -5rem #ffa959, 4rem -5.25rem #ffa959, 4rem -5.5rem #945316, 4rem -5.75rem #FFFFFF, 4rem -6rem #ffa959, 4rem -6.25rem #ffa959, 4rem -6.5rem #945316, 4rem -6.75rem #945316, 4rem -7rem #945316, 4.25rem -1.75rem #e78224, 4.25rem -2rem #945316, 4.25rem -2.25rem #e78224, 4.25rem -2.5rem #e78224, 4.25rem -2.75rem #e78224, 4.25rem -3rem #ffa959, 4.25rem -3.25rem #ffa959, 4.25rem -3.5rem #945316, 4.25rem -3.75rem #ffa959, 4.25rem -4rem #ffa959, 4.25rem -4.25rem #ffa959, 4.25rem -4.5rem #945316, 4.25rem -4.75rem #945316, 4.25rem -5rem #ffa959, 4.25rem -5.25rem #FFFFFF, 4.25rem -5.5rem #FFFFFF, 4.25rem -5.75rem #FFFFFF, 4.25rem -6rem #FFFFFF, 4.25rem -6.25rem #ffa959, 4.25rem -6.5rem #945316, 4.25rem -6.75rem #945316, 4.25rem -7rem #945316, 4.25rem -7.25rem #945316, 4.5rem -1.75rem #945316, 4.5rem -2rem #e78224, 4.5rem -2.25rem #ffa959, 4.5rem -2.5rem #ffa959, 4.5rem -2.75rem #e78224, 4.5rem -3rem #ffa959, 4.5rem -3.25rem #945316, 4.5rem -3.5rem #ffa959, 4.5rem -3.75rem #945316, 4.5rem -4rem #ffa959, 4.5rem -4.25rem #ffa959, 4.5rem -4.5rem #945316, 4.5rem -4.75rem #945316, 4.5rem -5rem #ffa959, 4.5rem -5.25rem #FFFFFF, 4.5rem -5.5rem #945316, 4.5rem -5.75rem #FFFFFF, 4.5rem -6rem #FFFFFF, 4.5rem -6.25rem #ffa959, 4.5rem -6.5rem #945316, 4.5rem -6.75rem #945316, 4.5rem -7rem #ffa959, 4.5rem -7.25rem #945316, 4.5rem -7.5rem #945316, 4.75rem -1.75rem #945316, 4.75rem -2rem #ffa959, 4.75rem -2.25rem #e78224, 4.75rem -2.5rem #ffa959, 4.75rem -2.75rem #e78224, 4.75rem -3rem #ffa959, 4.75rem -3.25rem #ffa959, 4.75rem -3.5rem #ffa959, 4.75rem -3.75rem #ffa959, 4.75rem -4rem #ffa959, 4.75rem -4.25rem #945316, 4.75rem -4.5rem #945316, 4.75rem -4.75rem #ffa959, 4.75rem -5rem #ffa959, 4.75rem -5.25rem #945316, 4.75rem -5.5rem #945316, 4.75rem -5.75rem #945316, 4.75rem -6rem #ffa959, 4.75rem -6.25rem #ffa959, 4.75rem -6.5rem #ffa959, 4.75rem -6.75rem #ffa959, 4.75rem -7rem #ffa959, 4.75rem -7.25rem #ffa959, 4.75rem -7.5rem #945316, 4.75rem -7.75rem #945316, 5rem -1.75rem #e78224, 5rem -2rem #e78224, 5rem -2.25rem #ffa959, 5rem -2.5rem #ffa959, 5rem -2.75rem #e78224, 5rem -3rem #ffa959, 5rem -3.25rem #ffa959, 5rem -3.5rem #ffa959, 5rem -3.75rem #ffa959, 5rem -4rem #ffa959, 5rem -4.25rem #945316, 5rem -4.5rem #945316, 5rem -4.75rem #ffa959, 5rem -5rem #FFFFFF, 5rem -5.25rem #FFFFFF, 5rem -5.5rem #945316, 5rem -5.75rem #FFFFFF, 5rem -6rem #ffa959, 5rem -6.25rem #ffa959, 5rem -6.5rem #ffa959, 5rem -6.75rem #ffa959, 5rem -7rem #ffa959, 5rem -7.25rem #ffa959, 5rem -7.5rem #ffa959, 5rem -7.75rem #945316, 5rem -8rem #945316, 5.25rem -1.75rem #945316, 5.25rem -2rem #ffa959, 5.25rem -2.25rem #e78224, 5.25rem -2.5rem #ffa959, 5.25rem -2.75rem #ffa959, 5.25rem -3rem #e78224, 5.25rem -3.25rem #ffa959, 5.25rem -3.5rem #ffa959, 5.25rem -3.75rem #ffa959, 5.25rem -4rem #e78224, 5.25rem -4.25rem #945316, 5.25rem -4.5rem #945316, 5.25rem -4.75rem #ffa959, 5.25rem -5rem #FFFFFF, 5.25rem -5.25rem #FFFFFF, 5.25rem -5.5rem #FFFFFF, 5.25rem -5.75rem #FFFFFF, 5.25rem -6rem #ffa959, 5.25rem -6.25rem #ffa959, 5.25rem -6.5rem #ffa959, 5.25rem -6.75rem #FFFFFF, 5.25rem -7rem #FFFFFF, 5.25rem -7.25rem #ffa959, 5.25rem -7.5rem #ffa959, 5.25rem -7.75rem #945316, 5.25rem -8rem #945316, 5.5rem -1.75rem #e78224, 5.5rem -2rem #e78224, 5.5rem -2.25rem #ffa959, 5.5rem -2.5rem #ffa959, 5.5rem -2.75rem #ffa959, 5.5rem -3rem #ffa959, 5.5rem -3.25rem #e78224, 5.5rem -3.5rem #e78224, 5.5rem -3.75rem #e78224, 5.5rem -4rem #945316, 5.5rem -4.25rem #945316, 5.5rem -4.5rem #945316, 5.5rem -4.75rem #ffa959, 5.5rem -5rem #FFFFFF, 5.5rem -5.25rem #FFFFFF, 5.5rem -5.5rem #945316, 5.5rem -5.75rem #FFFFFF, 5.5rem -6rem #ffa959, 5.5rem -6.25rem #945316, 5.5rem -6.5rem #ffa959, 5.5rem -6.75rem #945316, 5.5rem -7rem #FFFFFF, 5.5rem -7.25rem #ffa959, 5.5rem -7.5rem #945316, 5.5rem -7.75rem #945316, 5.5rem -8rem #945316, 5.75rem -1.75rem #945316, 5.75rem -2rem #ffa959, 5.75rem -2.25rem #ffa959, 5.75rem -2.5rem #ffa959, 5.75rem -2.75rem #ffa959, 5.75rem -3rem #ffa959, 5.75rem -3.25rem #e78224, 5.75rem -3.5rem #e78224, 5.75rem -3.75rem #e78224, 5.75rem -4rem #945316, 5.75rem -4.25rem #945316, 5.75rem -4.5rem #945316, 5.75rem -4.75rem #ffa959, 5.75rem -5rem #ffa959, 5.75rem -5.25rem #945316, 5.75rem -5.5rem #945316, 5.75rem -5.75rem #945316, 5.75rem -6rem #ffa959, 5.75rem -6.25rem #945316, 5.75rem -6.5rem #ffa959, 5.75rem -6.75rem #ffa959, 5.75rem -7rem #ffa959, 5.75rem -7.25rem #945316, 5.75rem -7.5rem #945316, 5.75rem -7.75rem #945316, 5.75rem -8rem #945316, 6rem -1.75rem #945316, 6rem -2rem #945316, 6rem -2.25rem #e78224, 6rem -2.5rem #ffa959, 6rem -2.75rem #ffa959, 6rem -3rem #e78224, 6rem -3.25rem #ffa959, 6rem -3.5rem #ffa959, 6rem -3.75rem #ffa959, 6rem -4rem #e78224, 6rem -4.25rem #945316, 6rem -4.5rem #945316, 6rem -4.75rem #ffa959, 6rem -5rem #FFFFFF, 6rem -5.25rem #FFFFFF, 6rem -5.5rem #945316, 6rem -5.75rem #FFFFFF, 6rem -6rem #ffa959, 6rem -6.25rem #945316, 6rem -6.5rem #ffa959, 6rem -6.75rem #945316, 6rem -7rem #FFFFFF, 6rem -7.25rem #ffa959, 6rem -7.5rem #945316, 6rem -7.75rem #945316, 6rem -8rem #945316, 6.25rem -1.75rem #e78224, 6.25rem -2rem #e78224, 6.25rem -2.25rem #ffa959, 6.25rem -2.5rem #ffa959, 6.25rem -2.75rem #e78224, 6.25rem -3rem #ffa959, 6.25rem -3.25rem #ffa959, 6.25rem -3.5rem #ffa959, 6.25rem -3.75rem #ffa959, 6.25rem -4rem #ffa959, 6.25rem -4.25rem #945316, 6.25rem -4.5rem #945316, 6.25rem -4.75rem #ffa959, 6.25rem -5rem #FFFFFF, 6.25rem -5.25rem #FFFFFF, 6.25rem -5.5rem #FFFFFF, 6.25rem -5.75rem #FFFFFF, 6.25rem -6rem #ffa959, 6.25rem -6.25rem #ffa959, 6.25rem -6.5rem #ffa959, 6.25rem -6.75rem #FFFFFF, 6.25rem -7rem #FFFFFF, 6.25rem -7.25rem #ffa959, 6.25rem -7.5rem #ffa959, 6.25rem -7.75rem #945316, 6.25rem -8rem #945316, 6.5rem -1.75rem #945316, 6.5rem -2rem #ffa959, 6.5rem -2.25rem #e78224, 6.5rem -2.5rem #ffa959, 6.5rem -2.75rem #e78224, 6.5rem -3rem #ffa959, 6.5rem -3.25rem #ffa959, 6.5rem -3.5rem #ffa959, 6.5rem -3.75rem #ffa959, 6.5rem -4rem #e78224, 6.5rem -4.25rem #945316, 6.5rem -4.5rem #945316, 6.5rem -4.75rem #ffa959, 6.5rem -5rem #FFFFFF, 6.5rem -5.25rem #FFFFFF, 6.5rem -5.5rem #945316, 6.5rem -5.75rem #FFFFFF, 6.5rem -6rem #ffa959, 6.5rem -6.25rem #ffa959, 6.5rem -6.5rem #ffa959, 6.5rem -6.75rem #ffa959, 6.5rem -7rem #ffa959, 6.5rem -7.25rem #ffa959, 6.5rem -7.5rem #ffa959, 6.5rem -7.75rem #945316, 6.5rem -8rem #945316, 6.75rem -1.5rem #945316, 6.75rem -1.75rem #945316, 6.75rem -2rem #e78224, 6.75rem -2.25rem #ffa959, 6.75rem -2.5rem #ffa959, 6.75rem -2.75rem #e78224, 6.75rem -3rem #ffa959, 6.75rem -3.25rem #945316, 6.75rem -3.5rem #ffa959, 6.75rem -3.75rem #ffa959, 6.75rem -4rem #ffa959, 6.75rem -4.25rem #945316, 6.75rem -4.5rem #945316, 6.75rem -4.75rem #ffa959, 6.75rem -5rem #ffa959, 6.75rem -5.25rem #945316, 6.75rem -5.5rem #945316, 6.75rem -5.75rem #945316, 6.75rem -6rem #ffa959, 6.75rem -6.25rem #ffa959, 6.75rem -6.5rem #ffa959, 6.75rem -6.75rem #ffa959, 6.75rem -7rem #ffa959, 6.75rem -7.25rem #ffa959, 6.75rem -7.5rem #945316, 6.75rem -7.75rem #945316, 7rem -1.25rem #945316, 7rem -1.5rem #945316, 7rem -1.75rem #e78224, 7rem -2rem #945316, 7rem -2.25rem #e78224, 7rem -2.5rem #e78224, 7rem -2.75rem #e78224, 7rem -3rem #ffa959, 7rem -3.25rem #ffa959, 7rem -3.5rem #ffa959, 7rem -3.75rem #ffa959, 7rem -4rem #e78224, 7rem -4.25rem #945316, 7rem -4.5rem #945316, 7rem -4.75rem #945316, 7rem -5rem #ffa959, 7rem -5.25rem #FFFFFF, 7rem -5.5rem #945316, 7rem -5.75rem #FFFFFF, 7rem -6rem #FFFFFF, 7rem -6.25rem #ffa959, 7rem -6.5rem #945316, 7rem -6.75rem #945316, 7rem -7rem #ffa959, 7rem -7.25rem #945316, 7rem -7.5rem #945316, 7.25rem -1rem #ffa959, 7.25rem -1.25rem #945316, 7.25rem -1.5rem #945316, 7.25rem -1.75rem #945316, 7.25rem -2rem #945316, 7.25rem -2.25rem #945316, 7.25rem -2.5rem #945316, 7.25rem -2.75rem #e78224, 7.25rem -3rem #ffa959, 7.25rem -3.25rem #ffa959, 7.25rem -3.5rem #ffa959, 7.25rem -3.75rem #ffa959, 7.25rem -4rem #ffa959, 7.25rem -4.25rem #945316, 7.25rem -4.5rem #945316, 7.25rem -4.75rem #945316, 7.25rem -5rem #ffa959, 7.25rem -5.25rem #FFFFFF, 7.25rem -5.5rem #FFFFFF, 7.25rem -5.75rem #FFFFFF, 7.25rem -6rem #FFFFFF, 7.25rem -6.25rem #ffa959, 7.25rem -6.5rem #945316, 7.25rem -6.75rem #945316, 7.25rem -7rem #945316, 7.25rem -7.25rem #945316, 7.5rem -0.5rem #ffa959, 7.5rem -0.75rem #ffa959, 7.5rem -1rem #945316, 7.5rem -1.25rem #945316, 7.5rem -1.5rem #945316, 7.5rem -1.75rem #945316, 7.5rem -2rem #945316, 7.5rem -2.25rem #945316, 7.5rem -2.5rem #945316, 7.5rem -2.75rem #945316, 7.5rem -3rem #e78224, 7.5rem -3.25rem #e78224, 7.5rem -3.5rem #e78224, 7.5rem -3.75rem #945316, 7.5rem -4rem #945316, 7.5rem -4.25rem #945316, 7.5rem -4.5rem #945316, 7.5rem -4.75rem #945316, 7.5rem -5rem #945316, 7.5rem -5.25rem #ffa959, 7.5rem -5.5rem #ffa959, 7.5rem -5.75rem #FFFFFF, 7.5rem -6rem #ffa959, 7.5rem -6.25rem #ffa959, 7.5rem -6.5rem #ffa959, 7.5rem -6.75rem #ffa959, 7.5rem -7rem #ffa959, 7.75rem -0.25rem #ffa959, 7.75rem -0.5rem #ffa959, 7.75rem -0.75rem #945316, 7.75rem -1rem #945316, 7.75rem -1.25rem #945316, 7.75rem -1.5rem #945316, 7.75rem -1.75rem #945316, 7.75rem -2rem #945316, 7.75rem -2.25rem #945316, 7.75rem -2.5rem #945316, 7.75rem -2.75rem #e78224, 7.75rem -3rem #945316, 7.75rem -3.25rem #e78224, 7.75rem -3.5rem #e78224, 7.75rem -3.75rem #945316, 7.75rem -4rem #e78224, 7.75rem -4.25rem #945316, 7.75rem -4.5rem #945316, 7.75rem -4.75rem #945316, 7.75rem -5rem #945316, 7.75rem -5.25rem #945316, 7.75rem -5.5rem #ffa959, 7.75rem -5.75rem #ffa959, 7.75rem -6rem #ffa959, 7.75rem -6.25rem #945316, 7.75rem -6.5rem #ffa959, 7.75rem -6.75rem #ffa959, 7.75rem -7rem #ffa959, 8rem -0.25rem #ffa959, 8rem -0.5rem #945316, 8rem -0.75rem #ffa959, 8rem -1rem #945316, 8rem -1.25rem #945316, 8rem -1.5rem #945316, 8rem -1.75rem #945316, 8rem -2rem #945316, 8rem -2.25rem #945316, 8rem -2.5rem #945316, 8rem -2.75rem #945316, 8rem -3rem #e78224, 8rem -3.25rem #945316, 8rem -3.5rem #945316, 8rem -3.75rem #e78224, 8rem -4rem #945316, 8rem -4.25rem #945316, 8rem -4.5rem #945316, 8rem -4.75rem #945316, 8rem -5rem #945316, 8rem -5.25rem #945316, 8rem -5.5rem #945316, 8rem -5.75rem #945316, 8rem -6rem #945316, 8rem -6.25rem #945316, 8rem -6.5rem #ffa959, 8rem -6.75rem #ffa959, 8.25rem -0.25rem #ffa959, 8.25rem -0.5rem #ffa959, 8.25rem -0.75rem #ffa959, 8.25rem -1rem #945316, 8.25rem -1.25rem #945316, 8.25rem -1.5rem #945316, 8.25rem -1.75rem #945316, 8.25rem -2rem #945316, 8.25rem -2.25rem #945316, 8.25rem -2.5rem #945316, 8.25rem -2.75rem #945316, 8.25rem -3rem #945316, 8.25rem -3.25rem #945316, 8.25rem -3.5rem #945316, 8.25rem -3.75rem #945316, 8.25rem -4rem #945316, 8.25rem -4.25rem #945316, 8.25rem -4.5rem #945316, 8.25rem -4.75rem #945316, 8.25rem -5rem #945316, 8.25rem -5.25rem #945316, 8.25rem -5.5rem #945316, 8.25rem -5.75rem #945316, 8.25rem -6rem #945316, 8.25rem -6.25rem #945316, 8.25rem -6.5rem #945316, 8.5rem -0.25rem #ffa959, 8.5rem -0.5rem #ffa959, 8.5rem -0.75rem #945316, 8.5rem -1rem #945316, 8.5rem -1.25rem #945316, 8.5rem -1.5rem #945316, 8.5rem -1.75rem #945316, 8.5rem -2rem #945316, 8.5rem -2.25rem #945316, 8.5rem -2.5rem #945316, 8.5rem -2.75rem #945316, 8.5rem -3rem #945316, 8.5rem -3.25rem #945316, 8.5rem -3.5rem #945316, 8.5rem -3.75rem #945316, 8.5rem -4rem #945316, 8.5rem -4.25rem #945316, 8.5rem -4.5rem #945316, 8.5rem -4.75rem #945316, 8.5rem -5rem #945316, 8.5rem -5.25rem #945316, 8.5rem -5.5rem #945316, 8.5rem -5.75rem #945316, 8.5rem -6rem #945316, 8.5rem -6.25rem #945316, 8.75rem -0.25rem #ffa959, 8.75rem -0.5rem #ffa959, 8.75rem -0.75rem #945316, 8.75rem -1rem #945316, 8.75rem -1.25rem #945316, 8.75rem -1.5rem #945316, 8.75rem -1.75rem #945316, 8.75rem -2rem #945316, 8.75rem -2.25rem #945316, 8.75rem -2.5rem #945316, 8.75rem -2.75rem #945316, 8.75rem -3rem #e78224, 8.75rem -3.25rem #945316, 8.75rem -3.5rem #945316, 8.75rem -3.75rem #945316, 8.75rem -4rem #945316, 8.75rem -4.25rem #945316, 8.75rem -4.5rem #945316, 8.75rem -4.75rem #945316, 8.75rem -5rem #945316, 8.75rem -5.25rem #945316, 8.75rem -5.5rem #945316, 8.75rem -5.75rem #945316, 8.75rem -6rem #945316, 8.75rem -6.25rem #945316, 8.75rem -7.5rem #ffa959, 9rem -0.25rem #ffa959, 9rem -0.5rem #ffa959, 9rem -0.75rem #945316, 9rem -1rem #945316, 9rem -1.25rem #945316, 9rem -1.5rem #945316, 9rem -1.75rem #945316, 9rem -2rem #945316, 9rem -2.25rem #945316, 9rem -2.5rem #945316, 9rem -2.75rem #e78224, 9rem -4rem #945316, 9rem -4.25rem #945316, 9rem -4.5rem #945316, 9rem -4.75rem #945316, 9rem -5rem #945316, 9rem -5.25rem #945316, 9rem -5.5rem #945316, 9rem -5.75rem #945316, 9rem -6rem #945316, 9rem -6.25rem #945316, 9rem -7rem #ffa959, 9rem -7.25rem #e78224, 9rem -7.5rem #ffa959, 9rem -7.75rem #ffa959, 9.25rem -0.25rem #ffa959, 9.25rem -0.5rem #945316, 9.25rem -0.75rem #ffa959, 9.25rem -1rem #945316, 9.25rem -1.25rem #945316, 9.25rem -1.5rem #945316, 9.25rem -1.75rem #945316, 9.25rem -2rem #945316, 9.25rem -2.25rem #945316, 9.25rem -2.5rem #e78224, 9.25rem -4.25rem #945316, 9.25rem -4.5rem #945316, 9.25rem -4.75rem #945316, 9.25rem -5rem #945316, 9.25rem -5.25rem #945316, 9.25rem -5.5rem #945316, 9.25rem -5.75rem #945316, 9.25rem -6rem #945316, 9.25rem -6.25rem #945316, 9.25rem -6.75rem #ffa959, 9.25rem -7rem #ffa959, 9.25rem -7.25rem #e78224, 9.25rem -7.5rem #e78224, 9.25rem -7.75rem #ffa959, 9.25rem -8rem #ffa959, 9.5rem -0.25rem #ffa959, 9.5rem -0.5rem #ffa959, 9.5rem -0.75rem #ffa959, 9.5rem -1rem #945316, 9.5rem -1.25rem #945316, 9.5rem -1.5rem #945316, 9.5rem -1.75rem #945316, 9.5rem -2rem #945316, 9.5rem -2.25rem #e78224, 9.5rem -4.5rem #945316, 9.5rem -4.75rem #945316, 9.5rem -5rem #945316, 9.5rem -5.25rem #945316, 9.5rem -5.5rem #945316, 9.5rem -5.75rem #945316, 9.5rem -6rem #945316, 9.5rem -6.25rem #945316, 9.5rem -6.75rem #ffa959, 9.5rem -7rem #ffa959, 9.5rem -7.25rem #e78224, 9.5rem -7.5rem #ffa959, 9.5rem -7.75rem #e78224, 9.5rem -8rem #ffa959, 9.75rem -0.25rem #ffa959, 9.75rem -0.5rem #ffa959, 9.75rem -0.75rem #945316, 9.75rem -1.5rem #e78224, 9.75rem -1.75rem #e78224, 9.75rem -2rem #e78224, 9.75rem -4.5rem #945316, 9.75rem -4.75rem #945316, 9.75rem -5rem #945316, 9.75rem -5.25rem #945316, 9.75rem -5.5rem #945316, 9.75rem -5.75rem #945316, 9.75rem -6rem #945316, 9.75rem -6.25rem #945316, 9.75rem -6.75rem #ffa959, 9.75rem -7rem #e78224, 9.75rem -7.25rem #ffa959, 9.75rem -7.5rem #ffa959, 9.75rem -7.75rem #ffa959, 9.75rem -8rem #ffa959, 10rem -0.25rem #ffa959, 10rem -0.5rem #e78224, 10rem -0.75rem #ffa959, 10rem -4.75rem #945316, 10rem -5rem #945316, 10rem -5.25rem #945316, 10rem -5.5rem #945316, 10rem -5.75rem #945316, 10rem -6rem #945316, 10rem -6.25rem #945316, 10rem -6.75rem #ffa959, 10rem -7rem #ffa959, 10rem -7.25rem #e78224, 10rem -7.5rem #ffa959, 10rem -7.75rem #ffa959, 10rem -8rem #ffa959, 10.25rem -0.25rem #e78224, 10.25rem -0.5rem #ffa959, 10.25rem -0.75rem #ffa959, 10.25rem -4.75rem #945316, 10.25rem -5rem #945316, 10.25rem -5.25rem #945316, 10.25rem -5.5rem #945316, 10.25rem -5.75rem #945316, 10.25rem -6rem #945316, 10.25rem -6.25rem #945316, 10.25rem -6.5rem #e78224, 10.25rem -6.75rem #ffa959, 10.25rem -7rem #ffa959, 10.25rem -7.25rem #ffa959, 10.25rem -7.5rem #e78224, 10.25rem -7.75rem #ffa959, 10.5rem -0.25rem #ffa959, 10.5rem -5rem #945316, 10.5rem -5.25rem #945316, 10.5rem -5.5rem #945316, 10.5rem -5.75rem #945316, 10.5rem -6rem #945316, 10.5rem -6.25rem #945316, 10.5rem -6.5rem #e78224, 10.5rem -6.75rem #ffa959, 10.5rem -7rem #ffa959, 10.5rem -7.25rem #ffa959, 10.5rem -7.5rem #ffa959, 10.5rem -7.75rem #ffa959, 10.75rem -5.25rem #945316, 10.75rem -5.5rem #945316, 10.75rem -5.75rem #945316, 10.75rem -6rem #945316, 10.75rem -6.25rem #945316, 10.75rem -6.5rem #945316, 10.75rem -6.75rem #e78224, 10.75rem -7rem #ffa959, 10.75rem -7.25rem #ffa959, 10.75rem -7.5rem #ffa959, 11rem -5.25rem #945316, 11rem -5.5rem #945316, 11rem -5.75rem #945316, 11rem -6rem #945316, 11rem -6.25rem #945316, 11rem -6.5rem #e78224, 11rem -6.75rem #e78224, 11rem -7rem #e78224, 11rem -7.25rem #ffa959, 11rem -7.5rem #ffa959, 11.25rem -5.5rem #945316, 11.25rem -5.75rem #945316, 11.25rem -6rem #945316, 11.25rem -6.25rem #945316, 11.25rem -6.5rem #945316, 11.25rem -6.75rem #945316, 11.25rem -7rem #ffa959, 11.25rem -7.25rem #ffa959, 11.25rem -7.5rem #ffa959, 11.5rem -5.75rem #945316, 11.5rem -6rem #945316, 11.5rem -6.25rem #945316, 11.5rem -6.5rem #e78224, 11.5rem -6.75rem #945316, 11.5rem -7rem #945316;
-    bottom: -1.83rem;
-    left: 3.13rem;
-    width: 0.32rem;
-    height: 0.32rem;
-  }
-}
+  box-shadow: 0.12rem -0.36rem #ffa959, 0.12rem -0.48rem #ffa959, 0.24rem -0.36rem #ffa959, 0.24rem -0.48rem #ffa959, 0.24rem -0.6rem #ffa959, 0.36rem -0.36rem #ffa959, 0.36rem -0.48rem #ffa959, 0.36rem -0.6rem #ffa959, 0.48rem -0.36rem #ffa959, 0.48rem -0.48rem #945316, 0.48rem -0.6rem #ffa959, 0.48rem -0.72rem #945316, 0.48rem -2.04rem #945316, 0.48rem -2.16rem #945316, 0.48rem -2.28rem #945316, 0.48rem -2.4rem #945316, 0.6rem -0.36rem #ffa959, 0.6rem -0.48rem #ffa959, 0.6rem -0.6rem #945316, 0.6rem -0.72rem #945316, 0.6rem -0.84rem #945316, 0.6rem -0.96rem #945316, 0.6rem -1.08rem #e78224, 0.6rem -1.2rem #e78224, 0.6rem -1.92rem #945316, 0.6rem -2.04rem #945316, 0.6rem -2.16rem #945316, 0.6rem -2.28rem #945316, 0.6rem -2.4rem #945316, 0.6rem -2.52rem #e78224, 0.72rem -0.36rem #ffa959, 0.72rem -0.48rem #ffa959, 0.72rem -0.6rem #945316, 0.72rem -0.72rem #945316, 0.72rem -0.84rem #945316, 0.72rem -0.96rem #945316, 0.72rem -1.08rem #945316, 0.72rem -1.2rem #945316, 0.72rem -1.32rem #e78224, 0.72rem -1.8rem #945316, 0.72rem -1.92rem #945316, 0.72rem -2.04rem #945316, 0.72rem -2.16rem #945316, 0.72rem -2.28rem #945316, 0.72rem -2.4rem #945316, 0.72rem -2.52rem #945316, 0.72rem -2.64rem #e78224, 0.84rem -0.36rem #945316, 0.84rem -0.48rem #ffa959, 0.84rem -0.6rem #945316, 0.84rem -0.72rem #945316, 0.84rem -0.84rem #945316, 0.84rem -0.96rem #945316, 0.84rem -1.08rem #945316, 0.84rem -1.2rem #945316, 0.84rem -1.32rem #e78224, 0.84rem -1.68rem #945316, 0.84rem -1.8rem #945316, 0.84rem -1.92rem #945316, 0.84rem -2.04rem #945316, 0.84rem -2.16rem #945316, 0.84rem -2.28rem #945316, 0.84rem -2.4rem #945316, 0.84rem -2.52rem #945316, 0.84rem -2.64rem #e78224, 0.96rem -0.36rem #ffa959, 0.96rem -0.48rem #945316, 0.96rem -0.6rem #945316, 0.96rem -0.72rem #945316, 0.96rem -0.84rem #945316, 0.96rem -0.96rem #945316, 0.96rem -1.08rem #945316, 0.96rem -1.2rem #945316, 0.96rem -1.32rem #945316, 0.96rem -1.44rem #e78224, 0.96rem -1.68rem #945316, 0.96rem -1.8rem #945316, 0.96rem -1.92rem #945316, 0.96rem -2.04rem #945316, 0.96rem -2.16rem #945316, 0.96rem -2.28rem #945316, 0.96rem -2.4rem #945316, 0.96rem -2.52rem #945316, 0.96rem -2.64rem #945316, 0.96rem -2.76rem #e78224, 1.08rem -0.36rem #ffa959, 1.08rem -0.48rem #945316, 1.08rem -0.6rem #945316, 1.08rem -0.72rem #945316, 1.08rem -0.84rem #945316, 1.08rem -0.96rem #945316, 1.08rem -1.08rem #945316, 1.08rem -1.2rem #945316, 1.08rem -1.32rem #945316, 1.08rem -1.44rem #e78224, 1.08rem -1.68rem #945316, 1.08rem -1.8rem #945316, 1.08rem -1.92rem #945316, 1.08rem -2.04rem #945316, 1.08rem -2.16rem #945316, 1.08rem -2.28rem #945316, 1.08rem -2.4rem #e78224, 1.08rem -2.52rem #945316, 1.08rem -2.64rem #945316, 1.08rem -2.76rem #945316, 1.08rem -2.88rem #e78224, 1.2rem -0.36rem #ffa959, 1.2rem -0.48rem #945316, 1.2rem -0.6rem #945316, 1.2rem -0.72rem #945316, 1.2rem -0.84rem #945316, 1.2rem -0.96rem #945316, 1.2rem -1.08rem #945316, 1.2rem -1.2rem #945316, 1.2rem -1.32rem #945316, 1.2rem -1.44rem #e78224, 1.2rem -1.56rem #945316, 1.2rem -1.68rem #945316, 1.2rem -1.8rem #945316, 1.2rem -1.92rem #945316, 1.2rem -2.04rem #945316, 1.2rem -2.16rem #945316, 1.2rem -2.28rem #e78224, 1.2rem -2.4rem #945316, 1.2rem -2.52rem #945316, 1.2rem -2.64rem #945316, 1.2rem -2.76rem #945316, 1.2rem -2.88rem #e78224, 1.32rem -0.36rem #ffa959, 1.32rem -0.48rem #945316, 1.32rem -0.6rem #945316, 1.32rem -0.72rem #945316, 1.32rem -0.84rem #945316, 1.32rem -0.96rem #945316, 1.32rem -1.08rem #945316, 1.32rem -1.2rem #945316, 1.32rem -1.32rem #945316, 1.32rem -1.44rem #e78224, 1.32rem -1.56rem #945316, 1.32rem -1.68rem #945316, 1.32rem -1.8rem #945316, 1.32rem -1.92rem #945316, 1.32rem -2.04rem #945316, 1.32rem -2.16rem #e78224, 1.32rem -2.28rem #e78224, 1.32rem -2.4rem #945316, 1.32rem -2.52rem #945316, 1.32rem -2.64rem #945316, 1.32rem -2.76rem #945316, 1.32rem -2.88rem #945316, 1.32rem -3rem #e78224, 1.44rem -0.6rem #945316, 1.44rem -0.72rem #945316, 1.44rem -0.84rem #945316, 1.44rem -0.96rem #945316, 1.44rem -1.08rem #945316, 1.44rem -1.2rem #945316, 1.44rem -1.32rem #945316, 1.44rem -1.44rem #945316, 1.44rem -1.56rem #945316, 1.44rem -1.68rem #945316, 1.44rem -1.8rem #945316, 1.44rem -1.92rem #945316, 1.44rem -2.04rem #e78224, 1.44rem -2.16rem #e78224, 1.44rem -2.28rem #945316, 1.44rem -2.4rem #945316, 1.44rem -2.52rem #945316, 1.44rem -2.64rem #945316, 1.44rem -2.76rem #945316, 1.44rem -2.88rem #945316, 1.44rem -3rem #945316, 1.56rem -0.72rem #945316, 1.56rem -0.84rem #945316, 1.56rem -0.96rem #945316, 1.56rem -1.08rem #945316, 1.56rem -1.2rem #945316, 1.56rem -1.32rem #945316, 1.56rem -1.44rem #945316, 1.56rem -1.56rem #945316, 1.56rem -1.68rem #945316, 1.56rem -1.8rem #945316, 1.56rem -1.92rem #945316, 1.56rem -2.04rem #e78224, 1.56rem -2.16rem #e78224, 1.56rem -2.28rem #945316, 1.56rem -2.4rem #945316, 1.56rem -2.52rem #945316, 1.56rem -2.64rem #945316, 1.56rem -2.76rem #945316, 1.56rem -2.88rem #945316, 1.56rem -3rem #945316, 1.56rem -3.12rem #ffa959, 1.56rem -3.24rem #ffa959, 1.68rem -0.72rem #945316, 1.68rem -0.84rem #945316, 1.68rem -0.96rem #945316, 1.68rem -1.08rem #e78224, 1.68rem -1.2rem #945316, 1.68rem -1.32rem #945316, 1.68rem -1.44rem #e78224, 1.68rem -1.56rem #945316, 1.68rem -1.68rem #945316, 1.68rem -1.8rem #945316, 1.68rem -1.92rem #945316, 1.68rem -2.04rem #e78224, 1.68rem -2.16rem #945316, 1.68rem -2.28rem #945316, 1.68rem -2.4rem #945316, 1.68rem -2.52rem #945316, 1.68rem -2.64rem #ffa959, 1.68rem -2.76rem #ffa959, 1.68rem -2.88rem #ffa959, 1.68rem -3rem #945316, 1.68rem -3.12rem #ffa959, 1.68rem -3.24rem #ffa959, 1.68rem -3.36rem #ffa959, 1.8rem -0.72rem #945316, 1.8rem -0.84rem #945316, 1.8rem -0.96rem #945316, 1.8rem -1.08rem #945316, 1.8rem -1.2rem #945316, 1.8rem -1.32rem #945316, 1.8rem -1.44rem #e78224, 1.8rem -1.56rem #945316, 1.8rem -1.68rem #945316, 1.8rem -1.8rem #945316, 1.8rem -1.92rem #945316, 1.8rem -2.04rem #945316, 1.8rem -2.16rem #945316, 1.8rem -2.28rem #945316, 1.8rem -2.4rem #945316, 1.8rem -2.52rem #ffa959, 1.8rem -2.64rem #ffa959, 1.8rem -2.76rem #ffa959, 1.8rem -2.88rem #ffa959, 1.8rem -3rem #ffa959, 1.8rem -3.12rem #ffa959, 1.8rem -3.24rem #ffa959, 1.8rem -3.36rem #ffa959, 1.92rem -0.72rem #945316, 1.92rem -0.84rem #945316, 1.92rem -0.96rem #945316, 1.92rem -1.08rem #945316, 1.92rem -1.2rem #945316, 1.92rem -1.32rem #e78224, 1.92rem -1.44rem #ffa959, 1.92rem -1.56rem #945316, 1.92rem -1.68rem #945316, 1.92rem -1.8rem #945316, 1.92rem -1.92rem #ffa959, 1.92rem -2.04rem #ffa959, 1.92rem -2.16rem #945316, 1.92rem -2.28rem #945316, 1.92rem -2.4rem #ffa959, 1.92rem -2.52rem #ffa959, 1.92rem -2.64rem #945316, 1.92rem -2.76rem #FFFFFF, 1.92rem -2.88rem #ffa959, 1.92rem -3rem #ffa959, 1.92rem -3.12rem #945316, 1.92rem -3.24rem #945316, 1.92rem -3.36rem #945316, 2.04rem -0.84rem #e78224, 2.04rem -0.96rem #945316, 2.04rem -1.08rem #e78224, 2.04rem -1.2rem #e78224, 2.04rem -1.32rem #e78224, 2.04rem -1.44rem #ffa959, 2.04rem -1.56rem #ffa959, 2.04rem -1.68rem #945316, 2.04rem -1.8rem #ffa959, 2.04rem -1.92rem #ffa959, 2.04rem -2.04rem #ffa959, 2.04rem -2.16rem #945316, 2.04rem -2.28rem #945316, 2.04rem -2.4rem #ffa959, 2.04rem -2.52rem #FFFFFF, 2.04rem -2.64rem #FFFFFF, 2.04rem -2.76rem #FFFFFF, 2.04rem -2.88rem #FFFFFF, 2.04rem -3rem #ffa959, 2.04rem -3.12rem #945316, 2.04rem -3.24rem #945316, 2.04rem -3.36rem #945316, 2.04rem -3.48rem #945316, 2.16rem -0.84rem #945316, 2.16rem -0.96rem #e78224, 2.16rem -1.08rem #ffa959, 2.16rem -1.2rem #ffa959, 2.16rem -1.32rem #e78224, 2.16rem -1.44rem #ffa959, 2.16rem -1.56rem #945316, 2.16rem -1.68rem #ffa959, 2.16rem -1.8rem #945316, 2.16rem -1.92rem #ffa959, 2.16rem -2.04rem #ffa959, 2.16rem -2.16rem #945316, 2.16rem -2.28rem #945316, 2.16rem -2.4rem #ffa959, 2.16rem -2.52rem #FFFFFF, 2.16rem -2.64rem #945316, 2.16rem -2.76rem #FFFFFF, 2.16rem -2.88rem #FFFFFF, 2.16rem -3rem #ffa959, 2.16rem -3.12rem #945316, 2.16rem -3.24rem #945316, 2.16rem -3.36rem #ffa959, 2.16rem -3.48rem #945316, 2.16rem -3.6rem #945316, 2.28rem -0.84rem #945316, 2.28rem -0.96rem #ffa959, 2.28rem -1.08rem #e78224, 2.28rem -1.2rem #ffa959, 2.28rem -1.32rem #e78224, 2.28rem -1.44rem #ffa959, 2.28rem -1.56rem #ffa959, 2.28rem -1.68rem #ffa959, 2.28rem -1.8rem #ffa959, 2.28rem -1.92rem #ffa959, 2.28rem -2.04rem #945316, 2.28rem -2.16rem #945316, 2.28rem -2.28rem #ffa959, 2.28rem -2.4rem #ffa959, 2.28rem -2.52rem #945316, 2.28rem -2.64rem #945316, 2.28rem -2.76rem #945316, 2.28rem -2.88rem #ffa959, 2.28rem -3rem #ffa959, 2.28rem -3.12rem #ffa959, 2.28rem -3.24rem #ffa959, 2.28rem -3.36rem #ffa959, 2.28rem -3.48rem #ffa959, 2.28rem -3.6rem #945316, 2.28rem -3.72rem #945316, 2.4rem -0.84rem #e78224, 2.4rem -0.96rem #e78224, 2.4rem -1.08rem #ffa959, 2.4rem -1.2rem #ffa959, 2.4rem -1.32rem #e78224, 2.4rem -1.44rem #ffa959, 2.4rem -1.56rem #ffa959, 2.4rem -1.68rem #ffa959, 2.4rem -1.8rem #ffa959, 2.4rem -1.92rem #ffa959, 2.4rem -2.04rem #945316, 2.4rem -2.16rem #945316, 2.4rem -2.28rem #ffa959, 2.4rem -2.4rem #FFFFFF, 2.4rem -2.52rem #FFFFFF, 2.4rem -2.64rem #945316, 2.4rem -2.76rem #FFFFFF, 2.4rem -2.88rem #ffa959, 2.4rem -3rem #ffa959, 2.4rem -3.12rem #ffa959, 2.4rem -3.24rem #ffa959, 2.4rem -3.36rem #ffa959, 2.4rem -3.48rem #ffa959, 2.4rem -3.6rem #ffa959, 2.4rem -3.72rem #945316, 2.4rem -3.84rem #945316, 2.52rem -0.84rem #945316, 2.52rem -0.96rem #ffa959, 2.52rem -1.08rem #e78224, 2.52rem -1.2rem #ffa959, 2.52rem -1.32rem #ffa959, 2.52rem -1.44rem #e78224, 2.52rem -1.56rem #ffa959, 2.52rem -1.68rem #ffa959, 2.52rem -1.8rem #ffa959, 2.52rem -1.92rem #e78224, 2.52rem -2.04rem #945316, 2.52rem -2.16rem #945316, 2.52rem -2.28rem #ffa959, 2.52rem -2.4rem #FFFFFF, 2.52rem -2.52rem #FFFFFF, 2.52rem -2.64rem #FFFFFF, 2.52rem -2.76rem #FFFFFF, 2.52rem -2.88rem #ffa959, 2.52rem -3rem #ffa959, 2.52rem -3.12rem #ffa959, 2.52rem -3.24rem #FFFFFF, 2.52rem -3.36rem #FFFFFF, 2.52rem -3.48rem #ffa959, 2.52rem -3.6rem #ffa959, 2.52rem -3.72rem #945316, 2.52rem -3.84rem #945316, 2.64rem -0.84rem #e78224, 2.64rem -0.96rem #e78224, 2.64rem -1.08rem #ffa959, 2.64rem -1.2rem #ffa959, 2.64rem -1.32rem #ffa959, 2.64rem -1.44rem #ffa959, 2.64rem -1.56rem #e78224, 2.64rem -1.68rem #e78224, 2.64rem -1.8rem #e78224, 2.64rem -1.92rem #945316, 2.64rem -2.04rem #945316, 2.64rem -2.16rem #945316, 2.64rem -2.28rem #ffa959, 2.64rem -2.4rem #FFFFFF, 2.64rem -2.52rem #FFFFFF, 2.64rem -2.64rem #945316, 2.64rem -2.76rem #FFFFFF, 2.64rem -2.88rem #ffa959, 2.64rem -3rem #945316, 2.64rem -3.12rem #ffa959, 2.64rem -3.24rem #945316, 2.64rem -3.36rem #FFFFFF, 2.64rem -3.48rem #ffa959, 2.64rem -3.6rem #945316, 2.64rem -3.72rem #945316, 2.64rem -3.84rem #945316, 2.76rem -0.84rem #945316, 2.76rem -0.96rem #ffa959, 2.76rem -1.08rem #ffa959, 2.76rem -1.2rem #ffa959, 2.76rem -1.32rem #ffa959, 2.76rem -1.44rem #ffa959, 2.76rem -1.56rem #e78224, 2.76rem -1.68rem #e78224, 2.76rem -1.8rem #e78224, 2.76rem -1.92rem #945316, 2.76rem -2.04rem #945316, 2.76rem -2.16rem #945316, 2.76rem -2.28rem #ffa959, 2.76rem -2.4rem #ffa959, 2.76rem -2.52rem #945316, 2.76rem -2.64rem #945316, 2.76rem -2.76rem #945316, 2.76rem -2.88rem #ffa959, 2.76rem -3rem #945316, 2.76rem -3.12rem #ffa959, 2.76rem -3.24rem #ffa959, 2.76rem -3.36rem #ffa959, 2.76rem -3.48rem #945316, 2.76rem -3.6rem #945316, 2.76rem -3.72rem #945316, 2.76rem -3.84rem #945316, 2.88rem -0.84rem #945316, 2.88rem -0.96rem #945316, 2.88rem -1.08rem #e78224, 2.88rem -1.2rem #ffa959, 2.88rem -1.32rem #ffa959, 2.88rem -1.44rem #e78224, 2.88rem -1.56rem #ffa959, 2.88rem -1.68rem #ffa959, 2.88rem -1.8rem #ffa959, 2.88rem -1.92rem #e78224, 2.88rem -2.04rem #945316, 2.88rem -2.16rem #945316, 2.88rem -2.28rem #ffa959, 2.88rem -2.4rem #FFFFFF, 2.88rem -2.52rem #FFFFFF, 2.88rem -2.64rem #945316, 2.88rem -2.76rem #FFFFFF, 2.88rem -2.88rem #ffa959, 2.88rem -3rem #945316, 2.88rem -3.12rem #ffa959, 2.88rem -3.24rem #945316, 2.88rem -3.36rem #FFFFFF, 2.88rem -3.48rem #ffa959, 2.88rem -3.6rem #945316, 2.88rem -3.72rem #945316, 2.88rem -3.84rem #945316, 3rem -0.84rem #e78224, 3rem -0.96rem #e78224, 3rem -1.08rem #ffa959, 3rem -1.2rem #ffa959, 3rem -1.32rem #e78224, 3rem -1.44rem #ffa959, 3rem -1.56rem #ffa959, 3rem -1.68rem #ffa959, 3rem -1.8rem #ffa959, 3rem -1.92rem #ffa959, 3rem -2.04rem #945316, 3rem -2.16rem #945316, 3rem -2.28rem #ffa959, 3rem -2.4rem #FFFFFF, 3rem -2.52rem #FFFFFF, 3rem -2.64rem #FFFFFF, 3rem -2.76rem #FFFFFF, 3rem -2.88rem #ffa959, 3rem -3rem #ffa959, 3rem -3.12rem #ffa959, 3rem -3.24rem #FFFFFF, 3rem -3.36rem #FFFFFF, 3rem -3.48rem #ffa959, 3rem -3.6rem #ffa959, 3rem -3.72rem #945316, 3rem -3.84rem #945316, 3.12rem -0.84rem #945316, 3.12rem -0.96rem #ffa959, 3.12rem -1.08rem #e78224, 3.12rem -1.2rem #ffa959, 3.12rem -1.32rem #e78224, 3.12rem -1.44rem #ffa959, 3.12rem -1.56rem #ffa959, 3.12rem -1.68rem #ffa959, 3.12rem -1.8rem #ffa959, 3.12rem -1.92rem #e78224, 3.12rem -2.04rem #945316, 3.12rem -2.16rem #945316, 3.12rem -2.28rem #ffa959, 3.12rem -2.4rem #FFFFFF, 3.12rem -2.52rem #FFFFFF, 3.12rem -2.64rem #945316, 3.12rem -2.76rem #FFFFFF, 3.12rem -2.88rem #ffa959, 3.12rem -3rem #ffa959, 3.12rem -3.12rem #ffa959, 3.12rem -3.24rem #ffa959, 3.12rem -3.36rem #ffa959, 3.12rem -3.48rem #ffa959, 3.12rem -3.6rem #ffa959, 3.12rem -3.72rem #945316, 3.12rem -3.84rem #945316, 3.24rem -0.72rem #945316, 3.24rem -0.84rem #945316, 3.24rem -0.96rem #e78224, 3.24rem -1.08rem #ffa959, 3.24rem -1.2rem #ffa959, 3.24rem -1.32rem #e78224, 3.24rem -1.44rem #ffa959, 3.24rem -1.56rem #945316, 3.24rem -1.68rem #ffa959, 3.24rem -1.8rem #ffa959, 3.24rem -1.92rem #ffa959, 3.24rem -2.04rem #945316, 3.24rem -2.16rem #945316, 3.24rem -2.28rem #ffa959, 3.24rem -2.4rem #ffa959, 3.24rem -2.52rem #945316, 3.24rem -2.64rem #945316, 3.24rem -2.76rem #945316, 3.24rem -2.88rem #ffa959, 3.24rem -3rem #ffa959, 3.24rem -3.12rem #ffa959, 3.24rem -3.24rem #ffa959, 3.24rem -3.36rem #ffa959, 3.24rem -3.48rem #ffa959, 3.24rem -3.6rem #945316, 3.24rem -3.72rem #945316, 3.36rem -0.6rem #945316, 3.36rem -0.72rem #945316, 3.36rem -0.84rem #e78224, 3.36rem -0.96rem #945316, 3.36rem -1.08rem #e78224, 3.36rem -1.2rem #e78224, 3.36rem -1.32rem #e78224, 3.36rem -1.44rem #ffa959, 3.36rem -1.56rem #ffa959, 3.36rem -1.68rem #ffa959, 3.36rem -1.8rem #ffa959, 3.36rem -1.92rem #e78224, 3.36rem -2.04rem #945316, 3.36rem -2.16rem #945316, 3.36rem -2.28rem #945316, 3.36rem -2.4rem #ffa959, 3.36rem -2.52rem #FFFFFF, 3.36rem -2.64rem #945316, 3.36rem -2.76rem #FFFFFF, 3.36rem -2.88rem #FFFFFF, 3.36rem -3rem #ffa959, 3.36rem -3.12rem #945316, 3.36rem -3.24rem #945316, 3.36rem -3.36rem #ffa959, 3.36rem -3.48rem #945316, 3.36rem -3.6rem #945316, 3.48rem -0.48rem #ffa959, 3.48rem -0.6rem #945316, 3.48rem -0.72rem #945316, 3.48rem -0.84rem #945316, 3.48rem -0.96rem #945316, 3.48rem -1.08rem #945316, 3.48rem -1.2rem #945316, 3.48rem -1.32rem #e78224, 3.48rem -1.44rem #ffa959, 3.48rem -1.56rem #ffa959, 3.48rem -1.68rem #ffa959, 3.48rem -1.8rem #ffa959, 3.48rem -1.92rem #ffa959, 3.48rem -2.04rem #945316, 3.48rem -2.16rem #945316, 3.48rem -2.28rem #945316, 3.48rem -2.4rem #ffa959, 3.48rem -2.52rem #FFFFFF, 3.48rem -2.64rem #FFFFFF, 3.48rem -2.76rem #FFFFFF, 3.48rem -2.88rem #FFFFFF, 3.48rem -3rem #ffa959, 3.48rem -3.12rem #945316, 3.48rem -3.24rem #945316, 3.48rem -3.36rem #945316, 3.48rem -3.48rem #945316, 3.6rem -0.24rem #ffa959, 3.6rem -0.36rem #ffa959, 3.6rem -0.48rem #945316, 3.6rem -0.6rem #945316, 3.6rem -0.72rem #945316, 3.6rem -0.84rem #945316, 3.6rem -0.96rem #945316, 3.6rem -1.08rem #945316, 3.6rem -1.2rem #945316, 3.6rem -1.32rem #945316, 3.6rem -1.44rem #e78224, 3.6rem -1.56rem #e78224, 3.6rem -1.68rem #e78224, 3.6rem -1.8rem #945316, 3.6rem -1.92rem #945316, 3.6rem -2.04rem #945316, 3.6rem -2.16rem #945316, 3.6rem -2.28rem #945316, 3.6rem -2.4rem #945316, 3.6rem -2.52rem #ffa959, 3.6rem -2.64rem #ffa959, 3.6rem -2.76rem #FFFFFF, 3.6rem -2.88rem #ffa959, 3.6rem -3rem #ffa959, 3.6rem -3.12rem #ffa959, 3.6rem -3.24rem #ffa959, 3.6rem -3.36rem #ffa959, 3.72rem -0.12rem #ffa959, 3.72rem -0.24rem #ffa959, 3.72rem -0.36rem #945316, 3.72rem -0.48rem #945316, 3.72rem -0.6rem #945316, 3.72rem -0.72rem #945316, 3.72rem -0.84rem #945316, 3.72rem -0.96rem #945316, 3.72rem -1.08rem #945316, 3.72rem -1.2rem #945316, 3.72rem -1.32rem #e78224, 3.72rem -1.44rem #945316, 3.72rem -1.56rem #e78224, 3.72rem -1.68rem #e78224, 3.72rem -1.8rem #945316, 3.72rem -1.92rem #e78224, 3.72rem -2.04rem #945316, 3.72rem -2.16rem #945316, 3.72rem -2.28rem #945316, 3.72rem -2.4rem #945316, 3.72rem -2.52rem #945316, 3.72rem -2.64rem #ffa959, 3.72rem -2.76rem #ffa959, 3.72rem -2.88rem #ffa959, 3.72rem -3rem #945316, 3.72rem -3.12rem #ffa959, 3.72rem -3.24rem #ffa959, 3.72rem -3.36rem #ffa959, 3.84rem -0.12rem #ffa959, 3.84rem -0.24rem #945316, 3.84rem -0.36rem #ffa959, 3.84rem -0.48rem #945316, 3.84rem -0.6rem #945316, 3.84rem -0.72rem #945316, 3.84rem -0.84rem #945316, 3.84rem -0.96rem #945316, 3.84rem -1.08rem #945316, 3.84rem -1.2rem #945316, 3.84rem -1.32rem #945316, 3.84rem -1.44rem #e78224, 3.84rem -1.56rem #945316, 3.84rem -1.68rem #945316, 3.84rem -1.8rem #e78224, 3.84rem -1.92rem #945316, 3.84rem -2.04rem #945316, 3.84rem -2.16rem #945316, 3.84rem -2.28rem #945316, 3.84rem -2.4rem #945316, 3.84rem -2.52rem #945316, 3.84rem -2.64rem #945316, 3.84rem -2.76rem #945316, 3.84rem -2.88rem #945316, 3.84rem -3rem #945316, 3.84rem -3.12rem #ffa959, 3.84rem -3.24rem #ffa959, 3.96rem -0.12rem #ffa959, 3.96rem -0.24rem #ffa959, 3.96rem -0.36rem #ffa959, 3.96rem -0.48rem #945316, 3.96rem -0.6rem #945316, 3.96rem -0.72rem #945316, 3.96rem -0.84rem #945316, 3.96rem -0.96rem #945316, 3.96rem -1.08rem #945316, 3.96rem -1.2rem #945316, 3.96rem -1.32rem #945316, 3.96rem -1.44rem #945316, 3.96rem -1.56rem #945316, 3.96rem -1.68rem #945316, 3.96rem -1.8rem #945316, 3.96rem -1.92rem #945316, 3.96rem -2.04rem #945316, 3.96rem -2.16rem #945316, 3.96rem -2.28rem #945316, 3.96rem -2.4rem #945316, 3.96rem -2.52rem #945316, 3.96rem -2.64rem #945316, 3.96rem -2.76rem #945316, 3.96rem -2.88rem #945316, 3.96rem -3rem #945316, 3.96rem -3.12rem #945316, 4.08rem -0.12rem #ffa959, 4.08rem -0.24rem #ffa959, 4.08rem -0.36rem #945316, 4.08rem -0.48rem #945316, 4.08rem -0.6rem #945316, 4.08rem -0.72rem #945316, 4.08rem -0.84rem #945316, 4.08rem -0.96rem #945316, 4.08rem -1.08rem #945316, 4.08rem -1.2rem #945316, 4.08rem -1.32rem #945316, 4.08rem -1.44rem #945316, 4.08rem -1.56rem #945316, 4.08rem -1.68rem #945316, 4.08rem -1.8rem #945316, 4.08rem -1.92rem #945316, 4.08rem -2.04rem #945316, 4.08rem -2.16rem #945316, 4.08rem -2.28rem #945316, 4.08rem -2.4rem #945316, 4.08rem -2.52rem #945316, 4.08rem -2.64rem #945316, 4.08rem -2.76rem #945316, 4.08rem -2.88rem #945316, 4.08rem -3rem #945316, 4.2rem -0.12rem #ffa959, 4.2rem -0.24rem #ffa959, 4.2rem -0.36rem #945316, 4.2rem -0.48rem #945316, 4.2rem -0.6rem #945316, 4.2rem -0.72rem #945316, 4.2rem -0.84rem #945316, 4.2rem -0.96rem #945316, 4.2rem -1.08rem #945316, 4.2rem -1.2rem #945316, 4.2rem -1.32rem #945316, 4.2rem -1.44rem #e78224, 4.2rem -1.56rem #945316, 4.2rem -1.68rem #945316, 4.2rem -1.8rem #945316, 4.2rem -1.92rem #945316, 4.2rem -2.04rem #945316, 4.2rem -2.16rem #945316, 4.2rem -2.28rem #945316, 4.2rem -2.4rem #945316, 4.2rem -2.52rem #945316, 4.2rem -2.64rem #945316, 4.2rem -2.76rem #945316, 4.2rem -2.88rem #945316, 4.2rem -3rem #945316, 4.2rem -3.6rem #ffa959, 4.32rem -0.12rem #ffa959, 4.32rem -0.24rem #ffa959, 4.32rem -0.36rem #945316, 4.32rem -0.48rem #945316, 4.32rem -0.6rem #945316, 4.32rem -0.72rem #945316, 4.32rem -0.84rem #945316, 4.32rem -0.96rem #945316, 4.32rem -1.08rem #945316, 4.32rem -1.2rem #945316, 4.32rem -1.32rem #e78224, 4.32rem -1.92rem #945316, 4.32rem -2.04rem #945316, 4.32rem -2.16rem #945316, 4.32rem -2.28rem #945316, 4.32rem -2.4rem #945316, 4.32rem -2.52rem #945316, 4.32rem -2.64rem #945316, 4.32rem -2.76rem #945316, 4.32rem -2.88rem #945316, 4.32rem -3rem #945316, 4.32rem -3.36rem #ffa959, 4.32rem -3.48rem #e78224, 4.32rem -3.6rem #ffa959, 4.32rem -3.72rem #ffa959, 4.44rem -0.12rem #ffa959, 4.44rem -0.24rem #945316, 4.44rem -0.36rem #ffa959, 4.44rem -0.48rem #945316, 4.44rem -0.6rem #945316, 4.44rem -0.72rem #945316, 4.44rem -0.84rem #945316, 4.44rem -0.96rem #945316, 4.44rem -1.08rem #945316, 4.44rem -1.2rem #e78224, 4.44rem -2.04rem #945316, 4.44rem -2.16rem #945316, 4.44rem -2.28rem #945316, 4.44rem -2.4rem #945316, 4.44rem -2.52rem #945316, 4.44rem -2.64rem #945316, 4.44rem -2.76rem #945316, 4.44rem -2.88rem #945316, 4.44rem -3rem #945316, 4.44rem -3.24rem #ffa959, 4.44rem -3.36rem #ffa959, 4.44rem -3.48rem #e78224, 4.44rem -3.6rem #e78224, 4.44rem -3.72rem #ffa959, 4.44rem -3.84rem #ffa959, 4.56rem -0.12rem #ffa959, 4.56rem -0.24rem #ffa959, 4.56rem -0.36rem #ffa959, 4.56rem -0.48rem #945316, 4.56rem -0.6rem #945316, 4.56rem -0.72rem #945316, 4.56rem -0.84rem #945316, 4.56rem -0.96rem #945316, 4.56rem -1.08rem #e78224, 4.56rem -2.16rem #945316, 4.56rem -2.28rem #945316, 4.56rem -2.4rem #945316, 4.56rem -2.52rem #945316, 4.56rem -2.64rem #945316, 4.56rem -2.76rem #945316, 4.56rem -2.88rem #945316, 4.56rem -3rem #945316, 4.56rem -3.24rem #ffa959, 4.56rem -3.36rem #ffa959, 4.56rem -3.48rem #e78224, 4.56rem -3.6rem #ffa959, 4.56rem -3.72rem #e78224, 4.56rem -3.84rem #ffa959, 4.68rem -0.12rem #ffa959, 4.68rem -0.24rem #ffa959, 4.68rem -0.36rem #945316, 4.68rem -0.72rem #e78224, 4.68rem -0.84rem #e78224, 4.68rem -0.96rem #e78224, 4.68rem -2.16rem #945316, 4.68rem -2.28rem #945316, 4.68rem -2.4rem #945316, 4.68rem -2.52rem #945316, 4.68rem -2.64rem #945316, 4.68rem -2.76rem #945316, 4.68rem -2.88rem #945316, 4.68rem -3rem #945316, 4.68rem -3.24rem #ffa959, 4.68rem -3.36rem #e78224, 4.68rem -3.48rem #ffa959, 4.68rem -3.6rem #ffa959, 4.68rem -3.72rem #ffa959, 4.68rem -3.84rem #ffa959, 4.8rem -0.12rem #ffa959, 4.8rem -0.24rem #e78224, 4.8rem -0.36rem #ffa959, 4.8rem -2.28rem #945316, 4.8rem -2.4rem #945316, 4.8rem -2.52rem #945316, 4.8rem -2.64rem #945316, 4.8rem -2.76rem #945316, 4.8rem -2.88rem #945316, 4.8rem -3rem #945316, 4.8rem -3.24rem #ffa959, 4.8rem -3.36rem #ffa959, 4.8rem -3.48rem #e78224, 4.8rem -3.6rem #ffa959, 4.8rem -3.72rem #ffa959, 4.8rem -3.84rem #ffa959, 4.92rem -0.12rem #e78224, 4.92rem -0.24rem #ffa959, 4.92rem -0.36rem #ffa959, 4.92rem -2.28rem #945316, 4.92rem -2.4rem #945316, 4.92rem -2.52rem #945316, 4.92rem -2.64rem #945316, 4.92rem -2.76rem #945316, 4.92rem -2.88rem #945316, 4.92rem -3rem #945316, 4.92rem -3.12rem #e78224, 4.92rem -3.24rem #ffa959, 4.92rem -3.36rem #ffa959, 4.92rem -3.48rem #ffa959, 4.92rem -3.6rem #e78224, 4.92rem -3.72rem #ffa959, 5.04rem -0.12rem #ffa959, 5.04rem -2.4rem #945316, 5.04rem -2.52rem #945316, 5.04rem -2.64rem #945316, 5.04rem -2.76rem #945316, 5.04rem -2.88rem #945316, 5.04rem -3rem #945316, 5.04rem -3.12rem #e78224, 5.04rem -3.24rem #ffa959, 5.04rem -3.36rem #ffa959, 5.04rem -3.48rem #ffa959, 5.04rem -3.6rem #ffa959, 5.04rem -3.72rem #ffa959, 5.16rem -2.52rem #945316, 5.16rem -2.64rem #945316, 5.16rem -2.76rem #945316, 5.16rem -2.88rem #945316, 5.16rem -3rem #945316, 5.16rem -3.12rem #945316, 5.16rem -3.24rem #e78224, 5.16rem -3.36rem #ffa959, 5.16rem -3.48rem #ffa959, 5.16rem -3.6rem #ffa959, 5.28rem -2.52rem #945316, 5.28rem -2.64rem #945316, 5.28rem -2.76rem #945316, 5.28rem -2.88rem #945316, 5.28rem -3rem #945316, 5.28rem -3.12rem #e78224, 5.28rem -3.24rem #e78224, 5.28rem -3.36rem #e78224, 5.28rem -3.48rem #ffa959, 5.28rem -3.6rem #ffa959, 5.4rem -2.64rem #945316, 5.4rem -2.76rem #945316, 5.4rem -2.88rem #945316, 5.4rem -3rem #945316, 5.4rem -3.12rem #945316, 5.4rem -3.24rem #945316, 5.4rem -3.36rem #ffa959, 5.4rem -3.48rem #ffa959, 5.4rem -3.6rem #ffa959, 5.52rem -2.76rem #945316, 5.52rem -2.88rem #945316, 5.52rem -3rem #945316, 5.52rem -3.12rem #e78224, 5.52rem -3.24rem #945316, 5.52rem -3.36rem #945316; }
+  @media screen and (min-width: 64rem) {
+    .summary::before {
+      box-shadow: 0.25rem -0.75rem #ffa959, 0.25rem -1rem #ffa959, 0.5rem -0.75rem #ffa959, 0.5rem -1rem #ffa959, 0.5rem -1.25rem #ffa959, 0.75rem -0.75rem #ffa959, 0.75rem -1rem #ffa959, 0.75rem -1.25rem #ffa959, 1rem -0.75rem #ffa959, 1rem -1rem #945316, 1rem -1.25rem #ffa959, 1rem -1.5rem #945316, 1rem -4.25rem #945316, 1rem -4.5rem #945316, 1rem -4.75rem #945316, 1rem -5rem #945316, 1.25rem -0.75rem #ffa959, 1.25rem -1rem #ffa959, 1.25rem -1.25rem #945316, 1.25rem -1.5rem #945316, 1.25rem -1.75rem #945316, 1.25rem -2rem #945316, 1.25rem -2.25rem #e78224, 1.25rem -2.5rem #e78224, 1.25rem -4rem #945316, 1.25rem -4.25rem #945316, 1.25rem -4.5rem #945316, 1.25rem -4.75rem #945316, 1.25rem -5rem #945316, 1.25rem -5.25rem #e78224, 1.5rem -0.75rem #ffa959, 1.5rem -1rem #ffa959, 1.5rem -1.25rem #945316, 1.5rem -1.5rem #945316, 1.5rem -1.75rem #945316, 1.5rem -2rem #945316, 1.5rem -2.25rem #945316, 1.5rem -2.5rem #945316, 1.5rem -2.75rem #e78224, 1.5rem -3.75rem #945316, 1.5rem -4rem #945316, 1.5rem -4.25rem #945316, 1.5rem -4.5rem #945316, 1.5rem -4.75rem #945316, 1.5rem -5rem #945316, 1.5rem -5.25rem #945316, 1.5rem -5.5rem #e78224, 1.75rem -0.75rem #945316, 1.75rem -1rem #ffa959, 1.75rem -1.25rem #945316, 1.75rem -1.5rem #945316, 1.75rem -1.75rem #945316, 1.75rem -2rem #945316, 1.75rem -2.25rem #945316, 1.75rem -2.5rem #945316, 1.75rem -2.75rem #e78224, 1.75rem -3.5rem #945316, 1.75rem -3.75rem #945316, 1.75rem -4rem #945316, 1.75rem -4.25rem #945316, 1.75rem -4.5rem #945316, 1.75rem -4.75rem #945316, 1.75rem -5rem #945316, 1.75rem -5.25rem #945316, 1.75rem -5.5rem #e78224, 2rem -0.75rem #ffa959, 2rem -1rem #945316, 2rem -1.25rem #945316, 2rem -1.5rem #945316, 2rem -1.75rem #945316, 2rem -2rem #945316, 2rem -2.25rem #945316, 2rem -2.5rem #945316, 2rem -2.75rem #945316, 2rem -3rem #e78224, 2rem -3.5rem #945316, 2rem -3.75rem #945316, 2rem -4rem #945316, 2rem -4.25rem #945316, 2rem -4.5rem #945316, 2rem -4.75rem #945316, 2rem -5rem #945316, 2rem -5.25rem #945316, 2rem -5.5rem #945316, 2rem -5.75rem #e78224, 2.25rem -0.75rem #ffa959, 2.25rem -1rem #945316, 2.25rem -1.25rem #945316, 2.25rem -1.5rem #945316, 2.25rem -1.75rem #945316, 2.25rem -2rem #945316, 2.25rem -2.25rem #945316, 2.25rem -2.5rem #945316, 2.25rem -2.75rem #945316, 2.25rem -3rem #e78224, 2.25rem -3.5rem #945316, 2.25rem -3.75rem #945316, 2.25rem -4rem #945316, 2.25rem -4.25rem #945316, 2.25rem -4.5rem #945316, 2.25rem -4.75rem #945316, 2.25rem -5rem #e78224, 2.25rem -5.25rem #945316, 2.25rem -5.5rem #945316, 2.25rem -5.75rem #945316, 2.25rem -6rem #e78224, 2.5rem -0.75rem #ffa959, 2.5rem -1rem #945316, 2.5rem -1.25rem #945316, 2.5rem -1.5rem #945316, 2.5rem -1.75rem #945316, 2.5rem -2rem #945316, 2.5rem -2.25rem #945316, 2.5rem -2.5rem #945316, 2.5rem -2.75rem #945316, 2.5rem -3rem #e78224, 2.5rem -3.25rem #945316, 2.5rem -3.5rem #945316, 2.5rem -3.75rem #945316, 2.5rem -4rem #945316, 2.5rem -4.25rem #945316, 2.5rem -4.5rem #945316, 2.5rem -4.75rem #e78224, 2.5rem -5rem #945316, 2.5rem -5.25rem #945316, 2.5rem -5.5rem #945316, 2.5rem -5.75rem #945316, 2.5rem -6rem #e78224, 2.75rem -0.75rem #ffa959, 2.75rem -1rem #945316, 2.75rem -1.25rem #945316, 2.75rem -1.5rem #945316, 2.75rem -1.75rem #945316, 2.75rem -2rem #945316, 2.75rem -2.25rem #945316, 2.75rem -2.5rem #945316, 2.75rem -2.75rem #945316, 2.75rem -3rem #e78224, 2.75rem -3.25rem #945316, 2.75rem -3.5rem #945316, 2.75rem -3.75rem #945316, 2.75rem -4rem #945316, 2.75rem -4.25rem #945316, 2.75rem -4.5rem #e78224, 2.75rem -4.75rem #e78224, 2.75rem -5rem #945316, 2.75rem -5.25rem #945316, 2.75rem -5.5rem #945316, 2.75rem -5.75rem #945316, 2.75rem -6rem #945316, 2.75rem -6.25rem #e78224, 3rem -1.25rem #945316, 3rem -1.5rem #945316, 3rem -1.75rem #945316, 3rem -2rem #945316, 3rem -2.25rem #945316, 3rem -2.5rem #945316, 3rem -2.75rem #945316, 3rem -3rem #945316, 3rem -3.25rem #945316, 3rem -3.5rem #945316, 3rem -3.75rem #945316, 3rem -4rem #945316, 3rem -4.25rem #e78224, 3rem -4.5rem #e78224, 3rem -4.75rem #945316, 3rem -5rem #945316, 3rem -5.25rem #945316, 3rem -5.5rem #945316, 3rem -5.75rem #945316, 3rem -6rem #945316, 3rem -6.25rem #945316, 3.25rem -1.5rem #945316, 3.25rem -1.75rem #945316, 3.25rem -2rem #945316, 3.25rem -2.25rem #945316, 3.25rem -2.5rem #945316, 3.25rem -2.75rem #945316, 3.25rem -3rem #945316, 3.25rem -3.25rem #945316, 3.25rem -3.5rem #945316, 3.25rem -3.75rem #945316, 3.25rem -4rem #945316, 3.25rem -4.25rem #e78224, 3.25rem -4.5rem #e78224, 3.25rem -4.75rem #945316, 3.25rem -5rem #945316, 3.25rem -5.25rem #945316, 3.25rem -5.5rem #945316, 3.25rem -5.75rem #945316, 3.25rem -6rem #945316, 3.25rem -6.25rem #945316, 3.25rem -6.5rem #ffa959, 3.25rem -6.75rem #ffa959, 3.5rem -1.5rem #945316, 3.5rem -1.75rem #945316, 3.5rem -2rem #945316, 3.5rem -2.25rem #e78224, 3.5rem -2.5rem #945316, 3.5rem -2.75rem #945316, 3.5rem -3rem #e78224, 3.5rem -3.25rem #945316, 3.5rem -3.5rem #945316, 3.5rem -3.75rem #945316, 3.5rem -4rem #945316, 3.5rem -4.25rem #e78224, 3.5rem -4.5rem #945316, 3.5rem -4.75rem #945316, 3.5rem -5rem #945316, 3.5rem -5.25rem #945316, 3.5rem -5.5rem #ffa959, 3.5rem -5.75rem #ffa959, 3.5rem -6rem #ffa959, 3.5rem -6.25rem #945316, 3.5rem -6.5rem #ffa959, 3.5rem -6.75rem #ffa959, 3.5rem -7rem #ffa959, 3.75rem -1.5rem #945316, 3.75rem -1.75rem #945316, 3.75rem -2rem #945316, 3.75rem -2.25rem #945316, 3.75rem -2.5rem #945316, 3.75rem -2.75rem #945316, 3.75rem -3rem #e78224, 3.75rem -3.25rem #945316, 3.75rem -3.5rem #945316, 3.75rem -3.75rem #945316, 3.75rem -4rem #945316, 3.75rem -4.25rem #945316, 3.75rem -4.5rem #945316, 3.75rem -4.75rem #945316, 3.75rem -5rem #945316, 3.75rem -5.25rem #ffa959, 3.75rem -5.5rem #ffa959, 3.75rem -5.75rem #ffa959, 3.75rem -6rem #ffa959, 3.75rem -6.25rem #ffa959, 3.75rem -6.5rem #ffa959, 3.75rem -6.75rem #ffa959, 3.75rem -7rem #ffa959, 4rem -1.5rem #945316, 4rem -1.75rem #945316, 4rem -2rem #945316, 4rem -2.25rem #945316, 4rem -2.5rem #945316, 4rem -2.75rem #e78224, 4rem -3rem #ffa959, 4rem -3.25rem #945316, 4rem -3.5rem #945316, 4rem -3.75rem #945316, 4rem -4rem #ffa959, 4rem -4.25rem #ffa959, 4rem -4.5rem #945316, 4rem -4.75rem #945316, 4rem -5rem #ffa959, 4rem -5.25rem #ffa959, 4rem -5.5rem #945316, 4rem -5.75rem #FFFFFF, 4rem -6rem #ffa959, 4rem -6.25rem #ffa959, 4rem -6.5rem #945316, 4rem -6.75rem #945316, 4rem -7rem #945316, 4.25rem -1.75rem #e78224, 4.25rem -2rem #945316, 4.25rem -2.25rem #e78224, 4.25rem -2.5rem #e78224, 4.25rem -2.75rem #e78224, 4.25rem -3rem #ffa959, 4.25rem -3.25rem #ffa959, 4.25rem -3.5rem #945316, 4.25rem -3.75rem #ffa959, 4.25rem -4rem #ffa959, 4.25rem -4.25rem #ffa959, 4.25rem -4.5rem #945316, 4.25rem -4.75rem #945316, 4.25rem -5rem #ffa959, 4.25rem -5.25rem #FFFFFF, 4.25rem -5.5rem #FFFFFF, 4.25rem -5.75rem #FFFFFF, 4.25rem -6rem #FFFFFF, 4.25rem -6.25rem #ffa959, 4.25rem -6.5rem #945316, 4.25rem -6.75rem #945316, 4.25rem -7rem #945316, 4.25rem -7.25rem #945316, 4.5rem -1.75rem #945316, 4.5rem -2rem #e78224, 4.5rem -2.25rem #ffa959, 4.5rem -2.5rem #ffa959, 4.5rem -2.75rem #e78224, 4.5rem -3rem #ffa959, 4.5rem -3.25rem #945316, 4.5rem -3.5rem #ffa959, 4.5rem -3.75rem #945316, 4.5rem -4rem #ffa959, 4.5rem -4.25rem #ffa959, 4.5rem -4.5rem #945316, 4.5rem -4.75rem #945316, 4.5rem -5rem #ffa959, 4.5rem -5.25rem #FFFFFF, 4.5rem -5.5rem #945316, 4.5rem -5.75rem #FFFFFF, 4.5rem -6rem #FFFFFF, 4.5rem -6.25rem #ffa959, 4.5rem -6.5rem #945316, 4.5rem -6.75rem #945316, 4.5rem -7rem #ffa959, 4.5rem -7.25rem #945316, 4.5rem -7.5rem #945316, 4.75rem -1.75rem #945316, 4.75rem -2rem #ffa959, 4.75rem -2.25rem #e78224, 4.75rem -2.5rem #ffa959, 4.75rem -2.75rem #e78224, 4.75rem -3rem #ffa959, 4.75rem -3.25rem #ffa959, 4.75rem -3.5rem #ffa959, 4.75rem -3.75rem #ffa959, 4.75rem -4rem #ffa959, 4.75rem -4.25rem #945316, 4.75rem -4.5rem #945316, 4.75rem -4.75rem #ffa959, 4.75rem -5rem #ffa959, 4.75rem -5.25rem #945316, 4.75rem -5.5rem #945316, 4.75rem -5.75rem #945316, 4.75rem -6rem #ffa959, 4.75rem -6.25rem #ffa959, 4.75rem -6.5rem #ffa959, 4.75rem -6.75rem #ffa959, 4.75rem -7rem #ffa959, 4.75rem -7.25rem #ffa959, 4.75rem -7.5rem #945316, 4.75rem -7.75rem #945316, 5rem -1.75rem #e78224, 5rem -2rem #e78224, 5rem -2.25rem #ffa959, 5rem -2.5rem #ffa959, 5rem -2.75rem #e78224, 5rem -3rem #ffa959, 5rem -3.25rem #ffa959, 5rem -3.5rem #ffa959, 5rem -3.75rem #ffa959, 5rem -4rem #ffa959, 5rem -4.25rem #945316, 5rem -4.5rem #945316, 5rem -4.75rem #ffa959, 5rem -5rem #FFFFFF, 5rem -5.25rem #FFFFFF, 5rem -5.5rem #945316, 5rem -5.75rem #FFFFFF, 5rem -6rem #ffa959, 5rem -6.25rem #ffa959, 5rem -6.5rem #ffa959, 5rem -6.75rem #ffa959, 5rem -7rem #ffa959, 5rem -7.25rem #ffa959, 5rem -7.5rem #ffa959, 5rem -7.75rem #945316, 5rem -8rem #945316, 5.25rem -1.75rem #945316, 5.25rem -2rem #ffa959, 5.25rem -2.25rem #e78224, 5.25rem -2.5rem #ffa959, 5.25rem -2.75rem #ffa959, 5.25rem -3rem #e78224, 5.25rem -3.25rem #ffa959, 5.25rem -3.5rem #ffa959, 5.25rem -3.75rem #ffa959, 5.25rem -4rem #e78224, 5.25rem -4.25rem #945316, 5.25rem -4.5rem #945316, 5.25rem -4.75rem #ffa959, 5.25rem -5rem #FFFFFF, 5.25rem -5.25rem #FFFFFF, 5.25rem -5.5rem #FFFFFF, 5.25rem -5.75rem #FFFFFF, 5.25rem -6rem #ffa959, 5.25rem -6.25rem #ffa959, 5.25rem -6.5rem #ffa959, 5.25rem -6.75rem #FFFFFF, 5.25rem -7rem #FFFFFF, 5.25rem -7.25rem #ffa959, 5.25rem -7.5rem #ffa959, 5.25rem -7.75rem #945316, 5.25rem -8rem #945316, 5.5rem -1.75rem #e78224, 5.5rem -2rem #e78224, 5.5rem -2.25rem #ffa959, 5.5rem -2.5rem #ffa959, 5.5rem -2.75rem #ffa959, 5.5rem -3rem #ffa959, 5.5rem -3.25rem #e78224, 5.5rem -3.5rem #e78224, 5.5rem -3.75rem #e78224, 5.5rem -4rem #945316, 5.5rem -4.25rem #945316, 5.5rem -4.5rem #945316, 5.5rem -4.75rem #ffa959, 5.5rem -5rem #FFFFFF, 5.5rem -5.25rem #FFFFFF, 5.5rem -5.5rem #945316, 5.5rem -5.75rem #FFFFFF, 5.5rem -6rem #ffa959, 5.5rem -6.25rem #945316, 5.5rem -6.5rem #ffa959, 5.5rem -6.75rem #945316, 5.5rem -7rem #FFFFFF, 5.5rem -7.25rem #ffa959, 5.5rem -7.5rem #945316, 5.5rem -7.75rem #945316, 5.5rem -8rem #945316, 5.75rem -1.75rem #945316, 5.75rem -2rem #ffa959, 5.75rem -2.25rem #ffa959, 5.75rem -2.5rem #ffa959, 5.75rem -2.75rem #ffa959, 5.75rem -3rem #ffa959, 5.75rem -3.25rem #e78224, 5.75rem -3.5rem #e78224, 5.75rem -3.75rem #e78224, 5.75rem -4rem #945316, 5.75rem -4.25rem #945316, 5.75rem -4.5rem #945316, 5.75rem -4.75rem #ffa959, 5.75rem -5rem #ffa959, 5.75rem -5.25rem #945316, 5.75rem -5.5rem #945316, 5.75rem -5.75rem #945316, 5.75rem -6rem #ffa959, 5.75rem -6.25rem #945316, 5.75rem -6.5rem #ffa959, 5.75rem -6.75rem #ffa959, 5.75rem -7rem #ffa959, 5.75rem -7.25rem #945316, 5.75rem -7.5rem #945316, 5.75rem -7.75rem #945316, 5.75rem -8rem #945316, 6rem -1.75rem #945316, 6rem -2rem #945316, 6rem -2.25rem #e78224, 6rem -2.5rem #ffa959, 6rem -2.75rem #ffa959, 6rem -3rem #e78224, 6rem -3.25rem #ffa959, 6rem -3.5rem #ffa959, 6rem -3.75rem #ffa959, 6rem -4rem #e78224, 6rem -4.25rem #945316, 6rem -4.5rem #945316, 6rem -4.75rem #ffa959, 6rem -5rem #FFFFFF, 6rem -5.25rem #FFFFFF, 6rem -5.5rem #945316, 6rem -5.75rem #FFFFFF, 6rem -6rem #ffa959, 6rem -6.25rem #945316, 6rem -6.5rem #ffa959, 6rem -6.75rem #945316, 6rem -7rem #FFFFFF, 6rem -7.25rem #ffa959, 6rem -7.5rem #945316, 6rem -7.75rem #945316, 6rem -8rem #945316, 6.25rem -1.75rem #e78224, 6.25rem -2rem #e78224, 6.25rem -2.25rem #ffa959, 6.25rem -2.5rem #ffa959, 6.25rem -2.75rem #e78224, 6.25rem -3rem #ffa959, 6.25rem -3.25rem #ffa959, 6.25rem -3.5rem #ffa959, 6.25rem -3.75rem #ffa959, 6.25rem -4rem #ffa959, 6.25rem -4.25rem #945316, 6.25rem -4.5rem #945316, 6.25rem -4.75rem #ffa959, 6.25rem -5rem #FFFFFF, 6.25rem -5.25rem #FFFFFF, 6.25rem -5.5rem #FFFFFF, 6.25rem -5.75rem #FFFFFF, 6.25rem -6rem #ffa959, 6.25rem -6.25rem #ffa959, 6.25rem -6.5rem #ffa959, 6.25rem -6.75rem #FFFFFF, 6.25rem -7rem #FFFFFF, 6.25rem -7.25rem #ffa959, 6.25rem -7.5rem #ffa959, 6.25rem -7.75rem #945316, 6.25rem -8rem #945316, 6.5rem -1.75rem #945316, 6.5rem -2rem #ffa959, 6.5rem -2.25rem #e78224, 6.5rem -2.5rem #ffa959, 6.5rem -2.75rem #e78224, 6.5rem -3rem #ffa959, 6.5rem -3.25rem #ffa959, 6.5rem -3.5rem #ffa959, 6.5rem -3.75rem #ffa959, 6.5rem -4rem #e78224, 6.5rem -4.25rem #945316, 6.5rem -4.5rem #945316, 6.5rem -4.75rem #ffa959, 6.5rem -5rem #FFFFFF, 6.5rem -5.25rem #FFFFFF, 6.5rem -5.5rem #945316, 6.5rem -5.75rem #FFFFFF, 6.5rem -6rem #ffa959, 6.5rem -6.25rem #ffa959, 6.5rem -6.5rem #ffa959, 6.5rem -6.75rem #ffa959, 6.5rem -7rem #ffa959, 6.5rem -7.25rem #ffa959, 6.5rem -7.5rem #ffa959, 6.5rem -7.75rem #945316, 6.5rem -8rem #945316, 6.75rem -1.5rem #945316, 6.75rem -1.75rem #945316, 6.75rem -2rem #e78224, 6.75rem -2.25rem #ffa959, 6.75rem -2.5rem #ffa959, 6.75rem -2.75rem #e78224, 6.75rem -3rem #ffa959, 6.75rem -3.25rem #945316, 6.75rem -3.5rem #ffa959, 6.75rem -3.75rem #ffa959, 6.75rem -4rem #ffa959, 6.75rem -4.25rem #945316, 6.75rem -4.5rem #945316, 6.75rem -4.75rem #ffa959, 6.75rem -5rem #ffa959, 6.75rem -5.25rem #945316, 6.75rem -5.5rem #945316, 6.75rem -5.75rem #945316, 6.75rem -6rem #ffa959, 6.75rem -6.25rem #ffa959, 6.75rem -6.5rem #ffa959, 6.75rem -6.75rem #ffa959, 6.75rem -7rem #ffa959, 6.75rem -7.25rem #ffa959, 6.75rem -7.5rem #945316, 6.75rem -7.75rem #945316, 7rem -1.25rem #945316, 7rem -1.5rem #945316, 7rem -1.75rem #e78224, 7rem -2rem #945316, 7rem -2.25rem #e78224, 7rem -2.5rem #e78224, 7rem -2.75rem #e78224, 7rem -3rem #ffa959, 7rem -3.25rem #ffa959, 7rem -3.5rem #ffa959, 7rem -3.75rem #ffa959, 7rem -4rem #e78224, 7rem -4.25rem #945316, 7rem -4.5rem #945316, 7rem -4.75rem #945316, 7rem -5rem #ffa959, 7rem -5.25rem #FFFFFF, 7rem -5.5rem #945316, 7rem -5.75rem #FFFFFF, 7rem -6rem #FFFFFF, 7rem -6.25rem #ffa959, 7rem -6.5rem #945316, 7rem -6.75rem #945316, 7rem -7rem #ffa959, 7rem -7.25rem #945316, 7rem -7.5rem #945316, 7.25rem -1rem #ffa959, 7.25rem -1.25rem #945316, 7.25rem -1.5rem #945316, 7.25rem -1.75rem #945316, 7.25rem -2rem #945316, 7.25rem -2.25rem #945316, 7.25rem -2.5rem #945316, 7.25rem -2.75rem #e78224, 7.25rem -3rem #ffa959, 7.25rem -3.25rem #ffa959, 7.25rem -3.5rem #ffa959, 7.25rem -3.75rem #ffa959, 7.25rem -4rem #ffa959, 7.25rem -4.25rem #945316, 7.25rem -4.5rem #945316, 7.25rem -4.75rem #945316, 7.25rem -5rem #ffa959, 7.25rem -5.25rem #FFFFFF, 7.25rem -5.5rem #FFFFFF, 7.25rem -5.75rem #FFFFFF, 7.25rem -6rem #FFFFFF, 7.25rem -6.25rem #ffa959, 7.25rem -6.5rem #945316, 7.25rem -6.75rem #945316, 7.25rem -7rem #945316, 7.25rem -7.25rem #945316, 7.5rem -0.5rem #ffa959, 7.5rem -0.75rem #ffa959, 7.5rem -1rem #945316, 7.5rem -1.25rem #945316, 7.5rem -1.5rem #945316, 7.5rem -1.75rem #945316, 7.5rem -2rem #945316, 7.5rem -2.25rem #945316, 7.5rem -2.5rem #945316, 7.5rem -2.75rem #945316, 7.5rem -3rem #e78224, 7.5rem -3.25rem #e78224, 7.5rem -3.5rem #e78224, 7.5rem -3.75rem #945316, 7.5rem -4rem #945316, 7.5rem -4.25rem #945316, 7.5rem -4.5rem #945316, 7.5rem -4.75rem #945316, 7.5rem -5rem #945316, 7.5rem -5.25rem #ffa959, 7.5rem -5.5rem #ffa959, 7.5rem -5.75rem #FFFFFF, 7.5rem -6rem #ffa959, 7.5rem -6.25rem #ffa959, 7.5rem -6.5rem #ffa959, 7.5rem -6.75rem #ffa959, 7.5rem -7rem #ffa959, 7.75rem -0.25rem #ffa959, 7.75rem -0.5rem #ffa959, 7.75rem -0.75rem #945316, 7.75rem -1rem #945316, 7.75rem -1.25rem #945316, 7.75rem -1.5rem #945316, 7.75rem -1.75rem #945316, 7.75rem -2rem #945316, 7.75rem -2.25rem #945316, 7.75rem -2.5rem #945316, 7.75rem -2.75rem #e78224, 7.75rem -3rem #945316, 7.75rem -3.25rem #e78224, 7.75rem -3.5rem #e78224, 7.75rem -3.75rem #945316, 7.75rem -4rem #e78224, 7.75rem -4.25rem #945316, 7.75rem -4.5rem #945316, 7.75rem -4.75rem #945316, 7.75rem -5rem #945316, 7.75rem -5.25rem #945316, 7.75rem -5.5rem #ffa959, 7.75rem -5.75rem #ffa959, 7.75rem -6rem #ffa959, 7.75rem -6.25rem #945316, 7.75rem -6.5rem #ffa959, 7.75rem -6.75rem #ffa959, 7.75rem -7rem #ffa959, 8rem -0.25rem #ffa959, 8rem -0.5rem #945316, 8rem -0.75rem #ffa959, 8rem -1rem #945316, 8rem -1.25rem #945316, 8rem -1.5rem #945316, 8rem -1.75rem #945316, 8rem -2rem #945316, 8rem -2.25rem #945316, 8rem -2.5rem #945316, 8rem -2.75rem #945316, 8rem -3rem #e78224, 8rem -3.25rem #945316, 8rem -3.5rem #945316, 8rem -3.75rem #e78224, 8rem -4rem #945316, 8rem -4.25rem #945316, 8rem -4.5rem #945316, 8rem -4.75rem #945316, 8rem -5rem #945316, 8rem -5.25rem #945316, 8rem -5.5rem #945316, 8rem -5.75rem #945316, 8rem -6rem #945316, 8rem -6.25rem #945316, 8rem -6.5rem #ffa959, 8rem -6.75rem #ffa959, 8.25rem -0.25rem #ffa959, 8.25rem -0.5rem #ffa959, 8.25rem -0.75rem #ffa959, 8.25rem -1rem #945316, 8.25rem -1.25rem #945316, 8.25rem -1.5rem #945316, 8.25rem -1.75rem #945316, 8.25rem -2rem #945316, 8.25rem -2.25rem #945316, 8.25rem -2.5rem #945316, 8.25rem -2.75rem #945316, 8.25rem -3rem #945316, 8.25rem -3.25rem #945316, 8.25rem -3.5rem #945316, 8.25rem -3.75rem #945316, 8.25rem -4rem #945316, 8.25rem -4.25rem #945316, 8.25rem -4.5rem #945316, 8.25rem -4.75rem #945316, 8.25rem -5rem #945316, 8.25rem -5.25rem #945316, 8.25rem -5.5rem #945316, 8.25rem -5.75rem #945316, 8.25rem -6rem #945316, 8.25rem -6.25rem #945316, 8.25rem -6.5rem #945316, 8.5rem -0.25rem #ffa959, 8.5rem -0.5rem #ffa959, 8.5rem -0.75rem #945316, 8.5rem -1rem #945316, 8.5rem -1.25rem #945316, 8.5rem -1.5rem #945316, 8.5rem -1.75rem #945316, 8.5rem -2rem #945316, 8.5rem -2.25rem #945316, 8.5rem -2.5rem #945316, 8.5rem -2.75rem #945316, 8.5rem -3rem #945316, 8.5rem -3.25rem #945316, 8.5rem -3.5rem #945316, 8.5rem -3.75rem #945316, 8.5rem -4rem #945316, 8.5rem -4.25rem #945316, 8.5rem -4.5rem #945316, 8.5rem -4.75rem #945316, 8.5rem -5rem #945316, 8.5rem -5.25rem #945316, 8.5rem -5.5rem #945316, 8.5rem -5.75rem #945316, 8.5rem -6rem #945316, 8.5rem -6.25rem #945316, 8.75rem -0.25rem #ffa959, 8.75rem -0.5rem #ffa959, 8.75rem -0.75rem #945316, 8.75rem -1rem #945316, 8.75rem -1.25rem #945316, 8.75rem -1.5rem #945316, 8.75rem -1.75rem #945316, 8.75rem -2rem #945316, 8.75rem -2.25rem #945316, 8.75rem -2.5rem #945316, 8.75rem -2.75rem #945316, 8.75rem -3rem #e78224, 8.75rem -3.25rem #945316, 8.75rem -3.5rem #945316, 8.75rem -3.75rem #945316, 8.75rem -4rem #945316, 8.75rem -4.25rem #945316, 8.75rem -4.5rem #945316, 8.75rem -4.75rem #945316, 8.75rem -5rem #945316, 8.75rem -5.25rem #945316, 8.75rem -5.5rem #945316, 8.75rem -5.75rem #945316, 8.75rem -6rem #945316, 8.75rem -6.25rem #945316, 8.75rem -7.5rem #ffa959, 9rem -0.25rem #ffa959, 9rem -0.5rem #ffa959, 9rem -0.75rem #945316, 9rem -1rem #945316, 9rem -1.25rem #945316, 9rem -1.5rem #945316, 9rem -1.75rem #945316, 9rem -2rem #945316, 9rem -2.25rem #945316, 9rem -2.5rem #945316, 9rem -2.75rem #e78224, 9rem -4rem #945316, 9rem -4.25rem #945316, 9rem -4.5rem #945316, 9rem -4.75rem #945316, 9rem -5rem #945316, 9rem -5.25rem #945316, 9rem -5.5rem #945316, 9rem -5.75rem #945316, 9rem -6rem #945316, 9rem -6.25rem #945316, 9rem -7rem #ffa959, 9rem -7.25rem #e78224, 9rem -7.5rem #ffa959, 9rem -7.75rem #ffa959, 9.25rem -0.25rem #ffa959, 9.25rem -0.5rem #945316, 9.25rem -0.75rem #ffa959, 9.25rem -1rem #945316, 9.25rem -1.25rem #945316, 9.25rem -1.5rem #945316, 9.25rem -1.75rem #945316, 9.25rem -2rem #945316, 9.25rem -2.25rem #945316, 9.25rem -2.5rem #e78224, 9.25rem -4.25rem #945316, 9.25rem -4.5rem #945316, 9.25rem -4.75rem #945316, 9.25rem -5rem #945316, 9.25rem -5.25rem #945316, 9.25rem -5.5rem #945316, 9.25rem -5.75rem #945316, 9.25rem -6rem #945316, 9.25rem -6.25rem #945316, 9.25rem -6.75rem #ffa959, 9.25rem -7rem #ffa959, 9.25rem -7.25rem #e78224, 9.25rem -7.5rem #e78224, 9.25rem -7.75rem #ffa959, 9.25rem -8rem #ffa959, 9.5rem -0.25rem #ffa959, 9.5rem -0.5rem #ffa959, 9.5rem -0.75rem #ffa959, 9.5rem -1rem #945316, 9.5rem -1.25rem #945316, 9.5rem -1.5rem #945316, 9.5rem -1.75rem #945316, 9.5rem -2rem #945316, 9.5rem -2.25rem #e78224, 9.5rem -4.5rem #945316, 9.5rem -4.75rem #945316, 9.5rem -5rem #945316, 9.5rem -5.25rem #945316, 9.5rem -5.5rem #945316, 9.5rem -5.75rem #945316, 9.5rem -6rem #945316, 9.5rem -6.25rem #945316, 9.5rem -6.75rem #ffa959, 9.5rem -7rem #ffa959, 9.5rem -7.25rem #e78224, 9.5rem -7.5rem #ffa959, 9.5rem -7.75rem #e78224, 9.5rem -8rem #ffa959, 9.75rem -0.25rem #ffa959, 9.75rem -0.5rem #ffa959, 9.75rem -0.75rem #945316, 9.75rem -1.5rem #e78224, 9.75rem -1.75rem #e78224, 9.75rem -2rem #e78224, 9.75rem -4.5rem #945316, 9.75rem -4.75rem #945316, 9.75rem -5rem #945316, 9.75rem -5.25rem #945316, 9.75rem -5.5rem #945316, 9.75rem -5.75rem #945316, 9.75rem -6rem #945316, 9.75rem -6.25rem #945316, 9.75rem -6.75rem #ffa959, 9.75rem -7rem #e78224, 9.75rem -7.25rem #ffa959, 9.75rem -7.5rem #ffa959, 9.75rem -7.75rem #ffa959, 9.75rem -8rem #ffa959, 10rem -0.25rem #ffa959, 10rem -0.5rem #e78224, 10rem -0.75rem #ffa959, 10rem -4.75rem #945316, 10rem -5rem #945316, 10rem -5.25rem #945316, 10rem -5.5rem #945316, 10rem -5.75rem #945316, 10rem -6rem #945316, 10rem -6.25rem #945316, 10rem -6.75rem #ffa959, 10rem -7rem #ffa959, 10rem -7.25rem #e78224, 10rem -7.5rem #ffa959, 10rem -7.75rem #ffa959, 10rem -8rem #ffa959, 10.25rem -0.25rem #e78224, 10.25rem -0.5rem #ffa959, 10.25rem -0.75rem #ffa959, 10.25rem -4.75rem #945316, 10.25rem -5rem #945316, 10.25rem -5.25rem #945316, 10.25rem -5.5rem #945316, 10.25rem -5.75rem #945316, 10.25rem -6rem #945316, 10.25rem -6.25rem #945316, 10.25rem -6.5rem #e78224, 10.25rem -6.75rem #ffa959, 10.25rem -7rem #ffa959, 10.25rem -7.25rem #ffa959, 10.25rem -7.5rem #e78224, 10.25rem -7.75rem #ffa959, 10.5rem -0.25rem #ffa959, 10.5rem -5rem #945316, 10.5rem -5.25rem #945316, 10.5rem -5.5rem #945316, 10.5rem -5.75rem #945316, 10.5rem -6rem #945316, 10.5rem -6.25rem #945316, 10.5rem -6.5rem #e78224, 10.5rem -6.75rem #ffa959, 10.5rem -7rem #ffa959, 10.5rem -7.25rem #ffa959, 10.5rem -7.5rem #ffa959, 10.5rem -7.75rem #ffa959, 10.75rem -5.25rem #945316, 10.75rem -5.5rem #945316, 10.75rem -5.75rem #945316, 10.75rem -6rem #945316, 10.75rem -6.25rem #945316, 10.75rem -6.5rem #945316, 10.75rem -6.75rem #e78224, 10.75rem -7rem #ffa959, 10.75rem -7.25rem #ffa959, 10.75rem -7.5rem #ffa959, 11rem -5.25rem #945316, 11rem -5.5rem #945316, 11rem -5.75rem #945316, 11rem -6rem #945316, 11rem -6.25rem #945316, 11rem -6.5rem #e78224, 11rem -6.75rem #e78224, 11rem -7rem #e78224, 11rem -7.25rem #ffa959, 11rem -7.5rem #ffa959, 11.25rem -5.5rem #945316, 11.25rem -5.75rem #945316, 11.25rem -6rem #945316, 11.25rem -6.25rem #945316, 11.25rem -6.5rem #945316, 11.25rem -6.75rem #945316, 11.25rem -7rem #ffa959, 11.25rem -7.25rem #ffa959, 11.25rem -7.5rem #ffa959, 11.5rem -5.75rem #945316, 11.5rem -6rem #945316, 11.5rem -6.25rem #945316, 11.5rem -6.5rem #e78224, 11.5rem -6.75rem #945316, 11.5rem -7rem #945316;
+      bottom: -1.83rem;
+      left: 3.13rem;
+      width: 0.32rem;
+      height: 0.32rem; } }
 
 .summary::after {
   content: "";
@@ -186,34 +160,29 @@ footer::before {
   width: 0.19rem;
   height: 0.19rem;
   background: transparent;
-  box-shadow: 0.12rem -0.84rem #FFFFFF, 0.12rem -0.96rem #f18096, 0.24rem -0.48rem #f7a961, 0.24rem -0.72rem #FFFFFF, 0.24rem -0.84rem #f18096, 0.24rem -0.96rem #f18096, 0.24rem -1.56rem #f7a961, 0.24rem -1.8rem #f7a961, 0.24rem -2.28rem #f7a961, 0.36rem -0.36rem #f7a961, 0.36rem -0.48rem #f7a961, 0.36rem -0.6rem #f18096, 0.36rem -0.72rem #f18096, 0.36rem -0.84rem #f18096, 0.36rem -0.96rem #FFFFFF, 0.36rem -1.68rem #f7a961, 0.36rem -1.8rem #f7a961, 0.36rem -2.16rem #f7a961, 0.36rem -2.28rem #f7a961, 0.48rem -0.24rem #f7a961, 0.48rem -0.36rem #f7a961, 0.48rem -0.48rem #f7a961, 0.48rem -0.6rem #f18096, 0.48rem -0.72rem #f18096, 0.48rem -0.84rem #FFFFFF, 0.48rem -0.96rem #FFFFFF, 0.48rem -1.08rem #f18096, 0.48rem -1.56rem #f7a961, 0.48rem -1.68rem #f7a961, 0.48rem -1.8rem #f7a961, 0.48rem -1.92rem #f7a961, 0.48rem -2.04rem #f7a961, 0.48rem -2.16rem #f7a961, 0.6rem -0.24rem #f7a961, 0.6rem -0.48rem #f18096, 0.6rem -0.6rem #f18096, 0.6rem -0.72rem #f18096, 0.6rem -0.84rem #FFFFFF, 0.6rem -0.96rem #f18096, 0.6rem -1.08rem #f18096, 0.6rem -1.8rem #f7a961, 0.6rem -1.92rem #f7a961, 0.6rem -2.04rem #f7a961, 0.72rem -0.48rem #FFFFFF, 0.72rem -0.6rem #f18096, 0.72rem -0.72rem #FFFFFF, 0.72rem -0.84rem #FFFFFF, 0.72rem -0.96rem #f18096, 0.72rem -1.08rem #f18096, 0.72rem -1.2rem #f18096, 0.72rem -1.8rem #f7a961, 0.72rem -1.92rem #f7a961, 0.72rem -2.04rem #f7a961, 0.84rem -0.36rem #FFFFFF, 0.84rem -0.48rem #f18096, 0.84rem -0.6rem #f18096, 0.84rem -0.72rem #FFFFFF, 0.84rem -0.84rem #f18096, 0.84rem -0.96rem #f18096, 0.84rem -1.08rem #f18096, 0.84rem -1.2rem #f18096, 0.84rem -1.56rem #f18096, 0.84rem -1.68rem #f18096, 0.84rem -1.8rem #f18096, 0.84rem -1.92rem #f18096, 0.84rem -2.04rem #f7a961, 0.84rem -2.28rem #f7a961, 0.84rem -2.4rem #f7a961, 0.96rem -0.36rem #FFFFFF, 0.96rem -0.48rem #f18096, 0.96rem -0.6rem #FFFFFF, 0.96rem -0.72rem #FFFFFF, 0.96rem -0.84rem #f18096, 0.96rem -0.96rem #f18096, 0.96rem -1.08rem #f18096, 0.96rem -1.2rem #f18096, 0.96rem -1.44rem #f18096, 0.96rem -1.56rem #f18096, 0.96rem -1.68rem #f18096, 0.96rem -1.8rem #f18096, 0.96rem -1.92rem #f18096, 0.96rem -2.04rem #f7a961, 0.96rem -2.16rem #f7a961, 0.96rem -2.28rem #f7a961, 0.96rem -2.4rem #f7a961, 0.96rem -2.52rem #f7a961, 1.08rem -0.24rem #FFFFFF, 1.08rem -0.36rem #f18096, 1.08rem -0.48rem #f18096, 1.08rem -0.6rem #FFFFFF, 1.08rem -0.72rem #f18096, 1.08rem -0.84rem #f18096, 1.08rem -0.96rem #f18096, 1.08rem -1.08rem #f18096, 1.08rem -1.2rem #f18096, 1.08rem -1.44rem #f18096, 1.08rem -1.56rem #f18096, 1.08rem -1.68rem #f18096, 1.08rem -1.8rem #f18096, 1.08rem -1.92rem #FFFFFF, 1.08rem -2.04rem #FFFFFF, 1.08rem -2.16rem #f7a961, 1.08rem -2.28rem #FFFFFF, 1.08rem -2.4rem #f7a961, 1.08rem -2.52rem #f7a961, 1.08rem -2.64rem #f7a961, 1.2rem -0.12rem #f7a961, 1.2rem -0.24rem #FFFFFF, 1.2rem -0.36rem #f18096, 1.2rem -0.48rem #FFFFFF, 1.2rem -0.6rem #FFFFFF, 1.2rem -0.72rem #f18096, 1.2rem -0.84rem #f18096, 1.2rem -0.96rem #f18096, 1.2rem -1.08rem #f18096, 1.2rem -1.2rem #f18096, 1.2rem -1.44rem #f18096, 1.2rem -1.56rem #f18096, 1.2rem -1.68rem #f18096, 1.2rem -1.8rem #FFFFFF, 1.2rem -1.92rem #FFFFFF, 1.2rem -2.04rem #FFFFFF, 1.2rem -2.16rem #FFFFFF, 1.2rem -2.28rem #f7a961, 1.2rem -2.4rem #f7a961, 1.2rem -2.52rem #f7a961, 1.2rem -2.64rem #f7a961, 1.32rem -0.24rem #FFFFFF, 1.32rem -0.36rem #f18096, 1.32rem -0.48rem #FFFFFF, 1.32rem -0.6rem #f18096, 1.32rem -0.72rem #f18096, 1.32rem -0.84rem #f18096, 1.32rem -0.96rem #f18096, 1.32rem -1.08rem #f18096, 1.32rem -1.2rem #f18096, 1.32rem -1.32rem #f18096, 1.32rem -1.44rem #f18096, 1.32rem -1.56rem #f18096, 1.32rem -1.68rem #f18096, 1.32rem -1.8rem #FFFFFF, 1.32rem -1.92rem #FFFFFF, 1.32rem -2.04rem #FFFFFF, 1.32rem -2.16rem #FFFFFF, 1.32rem -2.28rem #FFFFFF, 1.32rem -2.4rem #FFFFFF, 1.32rem -2.52rem #f7a961, 1.32rem -2.64rem #f7a961, 1.44rem -0.12rem #f7a961, 1.44rem -0.24rem #FFFFFF, 1.44rem -0.36rem #f18096, 1.44rem -0.48rem #FFFFFF, 1.44rem -0.6rem #f18096, 1.44rem -0.72rem #f18096, 1.44rem -0.84rem #f18096, 1.44rem -0.96rem #f18096, 1.44rem -1.08rem #f18096, 1.44rem -1.2rem #f18096, 1.44rem -1.32rem #f18096, 1.44rem -1.44rem #f18096, 1.44rem -1.68rem #f18096, 1.44rem -1.8rem #f18096, 1.44rem -2.04rem #FFFFFF, 1.44rem -2.16rem #FFFFFF, 1.44rem -2.28rem #FFFFFF, 1.44rem -2.4rem #FFFFFF, 1.44rem -2.52rem #f7a961, 1.44rem -2.64rem #f7a961, 1.56rem -0.12rem #f7a961, 1.56rem -0.24rem #FFFFFF, 1.56rem -0.36rem #f18096, 1.56rem -0.48rem #FFFFFF, 1.56rem -0.6rem #f18096, 1.56rem -0.72rem #f18096, 1.56rem -0.84rem #f18096, 1.56rem -0.96rem #f18096, 1.56rem -1.08rem #FFFFFF, 1.56rem -1.32rem #f18096, 1.56rem -1.44rem #f18096, 1.56rem -2.04rem #FFFFFF, 1.56rem -2.16rem #FFFFFF, 1.56rem -2.4rem #FFFFFF, 1.56rem -2.52rem #f7a961, 1.56rem -2.64rem #f7a961, 1.68rem -0.12rem #f7a961, 1.68rem -0.96rem #FFFFFF, 1.68rem -1.08rem #FFFFFF, 1.68rem -1.32rem #FFFFFF, 1.68rem -1.44rem #FFFFFF, 1.68rem -2.16rem #FFFFFF, 1.68rem -2.28rem #FFFFFF, 1.68rem -2.4rem #FFFFFF, 1.68rem -2.52rem #f7a961, 1.68rem -2.64rem #f7a961, 1.8rem -1.44rem #FFFFFF, 1.8rem -2.28rem #FFFFFF, 1.8rem -2.52rem #f7a961;
-}
-@media screen and (min-width: 64rem) {
-  .summary::after {
-    bottom: 8rem;
-    left: 20rem;
-    box-shadow: 0.25rem -1.75rem #FFFFFF, 0.25rem -2rem #f18096, 0.5rem -1rem #f7a961, 0.5rem -1.5rem #FFFFFF, 0.5rem -1.75rem #f18096, 0.5rem -2rem #f18096, 0.5rem -3.25rem #f7a961, 0.5rem -3.75rem #f7a961, 0.5rem -4.75rem #f7a961, 0.75rem -0.75rem #f7a961, 0.75rem -1rem #f7a961, 0.75rem -1.25rem #f18096, 0.75rem -1.5rem #f18096, 0.75rem -1.75rem #f18096, 0.75rem -2rem #FFFFFF, 0.75rem -3.5rem #f7a961, 0.75rem -3.75rem #f7a961, 0.75rem -4.5rem #f7a961, 0.75rem -4.75rem #f7a961, 1rem -0.5rem #f7a961, 1rem -0.75rem #f7a961, 1rem -1rem #f7a961, 1rem -1.25rem #f18096, 1rem -1.5rem #f18096, 1rem -1.75rem #FFFFFF, 1rem -2rem #FFFFFF, 1rem -2.25rem #f18096, 1rem -3.25rem #f7a961, 1rem -3.5rem #f7a961, 1rem -3.75rem #f7a961, 1rem -4rem #f7a961, 1rem -4.25rem #f7a961, 1rem -4.5rem #f7a961, 1.25rem -0.5rem #f7a961, 1.25rem -1rem #f18096, 1.25rem -1.25rem #f18096, 1.25rem -1.5rem #f18096, 1.25rem -1.75rem #FFFFFF, 1.25rem -2rem #f18096, 1.25rem -2.25rem #f18096, 1.25rem -3.75rem #f7a961, 1.25rem -4rem #f7a961, 1.25rem -4.25rem #f7a961, 1.5rem -1rem #FFFFFF, 1.5rem -1.25rem #f18096, 1.5rem -1.5rem #FFFFFF, 1.5rem -1.75rem #FFFFFF, 1.5rem -2rem #f18096, 1.5rem -2.25rem #f18096, 1.5rem -2.5rem #f18096, 1.5rem -3.75rem #f7a961, 1.5rem -4rem #f7a961, 1.5rem -4.25rem #f7a961, 1.75rem -0.75rem #FFFFFF, 1.75rem -1rem #f18096, 1.75rem -1.25rem #f18096, 1.75rem -1.5rem #FFFFFF, 1.75rem -1.75rem #f18096, 1.75rem -2rem #f18096, 1.75rem -2.25rem #f18096, 1.75rem -2.5rem #f18096, 1.75rem -3.25rem #f18096, 1.75rem -3.5rem #f18096, 1.75rem -3.75rem #f18096, 1.75rem -4rem #f18096, 1.75rem -4.25rem #f7a961, 1.75rem -4.75rem #f7a961, 1.75rem -5rem #f7a961, 2rem -0.75rem #FFFFFF, 2rem -1rem #f18096, 2rem -1.25rem #FFFFFF, 2rem -1.5rem #FFFFFF, 2rem -1.75rem #f18096, 2rem -2rem #f18096, 2rem -2.25rem #f18096, 2rem -2.5rem #f18096, 2rem -3rem #f18096, 2rem -3.25rem #f18096, 2rem -3.5rem #f18096, 2rem -3.75rem #f18096, 2rem -4rem #f18096, 2rem -4.25rem #f7a961, 2rem -4.5rem #f7a961, 2rem -4.75rem #f7a961, 2rem -5rem #f7a961, 2rem -5.25rem #f7a961, 2.25rem -0.5rem #FFFFFF, 2.25rem -0.75rem #f18096, 2.25rem -1rem #f18096, 2.25rem -1.25rem #FFFFFF, 2.25rem -1.5rem #f18096, 2.25rem -1.75rem #f18096, 2.25rem -2rem #f18096, 2.25rem -2.25rem #f18096, 2.25rem -2.5rem #f18096, 2.25rem -3rem #f18096, 2.25rem -3.25rem #f18096, 2.25rem -3.5rem #f18096, 2.25rem -3.75rem #f18096, 2.25rem -4rem #FFFFFF, 2.25rem -4.25rem #FFFFFF, 2.25rem -4.5rem #f7a961, 2.25rem -4.75rem #FFFFFF, 2.25rem -5rem #f7a961, 2.25rem -5.25rem #f7a961, 2.25rem -5.5rem #f7a961, 2.5rem -0.25rem #f7a961, 2.5rem -0.5rem #FFFFFF, 2.5rem -0.75rem #f18096, 2.5rem -1rem #FFFFFF, 2.5rem -1.25rem #FFFFFF, 2.5rem -1.5rem #f18096, 2.5rem -1.75rem #f18096, 2.5rem -2rem #f18096, 2.5rem -2.25rem #f18096, 2.5rem -2.5rem #f18096, 2.5rem -3rem #f18096, 2.5rem -3.25rem #f18096, 2.5rem -3.5rem #f18096, 2.5rem -3.75rem #FFFFFF, 2.5rem -4rem #FFFFFF, 2.5rem -4.25rem #FFFFFF, 2.5rem -4.5rem #FFFFFF, 2.5rem -4.75rem #f7a961, 2.5rem -5rem #f7a961, 2.5rem -5.25rem #f7a961, 2.5rem -5.5rem #f7a961, 2.75rem -0.5rem #FFFFFF, 2.75rem -0.75rem #f18096, 2.75rem -1rem #FFFFFF, 2.75rem -1.25rem #f18096, 2.75rem -1.5rem #f18096, 2.75rem -1.75rem #f18096, 2.75rem -2rem #f18096, 2.75rem -2.25rem #f18096, 2.75rem -2.5rem #f18096, 2.75rem -2.75rem #f18096, 2.75rem -3rem #f18096, 2.75rem -3.25rem #f18096, 2.75rem -3.5rem #f18096, 2.75rem -3.75rem #FFFFFF, 2.75rem -4rem #FFFFFF, 2.75rem -4.25rem #FFFFFF, 2.75rem -4.5rem #FFFFFF, 2.75rem -4.75rem #FFFFFF, 2.75rem -5rem #FFFFFF, 2.75rem -5.25rem #f7a961, 2.75rem -5.5rem #f7a961, 3rem -0.25rem #f7a961, 3rem -0.5rem #FFFFFF, 3rem -0.75rem #f18096, 3rem -1rem #FFFFFF, 3rem -1.25rem #f18096, 3rem -1.5rem #f18096, 3rem -1.75rem #f18096, 3rem -2rem #f18096, 3rem -2.25rem #f18096, 3rem -2.5rem #f18096, 3rem -2.75rem #f18096, 3rem -3rem #f18096, 3rem -3.5rem #f18096, 3rem -3.75rem #f18096, 3rem -4.25rem #FFFFFF, 3rem -4.5rem #FFFFFF, 3rem -4.75rem #FFFFFF, 3rem -5rem #FFFFFF, 3rem -5.25rem #f7a961, 3rem -5.5rem #f7a961, 3.25rem -0.25rem #f7a961, 3.25rem -0.5rem #FFFFFF, 3.25rem -0.75rem #f18096, 3.25rem -1rem #FFFFFF, 3.25rem -1.25rem #f18096, 3.25rem -1.5rem #f18096, 3.25rem -1.75rem #f18096, 3.25rem -2rem #f18096, 3.25rem -2.25rem #FFFFFF, 3.25rem -2.75rem #f18096, 3.25rem -3rem #f18096, 3.25rem -4.25rem #FFFFFF, 3.25rem -4.5rem #FFFFFF, 3.25rem -5rem #FFFFFF, 3.25rem -5.25rem #f7a961, 3.25rem -5.5rem #f7a961, 3.5rem -0.25rem #f7a961, 3.5rem -2rem #FFFFFF, 3.5rem -2.25rem #FFFFFF, 3.5rem -2.75rem #FFFFFF, 3.5rem -3rem #FFFFFF, 3.5rem -4.5rem #FFFFFF, 3.5rem -4.75rem #FFFFFF, 3.5rem -5rem #FFFFFF, 3.5rem -5.25rem #f7a961, 3.5rem -5.5rem #f7a961, 3.75rem -3rem #FFFFFF, 3.75rem -4.75rem #FFFFFF, 3.75rem -5.25rem #f7a961;
-    width: 0.32rem;
-    height: 0.32rem;
-  }
-}
+  box-shadow: 0.12rem -0.84rem #FFFFFF, 0.12rem -0.96rem #f18096, 0.24rem -0.48rem #f7a961, 0.24rem -0.72rem #FFFFFF, 0.24rem -0.84rem #f18096, 0.24rem -0.96rem #f18096, 0.24rem -1.56rem #f7a961, 0.24rem -1.8rem #f7a961, 0.24rem -2.28rem #f7a961, 0.36rem -0.36rem #f7a961, 0.36rem -0.48rem #f7a961, 0.36rem -0.6rem #f18096, 0.36rem -0.72rem #f18096, 0.36rem -0.84rem #f18096, 0.36rem -0.96rem #FFFFFF, 0.36rem -1.68rem #f7a961, 0.36rem -1.8rem #f7a961, 0.36rem -2.16rem #f7a961, 0.36rem -2.28rem #f7a961, 0.48rem -0.24rem #f7a961, 0.48rem -0.36rem #f7a961, 0.48rem -0.48rem #f7a961, 0.48rem -0.6rem #f18096, 0.48rem -0.72rem #f18096, 0.48rem -0.84rem #FFFFFF, 0.48rem -0.96rem #FFFFFF, 0.48rem -1.08rem #f18096, 0.48rem -1.56rem #f7a961, 0.48rem -1.68rem #f7a961, 0.48rem -1.8rem #f7a961, 0.48rem -1.92rem #f7a961, 0.48rem -2.04rem #f7a961, 0.48rem -2.16rem #f7a961, 0.6rem -0.24rem #f7a961, 0.6rem -0.48rem #f18096, 0.6rem -0.6rem #f18096, 0.6rem -0.72rem #f18096, 0.6rem -0.84rem #FFFFFF, 0.6rem -0.96rem #f18096, 0.6rem -1.08rem #f18096, 0.6rem -1.8rem #f7a961, 0.6rem -1.92rem #f7a961, 0.6rem -2.04rem #f7a961, 0.72rem -0.48rem #FFFFFF, 0.72rem -0.6rem #f18096, 0.72rem -0.72rem #FFFFFF, 0.72rem -0.84rem #FFFFFF, 0.72rem -0.96rem #f18096, 0.72rem -1.08rem #f18096, 0.72rem -1.2rem #f18096, 0.72rem -1.8rem #f7a961, 0.72rem -1.92rem #f7a961, 0.72rem -2.04rem #f7a961, 0.84rem -0.36rem #FFFFFF, 0.84rem -0.48rem #f18096, 0.84rem -0.6rem #f18096, 0.84rem -0.72rem #FFFFFF, 0.84rem -0.84rem #f18096, 0.84rem -0.96rem #f18096, 0.84rem -1.08rem #f18096, 0.84rem -1.2rem #f18096, 0.84rem -1.56rem #f18096, 0.84rem -1.68rem #f18096, 0.84rem -1.8rem #f18096, 0.84rem -1.92rem #f18096, 0.84rem -2.04rem #f7a961, 0.84rem -2.28rem #f7a961, 0.84rem -2.4rem #f7a961, 0.96rem -0.36rem #FFFFFF, 0.96rem -0.48rem #f18096, 0.96rem -0.6rem #FFFFFF, 0.96rem -0.72rem #FFFFFF, 0.96rem -0.84rem #f18096, 0.96rem -0.96rem #f18096, 0.96rem -1.08rem #f18096, 0.96rem -1.2rem #f18096, 0.96rem -1.44rem #f18096, 0.96rem -1.56rem #f18096, 0.96rem -1.68rem #f18096, 0.96rem -1.8rem #f18096, 0.96rem -1.92rem #f18096, 0.96rem -2.04rem #f7a961, 0.96rem -2.16rem #f7a961, 0.96rem -2.28rem #f7a961, 0.96rem -2.4rem #f7a961, 0.96rem -2.52rem #f7a961, 1.08rem -0.24rem #FFFFFF, 1.08rem -0.36rem #f18096, 1.08rem -0.48rem #f18096, 1.08rem -0.6rem #FFFFFF, 1.08rem -0.72rem #f18096, 1.08rem -0.84rem #f18096, 1.08rem -0.96rem #f18096, 1.08rem -1.08rem #f18096, 1.08rem -1.2rem #f18096, 1.08rem -1.44rem #f18096, 1.08rem -1.56rem #f18096, 1.08rem -1.68rem #f18096, 1.08rem -1.8rem #f18096, 1.08rem -1.92rem #FFFFFF, 1.08rem -2.04rem #FFFFFF, 1.08rem -2.16rem #f7a961, 1.08rem -2.28rem #FFFFFF, 1.08rem -2.4rem #f7a961, 1.08rem -2.52rem #f7a961, 1.08rem -2.64rem #f7a961, 1.2rem -0.12rem #f7a961, 1.2rem -0.24rem #FFFFFF, 1.2rem -0.36rem #f18096, 1.2rem -0.48rem #FFFFFF, 1.2rem -0.6rem #FFFFFF, 1.2rem -0.72rem #f18096, 1.2rem -0.84rem #f18096, 1.2rem -0.96rem #f18096, 1.2rem -1.08rem #f18096, 1.2rem -1.2rem #f18096, 1.2rem -1.44rem #f18096, 1.2rem -1.56rem #f18096, 1.2rem -1.68rem #f18096, 1.2rem -1.8rem #FFFFFF, 1.2rem -1.92rem #FFFFFF, 1.2rem -2.04rem #FFFFFF, 1.2rem -2.16rem #FFFFFF, 1.2rem -2.28rem #f7a961, 1.2rem -2.4rem #f7a961, 1.2rem -2.52rem #f7a961, 1.2rem -2.64rem #f7a961, 1.32rem -0.24rem #FFFFFF, 1.32rem -0.36rem #f18096, 1.32rem -0.48rem #FFFFFF, 1.32rem -0.6rem #f18096, 1.32rem -0.72rem #f18096, 1.32rem -0.84rem #f18096, 1.32rem -0.96rem #f18096, 1.32rem -1.08rem #f18096, 1.32rem -1.2rem #f18096, 1.32rem -1.32rem #f18096, 1.32rem -1.44rem #f18096, 1.32rem -1.56rem #f18096, 1.32rem -1.68rem #f18096, 1.32rem -1.8rem #FFFFFF, 1.32rem -1.92rem #FFFFFF, 1.32rem -2.04rem #FFFFFF, 1.32rem -2.16rem #FFFFFF, 1.32rem -2.28rem #FFFFFF, 1.32rem -2.4rem #FFFFFF, 1.32rem -2.52rem #f7a961, 1.32rem -2.64rem #f7a961, 1.44rem -0.12rem #f7a961, 1.44rem -0.24rem #FFFFFF, 1.44rem -0.36rem #f18096, 1.44rem -0.48rem #FFFFFF, 1.44rem -0.6rem #f18096, 1.44rem -0.72rem #f18096, 1.44rem -0.84rem #f18096, 1.44rem -0.96rem #f18096, 1.44rem -1.08rem #f18096, 1.44rem -1.2rem #f18096, 1.44rem -1.32rem #f18096, 1.44rem -1.44rem #f18096, 1.44rem -1.68rem #f18096, 1.44rem -1.8rem #f18096, 1.44rem -2.04rem #FFFFFF, 1.44rem -2.16rem #FFFFFF, 1.44rem -2.28rem #FFFFFF, 1.44rem -2.4rem #FFFFFF, 1.44rem -2.52rem #f7a961, 1.44rem -2.64rem #f7a961, 1.56rem -0.12rem #f7a961, 1.56rem -0.24rem #FFFFFF, 1.56rem -0.36rem #f18096, 1.56rem -0.48rem #FFFFFF, 1.56rem -0.6rem #f18096, 1.56rem -0.72rem #f18096, 1.56rem -0.84rem #f18096, 1.56rem -0.96rem #f18096, 1.56rem -1.08rem #FFFFFF, 1.56rem -1.32rem #f18096, 1.56rem -1.44rem #f18096, 1.56rem -2.04rem #FFFFFF, 1.56rem -2.16rem #FFFFFF, 1.56rem -2.4rem #FFFFFF, 1.56rem -2.52rem #f7a961, 1.56rem -2.64rem #f7a961, 1.68rem -0.12rem #f7a961, 1.68rem -0.96rem #FFFFFF, 1.68rem -1.08rem #FFFFFF, 1.68rem -1.32rem #FFFFFF, 1.68rem -1.44rem #FFFFFF, 1.68rem -2.16rem #FFFFFF, 1.68rem -2.28rem #FFFFFF, 1.68rem -2.4rem #FFFFFF, 1.68rem -2.52rem #f7a961, 1.68rem -2.64rem #f7a961, 1.8rem -1.44rem #FFFFFF, 1.8rem -2.28rem #FFFFFF, 1.8rem -2.52rem #f7a961; }
+  @media screen and (min-width: 64rem) {
+    .summary::after {
+      bottom: 8rem;
+      left: 20rem;
+      box-shadow: 0.25rem -1.75rem #FFFFFF, 0.25rem -2rem #f18096, 0.5rem -1rem #f7a961, 0.5rem -1.5rem #FFFFFF, 0.5rem -1.75rem #f18096, 0.5rem -2rem #f18096, 0.5rem -3.25rem #f7a961, 0.5rem -3.75rem #f7a961, 0.5rem -4.75rem #f7a961, 0.75rem -0.75rem #f7a961, 0.75rem -1rem #f7a961, 0.75rem -1.25rem #f18096, 0.75rem -1.5rem #f18096, 0.75rem -1.75rem #f18096, 0.75rem -2rem #FFFFFF, 0.75rem -3.5rem #f7a961, 0.75rem -3.75rem #f7a961, 0.75rem -4.5rem #f7a961, 0.75rem -4.75rem #f7a961, 1rem -0.5rem #f7a961, 1rem -0.75rem #f7a961, 1rem -1rem #f7a961, 1rem -1.25rem #f18096, 1rem -1.5rem #f18096, 1rem -1.75rem #FFFFFF, 1rem -2rem #FFFFFF, 1rem -2.25rem #f18096, 1rem -3.25rem #f7a961, 1rem -3.5rem #f7a961, 1rem -3.75rem #f7a961, 1rem -4rem #f7a961, 1rem -4.25rem #f7a961, 1rem -4.5rem #f7a961, 1.25rem -0.5rem #f7a961, 1.25rem -1rem #f18096, 1.25rem -1.25rem #f18096, 1.25rem -1.5rem #f18096, 1.25rem -1.75rem #FFFFFF, 1.25rem -2rem #f18096, 1.25rem -2.25rem #f18096, 1.25rem -3.75rem #f7a961, 1.25rem -4rem #f7a961, 1.25rem -4.25rem #f7a961, 1.5rem -1rem #FFFFFF, 1.5rem -1.25rem #f18096, 1.5rem -1.5rem #FFFFFF, 1.5rem -1.75rem #FFFFFF, 1.5rem -2rem #f18096, 1.5rem -2.25rem #f18096, 1.5rem -2.5rem #f18096, 1.5rem -3.75rem #f7a961, 1.5rem -4rem #f7a961, 1.5rem -4.25rem #f7a961, 1.75rem -0.75rem #FFFFFF, 1.75rem -1rem #f18096, 1.75rem -1.25rem #f18096, 1.75rem -1.5rem #FFFFFF, 1.75rem -1.75rem #f18096, 1.75rem -2rem #f18096, 1.75rem -2.25rem #f18096, 1.75rem -2.5rem #f18096, 1.75rem -3.25rem #f18096, 1.75rem -3.5rem #f18096, 1.75rem -3.75rem #f18096, 1.75rem -4rem #f18096, 1.75rem -4.25rem #f7a961, 1.75rem -4.75rem #f7a961, 1.75rem -5rem #f7a961, 2rem -0.75rem #FFFFFF, 2rem -1rem #f18096, 2rem -1.25rem #FFFFFF, 2rem -1.5rem #FFFFFF, 2rem -1.75rem #f18096, 2rem -2rem #f18096, 2rem -2.25rem #f18096, 2rem -2.5rem #f18096, 2rem -3rem #f18096, 2rem -3.25rem #f18096, 2rem -3.5rem #f18096, 2rem -3.75rem #f18096, 2rem -4rem #f18096, 2rem -4.25rem #f7a961, 2rem -4.5rem #f7a961, 2rem -4.75rem #f7a961, 2rem -5rem #f7a961, 2rem -5.25rem #f7a961, 2.25rem -0.5rem #FFFFFF, 2.25rem -0.75rem #f18096, 2.25rem -1rem #f18096, 2.25rem -1.25rem #FFFFFF, 2.25rem -1.5rem #f18096, 2.25rem -1.75rem #f18096, 2.25rem -2rem #f18096, 2.25rem -2.25rem #f18096, 2.25rem -2.5rem #f18096, 2.25rem -3rem #f18096, 2.25rem -3.25rem #f18096, 2.25rem -3.5rem #f18096, 2.25rem -3.75rem #f18096, 2.25rem -4rem #FFFFFF, 2.25rem -4.25rem #FFFFFF, 2.25rem -4.5rem #f7a961, 2.25rem -4.75rem #FFFFFF, 2.25rem -5rem #f7a961, 2.25rem -5.25rem #f7a961, 2.25rem -5.5rem #f7a961, 2.5rem -0.25rem #f7a961, 2.5rem -0.5rem #FFFFFF, 2.5rem -0.75rem #f18096, 2.5rem -1rem #FFFFFF, 2.5rem -1.25rem #FFFFFF, 2.5rem -1.5rem #f18096, 2.5rem -1.75rem #f18096, 2.5rem -2rem #f18096, 2.5rem -2.25rem #f18096, 2.5rem -2.5rem #f18096, 2.5rem -3rem #f18096, 2.5rem -3.25rem #f18096, 2.5rem -3.5rem #f18096, 2.5rem -3.75rem #FFFFFF, 2.5rem -4rem #FFFFFF, 2.5rem -4.25rem #FFFFFF, 2.5rem -4.5rem #FFFFFF, 2.5rem -4.75rem #f7a961, 2.5rem -5rem #f7a961, 2.5rem -5.25rem #f7a961, 2.5rem -5.5rem #f7a961, 2.75rem -0.5rem #FFFFFF, 2.75rem -0.75rem #f18096, 2.75rem -1rem #FFFFFF, 2.75rem -1.25rem #f18096, 2.75rem -1.5rem #f18096, 2.75rem -1.75rem #f18096, 2.75rem -2rem #f18096, 2.75rem -2.25rem #f18096, 2.75rem -2.5rem #f18096, 2.75rem -2.75rem #f18096, 2.75rem -3rem #f18096, 2.75rem -3.25rem #f18096, 2.75rem -3.5rem #f18096, 2.75rem -3.75rem #FFFFFF, 2.75rem -4rem #FFFFFF, 2.75rem -4.25rem #FFFFFF, 2.75rem -4.5rem #FFFFFF, 2.75rem -4.75rem #FFFFFF, 2.75rem -5rem #FFFFFF, 2.75rem -5.25rem #f7a961, 2.75rem -5.5rem #f7a961, 3rem -0.25rem #f7a961, 3rem -0.5rem #FFFFFF, 3rem -0.75rem #f18096, 3rem -1rem #FFFFFF, 3rem -1.25rem #f18096, 3rem -1.5rem #f18096, 3rem -1.75rem #f18096, 3rem -2rem #f18096, 3rem -2.25rem #f18096, 3rem -2.5rem #f18096, 3rem -2.75rem #f18096, 3rem -3rem #f18096, 3rem -3.5rem #f18096, 3rem -3.75rem #f18096, 3rem -4.25rem #FFFFFF, 3rem -4.5rem #FFFFFF, 3rem -4.75rem #FFFFFF, 3rem -5rem #FFFFFF, 3rem -5.25rem #f7a961, 3rem -5.5rem #f7a961, 3.25rem -0.25rem #f7a961, 3.25rem -0.5rem #FFFFFF, 3.25rem -0.75rem #f18096, 3.25rem -1rem #FFFFFF, 3.25rem -1.25rem #f18096, 3.25rem -1.5rem #f18096, 3.25rem -1.75rem #f18096, 3.25rem -2rem #f18096, 3.25rem -2.25rem #FFFFFF, 3.25rem -2.75rem #f18096, 3.25rem -3rem #f18096, 3.25rem -4.25rem #FFFFFF, 3.25rem -4.5rem #FFFFFF, 3.25rem -5rem #FFFFFF, 3.25rem -5.25rem #f7a961, 3.25rem -5.5rem #f7a961, 3.5rem -0.25rem #f7a961, 3.5rem -2rem #FFFFFF, 3.5rem -2.25rem #FFFFFF, 3.5rem -2.75rem #FFFFFF, 3.5rem -3rem #FFFFFF, 3.5rem -4.5rem #FFFFFF, 3.5rem -4.75rem #FFFFFF, 3.5rem -5rem #FFFFFF, 3.5rem -5.25rem #f7a961, 3.5rem -5.5rem #f7a961, 3.75rem -3rem #FFFFFF, 3.75rem -4.75rem #FFFFFF, 3.75rem -5.25rem #f7a961;
+      width: 0.32rem;
+      height: 0.32rem; } }
 
 .intro {
   overflow: hidden;
-  min-width: 28.5rem;
-}
-.intro header {
-  position: relative;
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
-  transform: rotate(-7deg);
-  transform-origin: 0 0;
-  width: 150%;
-  right: 2rem;
-  margin: 2rem 0 0;
-}
+  min-width: 28.5rem; }
+  .intro header {
+    position: relative;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    transform-origin: 0 0;
+    width: 150%;
+    right: 2rem;
+    margin: 2rem 0 0; }
 
 .summary {
   position: relative;
@@ -224,35 +193,31 @@ footer::before {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 0;
-}
-.summary p {
-  width: 50%;
-}
-.summary > p:last-of-type::before {
-  content: "";
-  position: absolute;
-  bottom: 1rem;
-  left: 9rem;
-  display: block;
-  background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
-  background-size: 2rem 1.1rem;
-  background-repeat: repeat-x;
-  height: 1.5rem;
-  width: 5rem;
-}
-.summary > p:last-of-type::after {
-  content: "";
-  position: absolute;
-  bottom: -1.5rem;
-  left: 12.1rem;
-  display: block;
-  background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
-  background-size: 1.3rem .8rem;
-  background-repeat: repeat-y;
-  height: 5rem;
-  width: 1.3rem;
-}
+  margin-top: 0; }
+  .summary p {
+    width: 50%; }
+  .summary > p:last-of-type::before {
+    content: "";
+    position: absolute;
+    bottom: 1rem;
+    left: 9rem;
+    display: block;
+    background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
+    background-size: 2rem 1.1rem;
+    background-repeat: repeat-x;
+    height: 1.5rem;
+    width: 5rem; }
+  .summary > p:last-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: -1.5rem;
+    left: 12.1rem;
+    display: block;
+    background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
+    background-size: 1.3rem .8rem;
+    background-repeat: repeat-y;
+    height: 5rem;
+    width: 1.3rem; }
 
 .preamble {
   position: relative;
@@ -260,216 +225,184 @@ footer::before {
   width: 100%;
   /* desired width */
   margin: 1rem auto 0 auto;
-  padding: 0 4.5rem 0 2.5rem;
-}
-.preamble h3 {
-  position: relative;
-  margin-left: 2.5rem;
-}
-.preamble p {
-  margin-right: 15%;
-}
-.preamble::before, .supporting > div:nth-of-type(2n + 0)::before {
-  content: "";
-  position: relative;
-  right: .5rem;
-  display: block;
-  background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
-  background-size: 2rem 1.1rem;
-  background-repeat: repeat-x;
-  height: 1.5rem;
-  width: calc(100% + 3rem);
-  margin-bottom: 4%;
-  /* initial ratio of 1:1*/
-  transform: rotate(2deg);
-  transform-origin: 0 0;
-}
-.preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
-  content: "";
-  position: absolute;
-  right: 4.5rem;
-  bottom: 0;
-  height: calc(100% - 0.4rem);
-  display: block;
-  background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
-  background-size: 1.3rem .8rem;
-  background-repeat: repeat-y;
-  width: 1.3rem;
-}
+  padding: 0 4.5rem 0 2.5rem; }
+  .preamble h3 {
+    position: relative;
+    margin-left: 2.5rem; }
+  .preamble p {
+    margin-right: 15%; }
+  .preamble::before, .supporting > div:nth-of-type(2n + 0)::before {
+    content: "";
+    position: relative;
+    right: .5rem;
+    display: block;
+    background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
+    background-size: 2rem 1.1rem;
+    background-repeat: repeat-x;
+    height: 1.5rem;
+    width: calc(100% + 3rem);
+    margin-bottom: 4%;
+    /* initial ratio of 1:1*/
+    transform: rotate(2deg);
+    transform-origin: 0 0; }
+  .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
+    content: "";
+    position: absolute;
+    right: 4.5rem;
+    bottom: 0;
+    height: calc(100% - 0.4rem);
+    display: block;
+    background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
+    background-size: 1.3rem .8rem;
+    background-repeat: repeat-y;
+    width: 1.3rem; }
 
 .supporting {
-  padding: 0 2.5rem;
-}
-.supporting div {
-  margin-top: 1rem;
-}
-.supporting > div:nth-of-type(2n + 1) {
-  position: relative;
-  right: .25rem;
-  width: 100%;
-  /* desired width */
-  margin: 0 auto;
-  padding-left: 2rem;
-}
-.supporting > div:nth-of-type(2n + 1) h3 {
-  position: relative;
-  margin-left: calc(15% + 2.5rem);
-}
-.supporting > div:nth-of-type(2n + 1) p {
-  margin-left: 15%;
-}
-.supporting > div:nth-of-type(2n + 1)::before {
-  content: "";
-  position: relative;
-  left: -2.5rem;
-  display: block;
-  background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
-  background-size: 2rem 1.1rem;
-  background-repeat: repeat-x;
-  height: 1.5rem;
-  width: calc(100% + 3rem);
-  margin-bottom: 4%;
-  /* initial ratio of 1:1*/
-  transform: rotate(-2deg);
-  transform-origin: 100% 100%;
-}
-.supporting > div:nth-of-type(2n + 1)::after {
-  content: "";
-  position: absolute;
-  left: 1rem;
-  bottom: 0;
-  height: calc(100% - 0.4rem);
-  display: block;
-  background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
-  background-size: 1.3rem .8rem;
-  background-repeat: repeat-y;
-  width: 1.3rem;
-}
-.supporting > div:nth-of-type(2n + 0) {
-  position: relative;
-  right: .25rem;
-  width: 100%;
-  /* desired width */
-  margin: 0 auto;
-  padding-right: 2rem;
-}
-.supporting > div:nth-of-type(2n + 0) h3 {
-  position: relative;
-  margin-left: 2.5rem;
-}
-.supporting > div:nth-of-type(2n + 0) p {
-  margin-right: 15%;
-}
-.supporting > div:nth-of-type(2n + 0) [role="contentinfo"] {
-  margin: 1rem 15% 0 0;
-  text-align: center;
-}
-.supporting > div:nth-of-type(2n + 0)::after {
-  right: 1rem;
-}
-.supporting > div:last-of-type::after {
-  height: calc(100% + 3.8rem);
-  bottom: -4.2em;
-}
+  padding: 0 2.5rem; }
+  .supporting div {
+    margin-top: 1rem; }
+  .supporting > div:nth-of-type(2n + 1) {
+    position: relative;
+    right: .25rem;
+    width: 100%;
+    /* desired width */
+    margin: 0 auto;
+    padding-left: 2rem; }
+    .supporting > div:nth-of-type(2n + 1) h3 {
+      position: relative;
+      margin-left: calc(15% + 2.5rem); }
+    .supporting > div:nth-of-type(2n + 1) p {
+      margin-left: 15%; }
+  .supporting > div:nth-of-type(2n + 1)::before {
+    content: "";
+    position: relative;
+    left: -2.5rem;
+    display: block;
+    background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
+    background-size: 2rem 1.1rem;
+    background-repeat: repeat-x;
+    height: 1.5rem;
+    width: calc(100% + 3rem);
+    margin-bottom: 4%;
+    /* initial ratio of 1:1*/
+    transform: rotate(-2deg);
+    transform-origin: 100% 100%; }
+  .supporting > div:nth-of-type(2n + 1)::after {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    height: calc(100% - 0.4rem);
+    display: block;
+    background: linear-gradient(0deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem), linear-gradient(90deg, #4dcbde, #4dcbde 0.3rem, transparent 0.3rem, transparent 1rem, #4dcbde 1rem);
+    background-size: 1.3rem .8rem;
+    background-repeat: repeat-y;
+    width: 1.3rem; }
+  .supporting > div:nth-of-type(2n + 0) {
+    position: relative;
+    right: .25rem;
+    width: 100%;
+    /* desired width */
+    margin: 0 auto;
+    padding-right: 2rem; }
+    .supporting > div:nth-of-type(2n + 0) h3 {
+      position: relative;
+      margin-left: 2.5rem; }
+    .supporting > div:nth-of-type(2n + 0) p {
+      margin-right: 15%; }
+    .supporting > div:nth-of-type(2n + 0) [role="contentinfo"] {
+      margin: 1rem 15% 0 0;
+      text-align: center; }
+  .supporting > div:nth-of-type(2n + 0)::after {
+    right: 1rem; }
+  .supporting > div:last-of-type::after {
+    height: calc(100% + 3.8rem);
+    bottom: -4.2em; }
 
 p + p {
-  margin-top: .63rem;
-}
+  margin-top: .63rem; }
 
 footer {
   position: relative;
   text-align: center;
-  margin-top: 1.88rem;
-}
-@media screen and (min-width: 64rem) {
-  footer {
-    margin-top: 3.75rem;
-  }
-}
-footer::after {
-  content: "";
-  position: relative;
-  left: 0;
-  display: block;
-  background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
-  background-size: 2rem 1.1rem;
-  background-repeat: repeat-x;
-  height: 1.5rem;
-  width: 100%;
-}
-footer a {
-  display: inline-block;
-  overflow: hidden;
-  width: 36px;
-  height: 36px;
-  padding: 36px 0 0 0;
-  margin: 0 0.5em;
-  position: relative;
-  color: #ffa959;
-}
-footer a:hover, footer a:focus {
-  color: #ffa959;
-  text-decoration: none;
-  animation: barrelSpin linear 2s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-  -webkit-animation: barrelSpin linear 2s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: barrelSpin linear 2s;
-  -moz-animation-iteration-count: infinite;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: barrelSpin linear 2s;
-  -o-animation-iteration-count: infinite;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: barrelSpin linear 2s;
-  -ms-animation-iteration-count: infinite;
-  -ms-transform-origin: 50% 50%;
-}
-footer a::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #FF810C;
-}
-footer a::after {
-  text-align: center;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: visible;
-  font-size: 36px;
-  text-indent: 0;
-  /* icomoon.io defaults */
-  font-family: 'verdemoderna';
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-footer a.zen-validate-html::after {
-  content: "5";
-}
-footer a.zen-validate-css::after {
-  content: "3";
-}
-footer a.zen-license::after {
-  content: "c";
-}
-footer a.zen-accessibility::after {
-  content: "a";
-}
-footer a.zen-github::after {
-  content: "g";
-}
+  margin-top: 1.88rem; }
+  @media screen and (min-width: 64rem) {
+    footer {
+      margin-top: 3.75rem; } }
+  footer::after {
+    content: "";
+    position: relative;
+    left: 0;
+    display: block;
+    background: linear-gradient(135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(-135deg, transparent, transparent 0.6rem, #EC5270 0.6rem, #EC5270 0.9rem, transparent 0.9rem), linear-gradient(0deg, #EC5270, #EC5270 0.3rem, transparent 0.3rem, transparent 0.8rem, #EC5270 0.8rem);
+    background-size: 2rem 1.1rem;
+    background-repeat: repeat-x;
+    height: 1.5rem;
+    width: 100%; }
+  footer a {
+    display: inline-block;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    padding: 36px 0 0 0;
+    margin: 0 0.5em;
+    position: relative;
+    color: #ffc38c; }
+  footer a:hover, footer a:focus {
+    color: #ffc38c;
+    text-decoration: none;
+    animation: barrelSpin linear 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: barrelSpin linear 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: barrelSpin linear 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: barrelSpin linear 2s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: barrelSpin linear 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%; }
+  footer a::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FF810C; }
+  footer a::after {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    font-size: 36px;
+    text-indent: 0;
+    /* icomoon.io defaults */
+    font-family: 'verdemoderna';
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased; }
+  footer a.zen-validate-html::after {
+    content: "5"; }
+  footer a.zen-validate-css::after {
+    content: "3"; }
+  footer a.zen-license::after {
+    content: "c"; }
+  footer a.zen-accessibility::after {
+    content: "a"; }
+  footer a.zen-github::after {
+    content: "g"; }
 
 @media screen and (min-width: 64rem) {
   .summary {
@@ -479,129 +412,90 @@ footer a.zen-github::after {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 3.13rem;
-    margin-top: -4.38rem;
-  }
-  .summary p {
-    width: 25.94rem;
-  }
-  .summary p + p {
-    margin-top: .63rem;
-  }
-  .summary > p:last-of-type::before {
-    bottom: 6.8rem;
-    left: 19rem;
-    width: 12rem;
-  }
-  .summary > p:last-of-type::after {
-    bottom: -2rem;
-    left: 28rem;
-    height: 11.5rem;
-  }
+    margin-top: -4.38rem; }
+    .summary p {
+      width: 25.94rem; }
+    .summary p + p {
+      margin-top: .63rem; }
+    .summary > p:last-of-type::before {
+      bottom: 6.8rem;
+      left: 19rem;
+      width: 12rem; }
+    .summary > p:last-of-type::after {
+      bottom: -2rem;
+      left: 28rem;
+      height: 11.5rem; }
 
   .preamble {
-    padding: 0 4.5rem 0 3.13rem;
-  }
-  .preamble p {
-    margin-right: 10%;
-  }
+    padding: 0 4.5rem 0 3.13rem; }
+    .preamble p {
+      margin-right: 10%; }
 
   .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
-    height: calc(100% - 1.7rem);
-  }
+    height: calc(100% - 1.7rem); }
 
   .supporting {
-    padding: 0 3.13rem;
-  }
-  .supporting > div:nth-of-type(2n + 1) h3 {
-    margin-left: calc(10% + 2.5rem);
-  }
-  .supporting > div:nth-of-type(2n + 1) p {
-    margin-left: 10%;
-  }
-  .supporting > div:nth-of-type(2n + 0) h3 {
-    margin-left: 2.5rem;
-  }
-  .supporting > div:nth-of-type(2n + 0) p {
-    margin-right: 10%;
-  }
-  .supporting > div:nth-of-type(2n + 1)::after {
-    height: calc(100% - 1.7rem);
-  }
-  .supporting > div:nth-of-type(2n + 0)::after {
-    height: calc(100% - 1.7rem);
-  }
-  .supporting > div:last-of-type::after {
-    height: calc(100% + 4.3rem);
-    bottom: -6rem;
-  }
-  .supporting [role="contentinfo"] {
-    margin: 1rem 0 0 0;
-  }
-}
+    padding: 0 3.13rem; }
+    .supporting > div:nth-of-type(2n + 1) h3 {
+      margin-left: calc(10% + 2.5rem); }
+    .supporting > div:nth-of-type(2n + 1) p {
+      margin-left: 10%; }
+    .supporting > div:nth-of-type(2n + 0) h3 {
+      margin-left: 2.5rem; }
+    .supporting > div:nth-of-type(2n + 0) p {
+      margin-right: 10%; }
+    .supporting > div:nth-of-type(2n + 1)::after {
+      height: calc(100% - 1.7rem); }
+    .supporting > div:nth-of-type(2n + 0)::after {
+      height: calc(100% - 1.7rem); }
+    .supporting > div:last-of-type::after {
+      height: calc(100% + 4.3rem);
+      bottom: -6rem; }
+    .supporting [role="contentinfo"] {
+      margin: 1rem 0 0 0; } }
 @media screen and (min-width: 100rem) {
   .preamble::after, .supporting > div:nth-of-type(2n + 0)::after, .supporting > div:last-of-type::after {
-    height: calc(100% - 2.6rem);
-  }
+    height: calc(100% - 2.6rem); }
 
   .supporting > div:nth-of-type(2n + 1)::after {
-    height: calc(100% - 2.6rem);
-  }
+    height: calc(100% - 2.6rem); }
   .supporting > div:nth-of-type(2n + 0)::after {
-    height: calc(100% - 2.6rem);
-  }
+    height: calc(100% - 2.6rem); }
   .supporting > div:last-of-type::after {
     height: calc(100% + 3.3rem);
-    bottom: -6rem;
-  }
-}
+    bottom: -6rem; } }
 /* icon fonts */
 @font-face {
   font-family: 'verdemoderna';
   src: url("verdemoderna.eot");
   src: url("verdemoderna.eot?#iefix") format("embedded-opentype"), url("verdemoderna.woff") format("woff"), url("verdemoderna.ttf") format("truetype"), url("verdemoderna.svg#verdemoderna") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 @keyframes barrelSpin {
   0% {
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   100% {
-    transform: rotate(-360deg);
-  }
-}
+    transform: rotate(-360deg); } }
 @-moz-keyframes barrelSpin {
   0% {
-    -moz-transform: rotate(0deg);
-  }
+    -moz-transform: rotate(0deg); }
   100% {
-    -moz-transform: rotate(-360deg);
-  }
-}
+    -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes barrelSpin {
   0% {
-    -webkit-transform: rotate(0deg);
-  }
+    -webkit-transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(-360deg);
-  }
-}
+    -webkit-transform: rotate(-360deg); } }
 @-o-keyframes barrelSpin {
   0% {
-    -o-transform: rotate(0deg);
-  }
+    -o-transform: rotate(0deg); }
   100% {
-    -o-transform: rotate(-360deg);
-  }
-}
+    -o-transform: rotate(-360deg); } }
 @-ms-keyframes barrelSpin {
   0% {
-    -ms-transform: rotate(360deg);
-  }
+    -ms-transform: rotate(360deg); }
   100% {
-    -ms-transform: rotate(180deg);
-  }
-}
+    -ms-transform: rotate(180deg); } }
 /* --------------------------------
 xNavigation Section
 -------------------------------- */
@@ -616,73 +510,64 @@ xNavigation Section
   -moz-transform: rotate(-7deg);
   -ms-transform: rotate(-7deg);
   -o-transform: rotate(-7deg);
-  transform: rotate(-7deg);
-}
-.sidebar::before, .sidebar::after {
-  position: absolute;
-  content: " ";
-  height: .65rem;
-  width: inherit;
-  background: inherit;
-  top: .35rem;
-  border-top: solid #4dcbde 0.3rem;
-  z-index: -2;
-}
-.sidebar::before {
-  top: 1rem;
-}
-.sidebar .wrapper {
-  position: absolute;
-  display: none;
-  width: 24rem;
-  height: 23rem;
-  background: #000000;
-  border: solid 0.15rem #EC5270;
-  border-radius: 1rem;
-  top: -.5rem;
-  left: -19rem;
-  padding: .8rem;
-  -webkit-transform: rotate(7deg);
-  -moz-transform: rotate(7deg);
-  -ms-transform: rotate(7deg);
-  -o-transform: rotate(7deg);
-  transform: rotate(7deg);
-  transform-style: preserve-3d;
-}
-.sidebar .wrapper::before {
-  position: absolute;
-  content: '';
-  top: -.75rem;
-  right: -.75rem;
-  height: calc(100% + 1.5rem);
-  width: calc(100% + 1.5rem);
-  border: solid 0.15rem #4dcbde;
-  border-radius: 1rem;
-  background: inherit;
-  -webkit-transform: translateZ(-1em);
-  -moz-transform: translateZ(-1em);
-  -ms-transform: translateZ(-1em);
-  -o-transform: translateZ(-1em);
-  transform: translateZ(-1em);
-}
-.sidebar .wrapper div {
-  margin: 0 0 2.5rem 0;
-}
-.sidebar:hover .wrapper {
-  display: block;
-}
-.sidebar h3 {
-  width: 11rem;
-  text-align: center;
-  color: #EC5270;
-  background-color: #000000;
-  margin: -1.4rem auto .8rem auto;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 1rem;
-}
-.sidebar ul {
-  list-style: none;
-}
+  transform: rotate(-7deg); }
+  .sidebar::before, .sidebar::after {
+    position: absolute;
+    content: " ";
+    height: .65rem;
+    width: inherit;
+    background: inherit;
+    top: .35rem;
+    border-top: solid #4dcbde 0.3rem;
+    z-index: -2; }
+  .sidebar::before {
+    top: 1rem; }
+  .sidebar .wrapper {
+    position: absolute;
+    display: none;
+    width: 24rem;
+    height: 23rem;
+    background: #000000;
+    border: solid 0.15rem #EC5270;
+    border-radius: 1rem;
+    top: -.5rem;
+    left: -19rem;
+    padding: .8rem;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+    transform-style: preserve-3d; }
+    .sidebar .wrapper::before {
+      position: absolute;
+      content: '';
+      top: -.75rem;
+      right: -.75rem;
+      height: calc(100% + 1.5rem);
+      width: calc(100% + 1.5rem);
+      border: solid 0.15rem #4dcbde;
+      border-radius: 1rem;
+      background: inherit;
+      -webkit-transform: translateZ(-1em);
+      -moz-transform: translateZ(-1em);
+      -ms-transform: translateZ(-1em);
+      -o-transform: translateZ(-1em);
+      transform: translateZ(-1em); }
+    .sidebar .wrapper div {
+      margin: 0 0 2.5rem 0; }
+  .sidebar:hover .wrapper {
+    display: block; }
+  .sidebar h3 {
+    width: 11rem;
+    text-align: center;
+    color: #EC5270;
+    background-color: #000000;
+    margin: -1.4rem auto .8rem auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem; }
+  .sidebar ul {
+    list-style: none; }
 
 @media screen and (min-width: 35rem) {
   .sidebar .wrapper {
@@ -692,9 +577,7 @@ xNavigation Section
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     top: .5rem;
-    left: -13rem;
-  }
-}
+    left: -13rem; } }
 @media screen and (min-width: 64rem) {
   .sidebar {
     position: absolute;
@@ -705,20 +588,15 @@ xNavigation Section
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     left: auto;
-    top: 17rem;
-  }
-  .sidebar::before, .sidebar::after {
-    display: none;
-  }
-  .sidebar .wrapper {
-    display: block;
-    top: 0rem;
-    right: -1.5rem;
-    left: auto;
-  }
-  .sidebar h3 {
-    margin: -1.6rem auto .8rem auto;
-  }
-}
+    top: 17rem; }
+    .sidebar::before, .sidebar::after {
+      display: none; }
+    .sidebar .wrapper {
+      display: block;
+      top: 0rem;
+      right: -1.5rem;
+      left: auto; }
+    .sidebar h3 {
+      margin: -1.6rem auto .8rem auto; } }
 
 /*# sourceMappingURL=style.css.map */
