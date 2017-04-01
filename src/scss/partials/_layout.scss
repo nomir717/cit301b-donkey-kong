@@ -1,4 +1,4 @@
- .intro {
+  .intro {
     overflow: hidden;
     min-width: 28.5rem;
 
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 0px;
+    margin-top: 0;
     &::before {
       @extend %donkey-kong;
     }
@@ -32,11 +32,71 @@
     p {
       width: 50%;
     }
+
+    & > p:last-of-type::before {
+      content: "";
+      position: absolute;
+      bottom: 1rem;
+      left: 9rem;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: 5rem;
+    }
+    
+    & > p:last-of-type::after {
+      content: "";
+      position: absolute;
+      bottom: -1.5rem;
+      left: 12.1rem;
+      display: block;
+    
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+    
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+
+      height: 5rem;
+      width: 1.3rem;
+    }
   }
 
   .preamble {
-    padding: 0 $s-overall-padding;
-    margin-top: $platform-space;
+    position: relative;
+    right: .25rem;
+    width: 100%;  /* desired width */
+    margin: $platform-space auto 0 auto;
+    padding: 0 4.5rem 0 $s-overall-padding;
+    
     h3 {
      position: relative;
      margin-left: $barrel-space;
@@ -47,6 +107,61 @@
     p {
       margin-right: $s-staggered-padding;
     }
+    &::before {
+        content: "";
+        position: relative;
+        right: .5rem;
+        display: block;
+
+        background: linear-gradient(
+        135deg, transparent,
+        transparent .6rem,
+        $secondary-color .6rem,
+        $secondary-color .9rem,
+        transparent .9rem),
+        linear-gradient(-135deg, transparent,
+        transparent .6rem,
+        $secondary-color .6rem,
+        $secondary-color .9rem,
+        transparent .9rem),
+        linear-gradient(
+        0deg, $secondary-color,
+        $secondary-color .3rem,
+        transparent .3rem,
+        transparent .8rem,
+        $secondary-color .8rem);
+        background-size: 2rem 1.1rem;
+        background-repeat: repeat-x;
+
+        height: 1.5rem;
+        width: calc(100% + 3rem);
+        margin-bottom: 4%; 	/* initial ratio of 1:1*/
+        transform: rotate(2deg);
+        transform-origin: 0 0;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: 4.5rem;
+      bottom: 0;
+      height: calc(100% - #{$s-ladder});
+      display: block;
+    
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+    
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+      width: 1.3rem;
+    }
   }
   .supporting {
     padding: 0 $s-overall-padding;
@@ -55,6 +170,13 @@
       margin-top: $platform-space;
     }
     & > div:nth-of-type(2n + 1) {
+    
+      position: relative;
+      right: .25rem;
+      width: 100%;  /* desired width */
+      margin: 0 auto;
+      padding-left: 2rem;
+      
       h3 {
         position: relative;
         margin-left: calc(#{$s-staggered-padding} + #{$barrel-space});
@@ -66,7 +188,70 @@
         margin-left: $s-staggered-padding;
       }
     }
+    & > div:nth-of-type(2n + 1)::before {
+      content: "";
+      position: relative;
+      left: -2.5rem;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: calc(100% + 3rem);
+      margin-bottom: 4%; 	/* initial ratio of 1:1*/
+      transform: rotate(-2deg);
+      transform-origin: 100% 100%;
+    }
+    & > div:nth-of-type(2n + 1)::after {
+      content: "";
+      position: absolute;
+      left: 1rem;
+      bottom: 0;
+      height: calc(100% - #{$s-ladder});
+      display: block;
+      
+      background: linear-gradient(
+      0deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem),
+      linear-gradient(
+      90deg, $primary-color,
+      $primary-color .3rem,
+      transparent .3rem,
+      transparent 1rem,
+      $primary-color 1rem);
+      
+      background-size: 1.3rem .8rem;
+      background-repeat: repeat-y;
+      width: 1.3rem;
+    }
+    
     & > div:nth-of-type(2n + 0) {
+      
+      position: relative;
+      right: .25rem;
+      width: 100%;  /* desired width */
+      margin: 0 auto;
+      padding-right: 2rem;
+
       h3 {
         position: relative;
         margin-left: $barrel-space;
@@ -78,54 +263,115 @@
         margin-right: $s-staggered-padding;
       }
       [role="contentinfo"] {
-        margin: $platform-space 0px 0px;
+        margin: $platform-space $s-staggered-padding 0 0;
         text-align: center;
       }
     }
-
+    & > div:nth-of-type(2n + 0)::before {
+      @extend .preamble::before;
+    }
+    & > div:nth-of-type(2n + 0)::after {
+      @extend .preamble::after;
+      right: 1rem;
+    }
+    & > div:last-of-type::after {
+      @extend .preamble::after;
+      height: calc(100% + 2.4rem);
+      bottom: -2.8em;
+    }
   }
 
   p+p {
-    margin-top: 10px;
+    margin-top: .63rem;
   }
 
   footer {
     position: relative;
     text-align: center;
-    margin-top: 30px;
-    &::after {
+    margin-top: 1.88rem;
+    &::before {
       @extend %mario;
     }
     @media screen and (min-width: $M) {
-      margin-top: 60px;
+      margin-top: 3.75rem;
     }
+    
+    &::after {
+      content: "";
+      position: relative;
+      left: 0;
+      display: block;
+
+      background: linear-gradient(
+      135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(-135deg, transparent,
+      transparent .6rem,
+      $secondary-color .6rem,
+      $secondary-color .9rem,
+      transparent .9rem),
+      linear-gradient(
+      0deg, $secondary-color,
+      $secondary-color .3rem,
+      transparent .3rem,
+      transparent .8rem,
+      $secondary-color .8rem);
+      background-size: 2rem 1.1rem;
+      background-repeat: repeat-x;
+
+      height: 1.5rem;
+      width: 100%;
+    }
+
   }
 
 @media screen and (min-width: $M) {
   .summary {
     width: 100%;
-    height: 600px;
+    height: 34.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-right: $l-overall-padding;
-    margin-top: -70px;
+    margin-top: -4.38rem;
 
     p {
-      width: 415px;
+      width: 25.94rem;
     }
     p+p {
-      margin-top: 10px;
+      margin-top: .63rem;
+    }
+    
+    & > p:last-of-type::before {
+      bottom: 6.8rem;
+      left: 19rem;
+      width: 12rem;
+    }
+    
+    & > p:last-of-type::after {
+      bottom: -2rem;
+      left: 28rem;
+      height: 11.5rem;
     }
   }
 
   .preamble {
-    padding: 0 0 0 $l-overall-padding;
+    padding: 0 4.5rem 0 $l-overall-padding;
 
     p {
       margin-right: $l-staggered-padding;
     }
   }
+  
+  .preamble {
+    &::after{
+      height: calc(100% - #{$m-ladder});
+    }
+  }
+  
   .supporting {
     padding: 0 $l-overall-padding;
 
@@ -146,6 +392,45 @@
       }
     }
 
+    & > div:nth-of-type(2n + 1)::after  {
+      height: calc(100% - #{$m-ladder});
+    }
+      
+    & > div:nth-of-type(2n + 0)::after  {
+      height: calc(100% - #{$m-ladder});
+    }
+      
+    & > div:last-of-type::after {
+      height: calc(100% + 3.2rem);
+      bottom: -4.75rem;
+    }
+    
+    [role="contentinfo"] {
+      margin: $platform-space 0 0 0;
+    }
   }
 
+}
+
+@media screen and (min-width: $L) {
+  .preamble {
+    &::after{
+      height: calc(100% - #{$l-ladder});
+    }
+  }
+  
+  .supporting {
+    & > div:nth-of-type(2n + 1)::after  {
+      height: calc(100% - #{$l-ladder});
+    }
+      
+    & > div:nth-of-type(2n + 0)::after  {
+      height: calc(100% - #{$l-ladder});
+    }
+      
+    & > div:last-of-type::after {
+      height: calc(100% + 2.1rem);
+      bottom: -4.75rem;
+    }
+  }
 }

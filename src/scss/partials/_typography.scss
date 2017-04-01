@@ -14,7 +14,7 @@ h1 {
   font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
-  margin: 1rem 0 .25rem 0;
+  margin: 1rem 0 .4rem 0;
   text-transform: uppercase;
   color: $background-neutral-color;
   background-color: $primary-color;
@@ -23,11 +23,11 @@ h1 {
 }
 
 h2 {
-  font-weight: normal;
+  font-size: 2rem;
+  font-weight: 300;
   text-transform: uppercase;
   color: $secondary-color;
-  text-shadow: -1.5px 1.5px $background-neutral-color;
-  font-size: 2.0rem;
+  text-shadow: -.1rem .1rem $background-neutral-color;
   background-color: $primary-color;
   padding: .4rem .8rem .4rem 2.4rem;
   letter-spacing: .1rem;
@@ -58,9 +58,9 @@ a {
 
 @media screen and (max-width: $M) {
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }

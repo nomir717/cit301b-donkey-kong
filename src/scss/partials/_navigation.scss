@@ -3,20 +3,20 @@ xNavigation Section
 -------------------------------- */
 .sidebar {
   position: absolute;
-  top: 4.5rem;
-  left: 18rem;
-  height: .5rem;
-  width: 2rem;
+  top: 5.58rem;
+  left: 19rem;
+  height: .35rem;
+  width: 2.5rem;
   background: $background-neutral-color;
   @include transform(rotate(-7deg));
   &::before, &::after {
     position: absolute;
     content: " ";
-    height: .6rem;
+    height: .65rem;
     width: inherit;
     background: inherit;
-    top: .4rem;
-    border-top: solid $primary-color .2rem;
+    top: .35rem;
+    border-top: solid $primary-color .3rem;
     z-index: -2;
   }
   &::before {
@@ -26,7 +26,7 @@ xNavigation Section
     position: absolute;
     display: none;
     width: 24rem;
-    height: 27rem;
+    height: 23rem;
     background: $background-neutral-color;
     border: solid .15rem $secondary-color;
     border-radius: 1rem;
@@ -86,7 +86,7 @@ xNavigation Section
 @media screen and (min-width: $M) {
   .sidebar {
     position: absolute;
-    right: 50px + $l-overall-padding;
+    right: 3.13rem + $l-overall-padding;
     @include transform(rotate(0deg));
     left: auto;
     top: 17rem;
