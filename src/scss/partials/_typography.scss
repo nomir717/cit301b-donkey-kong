@@ -50,7 +50,7 @@ p {
 a {
   color: $primary-color;
   text-decoration: none;
-  &:hover {
+  &:hover, &:focus {
     color: $secondary-color;
     text-decoration: underline;
   }

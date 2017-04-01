@@ -54,7 +54,7 @@ xNavigation Section
     }
   }
 
-  &:hover .wrapper {
+  &:hover .wrapper, &:focus .wrapper {
     display: block;
   }
 
