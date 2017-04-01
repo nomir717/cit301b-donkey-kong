@@ -536,44 +536,16 @@
 @keyframes barrelSpin{
   0% {
     transform: rotate(0deg) ;
-  }
-  100% {
-    transform: rotate(-360deg) ;
-  }
-}
-
-@-moz-keyframes barrelSpin{
-  0% {
     -moz-transform: rotate(0deg) ;
-  }
-  100% {
-    -moz-transform: rotate(-360deg) ;
-  }
-}
-
-@-webkit-keyframes barrelSpin {
-  0% {
     -webkit-transform: rotate(0deg) ;
-  }
-  100% {
-    -webkit-transform: rotate(-360deg) ;
-  }
-}
-
-@-o-keyframes barrelSpin {
-  0% {
     -o-transform: rotate(0deg) ;
-  }
-  100% {
-    -o-transform: rotate(-360deg) ;
-  }
-}
-
-@-ms-keyframes barrelSpin {
-  0% {
     -ms-transform: rotate(360deg) ;
   }
   100% {
+    transform: rotate(-360deg) ;
+    -moz-transform: rotate(-360deg) ;
+    -webkit-transform: rotate(-360deg) ;
+    -o-transform: rotate(-360deg) ;
     -ms-transform: rotate(180deg) ;
   }
 }
