@@ -8,7 +8,7 @@ xNavigation Section
   height: .35rem;
   width: 2.5rem;
   background: $background-neutral-color;
-  @include transform(rotate(-7deg));
+  @include prefix('transform', 'rotate(-7deg)');
   &::before, &::after {
     position: absolute;
     content: " ";
@@ -33,7 +33,7 @@ xNavigation Section
     top: -.5rem;
     left: -19rem;
     padding: .8rem;
-    @include transform(rotate(7deg));
+    @include prefix('transform', 'rotate(7deg)');
     transform-style: preserve-3d;
 
     &::before {
@@ -46,7 +46,7 @@ xNavigation Section
       border: solid .15rem $primary-color;
       border-radius: 1rem;
       background: inherit;
-      @include transform(translateZ(-1em));
+      @include prefix('transform', 'translateZ(-1em)');
     }
 
     div {
@@ -76,7 +76,7 @@ xNavigation Section
 @media screen and (min-width: $S) {
   .sidebar {
     .wrapper {
-      @include transform(rotate(0deg));
+      @include prefix('transform', 'rotate(0deg)');
       top: .5rem;
       left: -13rem;
     }
@@ -87,7 +87,7 @@ xNavigation Section
   .sidebar {
     position: absolute;
     right: 3.13rem + $l-overall-padding;
-    @include transform(rotate(0deg));
+    @include prefix('transform', 'rotate(0deg)');
     left: auto;
     top: 17rem;
 
