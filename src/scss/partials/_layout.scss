@@ -335,9 +335,6 @@
       margin: 0 0.5em;
       position: relative;
       color: lighten($tertiary-light-color,10);
-    //   -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-    //   -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-    //   transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
     }
     & a:hover, & a:focus {
       color: lighten($tertiary-light-color,10);
@@ -391,15 +388,10 @@
       -webkit-font-smoothing: antialiased;
     }
       & a.zen-validate-html::after {content: "5";}
-      // & a.zen-validate-html:hover::after, & a.zen-validate-html:focus::after {content: "%";}
       & a.zen-validate-css::after {content: "3";}
-      // & a.zen-validate-css:hover::after, & a.zen-validate-css:focus::after {content: "#";}
       & a.zen-license::after {content: "c";}
-      // & a.zen-license:hover::after, & a.zen-license:focus::after {content: "C";}
       & a.zen-accessibility::after {content: "a";}
-      // & a.zen-accessibility:hover::after, & a.zen-accessibility:focus::after {content: "A";}
       & a.zen-github::after {content: "g";}
-      // & a.zen-github:hover::after, & a.zen-github:focus::after {content: "G";}
   }
 
 @media screen and (min-width: $M) {
