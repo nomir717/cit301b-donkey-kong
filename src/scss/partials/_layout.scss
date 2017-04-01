@@ -276,8 +276,8 @@
     }
     & > div:last-of-type::after {
       @extend .preamble::after;
-      height: calc(100% + 2.4rem);
-      bottom: -2.8em;
+      height: calc(100% + 3.8rem);
+      bottom: -4.2em;
     }
   }
 
@@ -475,8 +475,8 @@
     }
       
     & > div:last-of-type::after {
-      height: calc(100% + 3.2rem);
-      bottom: -4.75rem;
+      height: calc(100% + 4.3rem);
+      bottom: -6rem;
     }
     
     [role="contentinfo"] {
@@ -503,8 +503,8 @@
     }
       
     & > div:last-of-type::after {
-      height: calc(100% + 2.1rem);
-      bottom: -4.75rem;
+      height: calc(100% + 3.3rem);
+      bottom: -6rem;
     }
   }
 }

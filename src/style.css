@@ -368,8 +368,8 @@ footer::before {
   right: 1rem;
 }
 .supporting > div:last-of-type::after {
-  height: calc(100% + 2.4rem);
-  bottom: -2.8em;
+  height: calc(100% + 3.8rem);
+  bottom: -4.2em;
 }
 
 p + p {
@@ -531,8 +531,8 @@ footer a.zen-github::after {
     height: calc(100% - 1.7rem);
   }
   .supporting > div:last-of-type::after {
-    height: calc(100% + 3.2rem);
-    bottom: -4.75rem;
+    height: calc(100% + 4.3rem);
+    bottom: -6rem;
   }
   .supporting [role="contentinfo"] {
     margin: 1rem 0 0 0;
@@ -550,8 +550,8 @@ footer a.zen-github::after {
     height: calc(100% - 2.6rem);
   }
   .supporting > div:last-of-type::after {
-    height: calc(100% + 2.1rem);
-    bottom: -4.75rem;
+    height: calc(100% + 3.3rem);
+    bottom: -6rem;
   }
 }
 /* icon fonts */
